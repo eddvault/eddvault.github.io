@@ -1,0 +1,646 @@
+/* IE specific code kicks */
+* html object.hiddenObjectForIE { display: none; }
+
+/* Set default properties that vary between browsers */
+body
+{
+ font: normal normal normal 12px/1.2 Georgia,Times,serif;
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+}
+form
+{
+ display: block;
+ margin: 0px;
+ padding: 0px;
+}
+img
+{
+ display: block;
+ border: 0px;
+}
+h1, h2, h3, h4, h5, h6
+{
+ margin: 0;
+ padding: 0;
+ display: block;
+ font-weight: bold;
+}
+h1
+{
+ font-size: 2em;
+ margin-bottom: 1.8em;
+}
+
+h2
+{
+ font-size: 1.5em;
+ margin-bottom: 1.6em;
+}
+
+h3
+{
+ font-size: 1.17em;
+ margin-bottom: 1.4em;
+}
+
+h5
+{
+ font-size: 0.83em;
+ margin-bottom: 1.2em;
+}
+h6
+{
+ font-size: 0.67em;
+ margin-bottom: 1em;                                                                                                                                     
+}                                                                                                                                                        
+input,                                                                                                                                                   
+textarea
+{                                                                                                                                                        
+ border: 1px;                                                                                                                                            
+}                                                                                                                                                        
+/* Blog.com-wide element design */                                                                                                                       
+#sidebar ul                                                                                                                                              
+{
+ list-style-type: none;                                                                                                                                  
+}                                                                                                                                                        
+#body .button                                                                                                                                            
+{                                                                                                                                                        
+ border: 0px;
+ padding: 1px 4px;                                                                                                                                       
+ text-align: center;
+}                                                                                                                                                        
+#sidebar .search input#searchtext{                                                                                                                       
+ width: 138px;                                                                                                                                           
+ height: 19px;                                                                                                                                           
+ padding: 0;                                                                                                                                             
+ margin:0;                                                                                                                                               
+}                                                                                                                                                        
+.tags
+{
+ padding: 1em 0 0 0;                                                                                                                                     
+ font-size: 80%;                                                                                                                                         
+}                                                                                                                                                        
+.tags label                                                                                                                                              
+{
+ font-weight: bold;
+}                                                                                                                                                        
+#sidebar ul,                                                                                                                                             
+#sidebar li                                                                                                                                              
+{                                                                                                                                                        
+ margin: 0px;                                                                                                                                            
+ padding: 0px;                                                                                                                                           
+}                                                                                                                                                        
+#sidebar .powered,                                                                                                                                       
+#sidebar .random ul li ,                                                                                                                                 
+#sidebar .reading,                                                                                                                                       
+#sidebar .reading ul li p                                                                                                                                
+{                                                                                                                                                        
+ text-align: center;                                                                                                                                     
+}                                                                                                                                                        
+#sidebar .profile,                                                                                                                                       
+#sidebar .profile ul li                                                                                                                                  
+{                                                                                                                                                        
+ text-align: left;                                                                                                                                       
+}
+#sidebar .powered img,                                                                                                                                   
+#sidebar .reading img                                                                                                                                    
+{                                                                                                                                                        
+ margin: 0px auto;                                                                                                                                       
+}                                                                                                                                                        
+#sidebar .profile a img                                                                                                                                  
+{
+ margin: 0px;                                                                                                                                            
+}                                                                                                                                                        
+#sidebar img                                                                                                                                             
+{                                                                                                                                                        
+ display: inline;                                                                                                                                        
+}                                                                                                                                                        
+/*Calendar*/                                                                                                                                             
+.calendar                                                                                                                                                
+{                                                                                                                                                        
+ text-align:center;                                                                                                                                      
+ width:100%;                                                                                                                                             
+}                                                                                                                                                        
+.calendar td                                                                                                                                             
+{                                                                                                                                                        
+ line-height: 1;                                                                                                                                         
+ padding :  0px;                                                                                                                                         
+ padding-top: 0px;                                                                                                                                       
+ padding-bottom: 4px;                                                                                                                                    
+}                                                                                                                                                        
+.calendar caption                                                                                                                                        
+{                                                                                                                                                        
+font-size:15px;                                                                                                                                          
+}                                                                                                                                                        
+.calendar .header                                                                                                                                        
+{                                                                                                                                                        
+font-size:10px;                                                                                                                                          
+}                                                                                                                                                        
+.day-calendar
+{                                                                                                                                                        
+ text-align: center;                                                                                                                                     
+ font-size:9px;                                                                                                                                          
+}                                                                                                                                                        
+.linkedday                                                                                                                                               
+{                                                                                                                                                        
+ text-align: center;                                                                                                                                     
+ font-size:12px;                                                                                                                                         
+ text-decoration: underline;                                                                                                                             
+ background: white;                                                                                                                                      
+}                                                                                                                                                        
+#content #sidebar .linkedday a.calendarlink                                                                                                              
+{                                                                                                                                                        
+ color: #222222;                                                                                                                                         
+}                                                                                                                                                        
+/* Set blog default properties */                                                                                                                        
+.post-slidingdoor-tl                                                                                                                                     
+{                                                                                                                                                        
+ margin-bottom: 2em;
+}
+
+/*slideshow*/                                                                                                                                            
+img.profile-photos-verysmall                                                                                                                             
+{                                                                                                                                                        
+ float: right;                                                                                                                                           
+ background-image: url('/web/20070504231550im_/http://scramblededd.blog.com/images/photo-frame.png');                                                                                                       
+ height:54px;                                                                                                                                            
+ width:54px;                                                                                                                                             
+ border: none;                                                                                                                                           
+ padding: 5px;                                                                                                                                           
+ margin-right:10px;                                                                                                                                      
+ margin-bottom:10px;                                                                                                                                     
+}                                                                                                                                                        
+.slideshow                                                                                                                                               
+{                                                                                                                                                        
+ /*height:360px;*/                                                                                                                                       
+ margin-right:10px;                                                                                                                                      
+}
+.paginator {                                                                                                                                             
+ padding: 10px 0px;                                                                                                                                      
+}                                                                                                                                                        
+.paginator-page {                                                                                                                                        
+ padding: 0px 5px 2px 5px;                                                                                                                               
+ border-width: 1px;                                                                                                                                      
+ border-style: solid;                                                                                                                                    
+ border-color: #999999;                                                                                                                                  
+ vertical-align: middle;                                                                                                                                 
+}                                                                                                                                                        
+.paginator-current-page {                                                                                                                                
+ background: black;                                                                                                                                      
+ color: white;                                                                                                                                           
+ border-width: 0px;                                                                                                                                      
+}                                                                                                                                                        
+
+                                                                                                                                                         
+.calendar                                                                                                                                                
+{
+text-align:center;                                                                                                                                       
+width:100%;                                                                                                                                              
+}
+.calendar td                                                                                                                                             
+{                                                                                                                                                        
+ line-height: 1;                                                                                                                                         
+ padding :  0px;
+ padding-top: 0px;                                                                                                                                       
+ padding-bottom: 4px;                                                                                                                                    
+}                                                                                                                                                        
+caption                                                                                                                                                  
+{                                                                                                                                                        
+font-size:15px;                                                                                                                                          
+}                                                                                                                                                        
+.header                                                                                                                                                  
+{                                                                                                                                                        
+font-size:10px;                                                                                                                                          
+}                                                                                                                                                        
+.day-calendar                                                                                                                                            
+{                                                                                                                                                        
+     text-align: center;                                                                                                                                 
+     font-size:9px;
+}
+.linkedday                                                                                                                                               
+{                                                                                                                                                        
+     text-align: center;                                                                                                                                 
+     font-size:12px;                                                                                                                                     
+     text-decoration: underline;                                                                                                                         
+}                                                                                                                                                        
+#content .post img.tinymce-smiley                                                                                                                        
+{
+ border: 0px;
+ margin: 0px;                                                                                                                                            
+ padding: 0px 0px 4px 0px;                                                                                                                               
+ vertical-align: middle;                                                                                                                                 
+}                                                                                                                                                        
+                                                                                                                                                         
+a.min{font-size:xx-small;}                                                                                                                               
+a.small{font-size:small;}                                                                                                                                
+a.medium{font-size:medium;}                                                                                                                              
+a.large{font-size:large;}                                                                                                                                
+a.max{font-size:xx-large;}                                                                                                                               
+                                                                                                                                                         
+.tagcloud a                                                                                                                                              
+{                                                                                                                                                        
+ text-decoration: none;                                                                                                                                  
+}                                                                                                                                                        
+
+.tagcloud a:hover                                                                                                                                        
+{                                                                                                                                                        
+ text-decoration: underline;                                                                                                                             
+}                                                                                                                                                        
+.friendsonlymessage                                                                                                                                      
+{                                                                                                                                                        
+ font-style: italic;                                                                                                                                     
+}                                                                                                                                                        
+.tags                                                                                                                                                    
+{
+ padding: 1em 0 0 0;                                                                                                                                     
+ font-size: 80%;                                                                                                                                         
+}                                                                                                                                                        
+.tags label                                                                                                                                              
+{                                                                                                                                                        
+ font-weight: bold;                                                                                                                                      
+}                                                                                                                                                        
+.posts img                                                                                                                                               
+{                                                                                                                                                        
+ margin: 4px 10px;                                                                                                                                       
+ display: inline;                                                                                                                                        
+}
+
+img.avatar
+{
+ background-image: url('/web/20070504231550im_/http://scramblededd.blog.com/images/photo-frame.png');        
+ float:right;
+ height:54px;                                                                                                                                            
+ width:54px;                                                                                                                                             
+ border: none;                                                                                                                                           
+ padding: 5px;                                                                                                                                           
+ margin: 0 0 4px 15px;
+}
+div.commenttext .text
+{
+ text-align:justify !important;
+}
+.mceItemWindowsMedia,
+.mceItemQuickTime
+{
+ display:inline;
+}
+
+/* csswizard.blog.com,section=background */
+body 
+{
+ background: rgb(181, 210, 174) none;
+}
+/* csswizard.blog.com,endsection */
+/* csswizard.blog.com,section=contentMargins */
+#body
+{
+ text-align: center;
+}
+#body div,
+#body a
+{
+ text-align: left;
+}
+#header
+{
+ position: relative;
+ background: rgb(225, 237, 223) url('https://web.archive.org/web/20070504231550im_/http://amadeo.blog.com/repository/44295/1349219.png') no-repeat scroll top left;
+ width: 745px;
+ height: 195px;
+ margin-left: auto;
+ margin-right: auto;
+}
+#content
+{
+ background: rgb(225, 237, 223) url('https://web.archive.org/web/20070504231550im_/http://amadeo.blog.com/repository/44295/1349221.png') repeat-y scroll top left;
+ position: relative;
+ width: 745px;
+ padding-left: 0px;
+ padding-right: 0px;
+ padding-bottom: 20px;
+ margin: 0 auto;
+}
+/* csswizard.blog.com,endsection */
+/* csswizard.blog.com,section=contentlayout */
+#sidebar
+{
+ position: absolute;
+ top: 11px;
+ left: 511px;
+ width: 217px;
+ overflow: hidden;
+}
+#headerimg
+{
+ position: absolute;
+ top: 20px;
+ left: 8px;
+ width: 729px;
+ height: 95px;
+ overflow: hidden;
+}
+#blogtitle
+{
+ position: absolute;
+ top: 121px;
+ left: 19px;
+ width: 717px;
+ height: 41px;
+ overflow: hidden;
+}
+#blogsubtitle
+{
+ position: absolute;
+ top: 153px;
+ left: 19px;
+ width: 728px;
+ height: 20px;
+ overflow: hidden;
+}
+#posts-slidingdoor-tl
+{
+ position: relative;
+ top: 10px;
+ left: 19px;
+ width: 481px;
+}
+#posts
+{
+ min-height: 4000px;
+ padding-bottom: 200px
+}
+/* csswizard.blog.com,endsection */
+/* csswizard.blog.com,section=header */
+#headerimg
+{
+ background: transparent url('https://web.archive.org/web/20070504231550im_/http://amadeo.blog.com/repository/44295/1349222.jpg') repeat scroll top left;
+}
+/* csswizard.blog.com,endsection */
+/* csswizard.blog.com,section=fonts */
+body 
+{
+ font-family: Georgia, serif;
+ font-size: 14px;
+ font-style: normal;
+ text-decoration: none;
+ color: rgb(68, 68, 68);
+ font-weight: normal;
+}
+a 
+{
+ color: rgb(106, 139, 96);
+}
+#blogtitle,#blogtitle a 
+{
+ font-size: 32px;
+ font-style: normal;
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ font-weight: normal;
+}
+#blogsubtitle 
+{
+ color: rgb(149, 176, 142);
+ font-size: 14px;
+ font-style: normal;
+ font-weight: normal;
+}
+.posts .day .date 
+{
+ font-style: normal;
+ color: rgb(255, 255, 255);
+ font-weight: normal;
+}
+.posts .day .posttitle 
+{
+ font-size: 24px;
+ font-style: normal;
+ color: rgb(71, 92, 65);
+ font-weight: normal;
+}
+.posts .day .postedby 
+{
+ font-size: 12px;
+ color: rgb(153, 153, 153);
+}
+.posts .day .postedby .author 
+{
+ font-size: 12px;
+}
+.posts .day .postedby .time 
+{
+ font-size: 12px;
+}
+.posts .day .postedby .category a 
+{
+ font-size: 12px;
+}
+.posts .day .postedby .permalink a 
+{
+ font-size: 12px;
+}
+.posts .day .postedby .comments a 
+{
+ font-size: 12px;
+}
+.block h3 
+{
+ font-size: 15px;
+ color: rgb(71, 92, 65);
+ font-style: normal;
+ font-weight: normal;
+}
+/* csswizard.blog.com,endsection */
+/* csswizard.blog.com,section=custom */
+#content .day h3.date 
+{
+ position: relative;
+ background-color: rgb(149, 176, 142);
+ padding: 4px;
+ margin: 0px 0px 16px 0px;
+}
+#content .post h4.posttitle
+{
+ position: relative;
+ background-color: rgb(243, 248, 242);
+ padding: 4px 4px 6px 4px;
+ margin: 0px 0px 25px 0px;
+}
+#content .post .postedby
+{
+ border-width: 0px 0px 0px 10px;
+ border-style: solid;
+ border-color: rgb(174, 210, 177);
+ padding: 0px 0px 0px 4px;
+ margin: 5px 0px 0px 0px;
+}
+#sidebar .block
+{
+ background-color: rgb(225, 237, 223);
+ border: 1px dotted rgb(149, 176, 142);
+ margin: 0px 0px 3px 0px;
+ padding: 9px 6px 14px 6px; 
+}
+input.button
+{
+ color: rgb(255, 255, 255);
+ background-color: rgb(149, 176, 142);
+}
+input.text
+{
+ border: 1px solid rgb(149, 176, 142);
+}
+#content .commentshead
+{
+ position: relative;
+ padding: 8px;
+ border: 1px dotted rgb(71, 92, 65);
+ color: rgb(92, 65, 88);
+ font-size: 18px;
+ background-color: rgb(225, 237, 223);
+}
+#content .commentsform
+{
+ position: relative;
+ border-width: 1px;
+ border-style: dotted;
+ border-color: rgb(80, 80, 80);
+ padding: 15px 15px 15px 18px;
+ background-color: rgb(238, 248, 242);
+}
+#content .commentsform h5
+{
+ padding: 0px 0px 18px 0px;
+ margin: 0px;
+ font-size: 16px;
+ font-weight: normal;
+ color: rgb(71, 92, 65);
+}
+#content .commentsform label
+{
+ color: rgb(71, 92, 65);
+ font-size: 12px;
+}
+#content .commentsform input.text,
+#content .commentsform textarea
+{
+ border: 1px solid rgb(149, 176, 142);
+ width: 100%;
+}
+/* csswizard.blog.com,endsection */
+/* csswizard.blog.com,section=variables */
+/*a:27:{s:17:"backgroundImageId";i:1349217;s:14:"header.imageid";i:1349219;s:15:"content.imageid";i:1349221;s:19:"content.margin.left";i:0;s:20:"content.margin.right";i:0;s:22:"layout.sidebar.visible";s:4:"true";s:18:"layout.sidebar.top";i:11;s:19:"layout.sidebar.left";i:511;s:20:"layout.sidebar.width";i:217;s:24:"layout.headerimg.visible";s:4:"true";s:23:"layout.headerimg.height";i:95;s:20:"layout.headerimg.top";i:20;s:21:"layout.headerimg.left";i:8;s:22:"layout.headerimg.width";i:729;s:24:"layout.blogtitle.visible";s:4:"true";s:23:"layout.blogtitle.height";i:41;s:20:"layout.blogtitle.top";i:121;s:21:"layout.blogtitle.left";i:19;s:22:"layout.blogtitle.width";i:717;s:27:"layout.blogsubtitle.visible";s:4:"true";s:26:"layout.blogsubtitle.height";i:20;s:23:"layout.blogsubtitle.top";i:153;s:24:"layout.blogsubtitle.left";i:19;s:25:"layout.blogsubtitle.width";i:728;s:16:"layout.posts.top";i:10;s:17:"layout.posts.left";i:19;s:18:"layout.posts.width";i:481;}*/
+/* csswizard.blog.com,endsection */
+/* csswizard.blog.com,section=background */
+body 
+{
+ background: rgb(1, 153, 52) url('https://web.archive.org/web/20070504231550im_/http://amadeo.blog.com/repository/760801/1900667.jpg') repeat scroll top left;
+}
+/* csswizard.blog.com,endsection */
+/* csswizard.blog.com,section=header */
+#headerimg
+{
+ background: transparent url('https://web.archive.org/web/20070504231550im_/http://amadeo.blog.com/repository/760801/1900461.jpg') repeat scroll top left;
+}
+/* csswizard.blog.com,endsection */
+/* csswizard.blog.com,section=fonts */
+body 
+{
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ font-style: normal;
+ text-decoration: none;
+ color: rgb(68, 68, 68);
+ font-weight: normal;
+}
+a 
+{
+ color: rgb(106, 139, 96);
+}
+#blogtitle,#blogtitle a 
+{
+ font-size: 32px;
+ font-style: normal;
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ font-weight: normal;
+}
+#blogsubtitle 
+{
+ color: rgb(149, 176, 142);
+ font-size: 14px;
+ font-style: normal;
+ font-weight: normal;
+}
+.posts .day .date 
+{
+ font-style: normal;
+ color: rgb(255, 255, 255);
+ font-weight: normal;
+}
+.posts .day .posttitle 
+{
+ font-size: 24px;
+ font-style: normal;
+ color: rgb(71, 92, 65);
+ font-weight: normal;
+}
+.posts .day .postedby 
+{
+ font-size: 12px;
+ color: rgb(153, 153, 153);
+}
+.posts .day .postedby .author 
+{
+ font-size: 12px;
+}
+.posts .day .postedby .time 
+{
+ font-size: 12px;
+}
+.posts .day .postedby .category a 
+{
+ font-size: 12px;
+}
+.posts .day .postedby .permalink a 
+{
+ font-size: 12px;
+}
+.posts .day .postedby .comments a 
+{
+ font-size: 12px;
+}
+.block h3 
+{
+ font-size: 15px;
+ color: rgb(71, 92, 65);
+ font-style: normal;
+ font-weight: normal;
+}
+/* csswizard.blog.com,endsection */
+/* csswizard.blog.com,section=variables */
+/*a:27:{s:17:"backgroundImageId";i:1900667;s:14:"header.imageid";i:1349219;s:15:"content.imageid";i:1349221;s:19:"content.margin.left";i:0;s:20:"content.margin.right";i:0;s:22:"layout.sidebar.visible";s:4:"true";s:18:"layout.sidebar.top";i:11;s:19:"layout.sidebar.left";i:511;s:20:"layout.sidebar.width";i:217;s:24:"layout.headerimg.visible";s:4:"true";s:23:"layout.headerimg.height";i:95;s:20:"layout.headerimg.top";i:20;s:21:"layout.headerimg.left";i:8;s:22:"layout.headerimg.width";i:729;s:24:"layout.blogtitle.visible";s:4:"true";s:23:"layout.blogtitle.height";i:41;s:20:"layout.blogtitle.top";i:121;s:21:"layout.blogtitle.left";i:19;s:22:"layout.blogtitle.width";i:717;s:27:"layout.blogsubtitle.visible";s:4:"true";s:26:"layout.blogsubtitle.height";i:20;s:23:"layout.blogsubtitle.top";i:153;s:24:"layout.blogsubtitle.left";i:19;s:25:"layout.blogsubtitle.width";i:728;s:16:"layout.posts.top";i:10;s:17:"layout.posts.left";i:19;s:18:"layout.posts.width";i:481;}*/
+/* csswizard.blog.com,endsection */
+
+/*
+     FILE ARCHIVED ON 23:15:50 May 04, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:13:15 Nov 12, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.707
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.011
+  esindex: 0.013
+  cdx.remote: 237.533
+  LoadShardBlock: 118.117 (3)
+  PetaboxLoader3.datanode: 216.813 (4)
+  load_resource: 142.163
+  PetaboxLoader3.resolve: 36.907
+*/
