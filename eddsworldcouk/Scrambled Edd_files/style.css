@@ -1,0 +1,229 @@
+﻿/*  
+Theme Name: Facila 0.2
+Theme URI: http://facila.steffenzerbe.de
+Description: Ruhig, nicht zu aufdringlich und mit minimalen Ladezeiten. Einfach <em>Facila</em>!
+Author: Steffen Zerbe
+Author URI: http://facila.steffenzerbe.de
+<center>
+*/
+/* Allgemein */
+
+body {
+
+   /* background:#FFF;*/
+
+    font-family:verdana, sans-serif;
+
+    font-size:13px;
+
+    color:#bbb; }
+
+
+
+a {
+
+     color:#888;
+
+     text-decoration:none; }
+
+
+
+a:hover {
+
+     text-decoration:none;
+
+     color:#379247; }
+
+
+
+img { margin: 12px 5px 3px 3px; }
+
+
+
+/* Layout */
+
+
+
+#box {
+
+    margin: 0 auto;
+
+    background-color:#fff;
+
+    color:#333;
+
+    border: 1px solid #00CC33;
+
+    width:690px;
+
+    /*height: 400px; */
+
+    overflow: auto; }
+
+
+
+#header {
+
+    margin: 5px auto 0;
+
+    background-color:#00cc33;
+
+    color:#333;
+
+    border: solid 1px #00cc33;
+
+    width:690px;
+
+    height:120px;
+
+    z-index:2; }
+
+
+
+#header img { float:left;
+
+;margin: 12px 5px 3px 3px; }
+
+
+
+#header a { color:#fff; }
+
+
+
+.logo {
+
+    font-size:26px;
+
+    background-color:transparent;
+
+    padding-top:0; }
+
+
+
+.navigation { text-indent: 12pt; list-style: none; padding-top:10px; padding-right:10px; display: list-item; }
+
+
+
+.navigation li { margin: 0 0 5px 5px; }
+
+
+
+.navi { margin:0; padding:0; list-style-type:none; }
+
+
+
+.line { border-bottom:1px solid #379247; margin-top:5px; }
+
+
+
+.content {
+
+    
+
+     padding-top:10px;
+
+     padding-left:5px;
+
+     padding-right:5px;
+
+     padding-bottom:0px;
+
+     width:97%;
+
+     margin:0 auto; }
+
+
+
+.title { border-bottom:1px solid #888; padding-bottom:1px; }
+
+
+
+.posts_link { 
+
+     margin:0; 
+
+     padding:0;
+
+     color:#fff;
+
+     background-color:#379247;
+
+     padding-top:1px;
+
+     padding-bottom:1px;
+
+     padding-left:2px; }
+
+
+
+.posts_link a { color:#fff; }
+
+
+
+#footer {
+
+     color:#888;
+
+     background-color:#fff;
+
+     width:500px;
+
+     border:1px solid #379247;
+
+     padding-top:1px;
+
+     padding-bottom:1px;
+
+     margin: 0 auto;
+
+     text-align:center; }
+
+
+
+/* Text */
+
+
+
+h1 { margin:0; padding:0; }
+
+h1 a { font-size:16px; color:#379247; padding:0;}
+
+h1 a:hover { text-decoration:underline; }
+
+.date { font-size:10px; margin-left:4px; color:#888;  }
+
+
+
+
+
+/* Comments */
+
+
+
+.comment li { border-bottom:1px dotted #379247; margin:0; margin-bottom:4px; margin-top:4px; }
+
+.comment ol { list-style-type:none; margin:0; padding:0; }
+
+.name { font-size:13px; }
+
+.details { font-size:8px; }﻿
+/*
+     FILE ARCHIVED ON ﻿02:56:36 Dec 05, 2011﻿ AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON ﻿06:28:53 Nov 12, 2024﻿.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+﻿playback timings (ms):
+﻿  ﻿captures_list﻿: ﻿0.476﻿
+﻿  ﻿exclusion.robots﻿: ﻿0.016﻿
+﻿  ﻿exclusion.robots.policy﻿: ﻿0.008﻿
+﻿  ﻿esindex﻿: ﻿0.011﻿
+﻿  ﻿cdx.remote﻿: ﻿9.827﻿
+﻿  ﻿LoadShardBlock﻿: ﻿582.768﻿ (﻿3﻿)
+﻿  ﻿PetaboxLoader3.datanode﻿: ﻿172.725﻿ (﻿4﻿)
+﻿  ﻿PetaboxLoader3.resolve﻿: ﻿629.757﻿ (﻿2﻿)
+﻿  ﻿load_resource﻿: ﻿308.36﻿
+﻿*/
