@@ -1,0 +1,1706 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb"><head><script src="forums_files/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app201.us.archive.org';v.server_ms=461;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="forums_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="forums_files/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="forums_files/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.eddsworld.co.uk:80/forums/viewtopic.php?f=16&amp;p=143800","20081221115245","https://web.archive.org/","web","/_static/",
+	      "1229860365");
+</script>
+<link rel="stylesheet" type="text/css" href="forums_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="forums_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-language" content="en-gb">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="copyright" content="2002-2006 phpBB Group">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>Eddsworld Forums • View topic - Loathsome's sketchbook</title>
+
+<link rel="stylesheet" href="forums_files/stylesheet.css" type="text/css">
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+      {
+       if (!name)
+       {
+          name = '_popup';
+       }
+
+       window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+         return false;
+      }
+
+
+function jumpto()
+{
+	var page = prompt('Enter the page number you wish to go to.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username()
+      {
+       popup(url, 760, 570, '_usersearch');
+         return false;
+      }
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+<script>
+
+var timer = null;
+var speed = 3; //1 is  slow
+var endTop = 0;
+var endLeft = 0;
+
+//******************************************************
+// Simple little function to get Elements as an object
+//******************************************************
+function getEl(id)
+{
+	var el = document.getElementById(id);
+	return el;
+}
+//******************************************************
+// Function to show Elements
+//******************************************************
+function showEl(id)
+{
+	getEl(id).style.display ="";
+}
+//******************************************************
+// Function to hide Elements
+//******************************************************
+function hideEl(id)
+{
+	getEl(id).style.display ="none";
+}
+
+//******************************************************
+// Function to move Element
+//******************************************************
+function moveEl(id)
+{
+	var popup = getEl(id);
+	var currentTop = parseInt(popup.offsetTop);
+	var currentLeft = parseInt(popup.offsetLeft);
+	
+	var keepMoving = false;
+	//Move
+	if (currentTop <= endTop)
+	{
+		popup.style.top = (currentTop + speed) + "px";
+		keepMoving = true;
+	}
+	if(currentLeft <= endLeft)
+	{	
+		popup.style.left = (currentLeft + speed) + "px";
+		keepMoving = true;
+	}
+	if (keepMoving)
+	{
+		startMove(id);
+	}
+	else
+	{
+		endMove();
+	}
+}
+//******************************************************
+// Function to start the move
+//******************************************************
+function startMove(id)
+{
+	timer = setTimeout("moveEl('"+id+"')", 1);
+}
+//******************************************************
+// Function to end the move
+//******************************************************
+function endMove()
+{
+	clearTimeout(timer);
+}
+
+</script>
+
+
+<script language="JavaScript">
+
+<!-- Begin
+var Temp2;
+var timerID = null;
+var timerRunning = false;
+function arry() {
+this.length = 12;
+this[0] = 31;
+this[1] = 28;
+this[2] = 31;
+this[3] = 30;
+this[4] = 31;
+this[5] = 30;
+this[6] = 31;
+this[7] = 31;
+this[8] = 30;
+this[9] = 31;
+this[10] = 30;
+this[11] = 31;
+}
+var date = new arry();
+
+function stopclock() {
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;
+}
+
+function startclock() {
+stopclock();
+showtime();
+}
+
+function showtime() {
+now = new Date();
+var CurMonth = now.getMonth();
+var CurDate = now.getDate();
+var CurYear = now.getFullYear();
+now = null;
+if (25 < CurDate) {
+CurDate -= date[CurMonth]; CurMonth++;
+}
+if (11 < CurMonth) {
+CurMonth -= 12; CurYear++;
+}
+
+var Yearleft = 2008 - CurYear;
+var Monthleft = 11 - CurMonth;
+var Dateleft = 25 - CurDate;
+
+document.dateform.a.value = Yearleft;
+document.dateform.b.value = Monthleft;
+document.dateform.c.value = Dateleft;
+
+timerID = setTimeout("showtime()",1000);
+timerRunning = true;
+}
+// End -->
+</script>
+
+
+<style>
+
+#popup 
+{
+	height:500px; 
+	width:500px; 
+	border:1px solid #000;
+	position:absolute; 
+	background:#FFFFFF;
+	top:-200px;
+	left:-200px;
+}
+
+</style>
+<link href="forums_files/prime_bbcode_note.css" rel="stylesheet" type="text/css"></head>
+
+<body class="ltr" onload="startclock()"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr; height: 1px;">
+</div><div id="wm-ipp-print">The Wayback Machine - 
+https://web.archive.org/web/20081221115245/http://
+www.eddsworld.co.uk:80/forums/viewtopic.php?f=16&amp;p=143800</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://www.eddsworld.co.uk/forums/viewtopic.php?f=16&p=143800","20081221115245",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<div>
+<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk/">Back to Eddsworld!</a>
+</div>
+<div id="wrapheader">
+<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk/forums/">
+<div id="logodesc">
+
+	</div></a>
+
+
+
+
+<center>
+<form name="dateform">Only
+<input type="text" name="a" size="2" value="0"> years, 
+<input type="text" name="b" size="2" value="0"> months, and
+<input type="text" name="c" size="2" value="4"> days left until Christmas!</form>
+</center>
+
+
+
+<table width="100%" cellspacing="0" cellpadding="0"><tbody><tr>
+<td class="page_left" width="0px"></td>
+        <td class="page_center">
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tbody><tr>
+<!-- <span style="font-size: 10px">Welcome  -->
+			<td class="genmed">
+<span style="font-size: 12px">
+							</span></td>
+			<td class="genmed" align="right">
+				<a href="faq.htm">FAQ</a>
+							</td>
+		</tr>
+		</tbody></table>
+	</div>
+
+
+
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tbody><tr>
+		</tr>
+		</tbody></table>
+	</div>
+
+
+
+<div id="wrapcentre">
+
+	
+	<br style="clear: both;">
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tbody><tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="index.htm">Board index</a> » <a href="16.htm">Trash Pile</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</tbody></table>
+	<br>
+<div id="pageheader">
+	<h2>Loathsome's sketchbook</h2>
+
+</div>
+
+<br clear="all"><br>
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tbody><tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+				</td>
+			</tr>
+	</tbody></table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tbody><tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+								</td>
+			</tr>
+			</tbody></table>
+		</td>
+	</tr>
+	</tbody></table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tbody><tr>
+			<th>Author</th>
+			<th>Message</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p23815"></a>
+				<b class="postauthor" style="color: #000000">Loathsome</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Aug 07, 2008 12:42 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Cry Baby</td>
+				</tr>
+							<tr>
+					<td><img src="forums_files/file_003.htm" width="100" height="100" alt="User avatar"></td>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.loathed.co.nr/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=693"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Tue Jul 29, 2008 12:15 pm<br><b>Posts:</b> 65<br><b>Location:</b> Sweden				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">No idea where my other topic went, lol.<br><br>I'll update this topic when I make new stuff.<br><br>starting with this one:<br><img src="forums_files/The_Box_of_Troubles_by_Loath_some.png" alt="Image"></div>
+
+											<span class="postbody"><br>_________________<br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #0080FF">Web</span><span style="color: #00FFFF">site</span></a><br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #FF8000">My</span> <span style="color: #FFBF00">NG</span></a><br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #008040">My</span> <span style="color: #408040">Deviant</span><span style="color: #808080">ART</span></a></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p23887"></a>
+				<b class="postauthor" style="color: #00FF00">Chompteeth</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Aug 07, 2008 4:14 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td><center><img src="forums_files/Forum Ranks - _0019_Moderator .jpg" alt="Site Admin" title="Site Admin"></center></td>
+				</tr>
+							<tr>
+					<td><img src="forums_files/file_009.htm" width="100" height="100" alt="User avatar"></td>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.youtube.com/user/chompteeth"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=89"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Tue Jul 08, 2008 3:58 am<br><b>Posts:</b> 1479<br><b>Location:</b> A house in a city in a state in a country in a continent in a planet.....duh				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">This belongs in fan art, and it knew this looked familiar, i commented on it and it dissapeared</div>
+
+											<span class="postbody"><br>_________________<br><a href="https://web.archive.org/web/20081221115245/http://www.yugiohtheabridgedseries.com/episodes/" class="postlink"><img src="forums_files/MINDCRUSH.gif" alt="Image"></a>Bullying is wrong, but destroying peoples mind with magical powers is A-ok.<br><br><span style="color: #FFFFFF">Yay you found the super special awsome secret message....good for you.</span></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p23911"></a>
+				<b class="postauthor">bashscrazy</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Aug 07, 2008 5:10 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Wizard</td>
+				</tr>
+							<tr>
+					<td><img src="forums_files/file_008.htm" width="96" height="72" alt="User avatar"></td>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://youtube.com/bashscrazy"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=66"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Tue Jul 08, 2008 1:21 am<br><b>Posts:</b> 312<br><b>Location:</b> Canada				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle">Chompteeth wrote:</div><div class="quotecontent">This belongs in fan art, and it knew this looked familiar, i commented on it and it dissapeared</div><br><br>... it's not fan art....<br>I would say it belongs in blabberbox...<br>anyways its pretty good</div>
+
+											<span class="postbody"><br>_________________<br><a href="https://web.archive.org/web/20081221115245/http://youtube.com/bashscrazy" class="postlink"><img src="forums_files/bashscrazynv7.jpg" alt="Image"></a></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p23934"></a>
+				<b class="postauthor" style="color: #0066FF">Johnnyboy</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Aug 07, 2008 6:19 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td><center><img src="forums_files/Forum Ranks - _0022_Administrator .jpg" alt="Site Admin" title="Site Admin"></center></td>
+				</tr>
+							<tr>
+					<td><img src="forums_files/file_006.htm" width="86" height="96" alt="User avatar"></td>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.septmedia.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://edit.yahoo.com/config/send_webmesg?.target=john223951%40hotmail.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=2"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Mon Jul 07, 2008 10:02 pm<br><b>Posts:</b> 2102<br><b>Location:</b> Pennsylvania				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">moved.</div>
+
+											<span class="postbody"><br>_________________<br><span style="color: #0000FF">Positive Crew</span>? <span style="text-decoration: underline"><span style="font-weight: bold">THE MADNESS!</span></span><br><div align="center"><span style="font-style: italic">My vision fails me. My auditory vision takes over. And my knowledge marks my surroundings, There is no need for such dull eyes.</span><br><img src="forums_files/Untitled-5.htm" alt="Image"><br><a href="https://web.archive.org/web/20081221115245/http://www.septmedia.com/" class="postlink"><img src="forums_files/Untitled-11.png" alt="Image"></a><a href="https://web.archive.org/web/20081221115245/http://theunknownsir.deviantart.com/" class="postlink"><img src="forums_files/Untitled-10.png" alt="Image"></a><a href="https://web.archive.org/web/20081221115245/http://definatlynotjonathan.sheezyart.com/" class="postlink"><img src="forums_files/Untitled-8.htm" alt="Image"></a><br><img src="forums_files/heart.gif" alt="&lt;3" title="LURB"> <a href="https://web.archive.org/web/20081221115245/http://www.verseart.co.cc/" class="postlink">http://www.VerseArt.co.cc</a></div></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p26250"></a>
+				<b class="postauthor" style="color: #000000">Loathsome</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Mon Aug 11, 2008 9:56 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Cry Baby</td>
+				</tr>
+							<tr>
+					<td><img src="forums_files/file_003.htm" width="100" height="100" alt="User avatar"></td>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.loathed.co.nr/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=693"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Tue Jul 29, 2008 12:15 pm<br><b>Posts:</b> 65<br><b>Location:</b> Sweden				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">eh, this is not fan art.<br>that's not edd<br>or tom<br>or anyone else<br><br>edit:<br><br><div class="quotetitle"><b>Quote:</b></div><div class="quotecontent"><span style="font-weight: bold">Help, Suggestions, and Feedback</span><br><br><span style="font-style: italic">Help, Suggestions and feedback on either the forums and the main site go here!</span></div><br><br>Feedback. That's what I want on this.<br><br><span style="font-style: italic">uuuuh</span><br><br>oh well</div>
+
+											<span class="postbody"><br>_________________<br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #0080FF">Web</span><span style="color: #00FFFF">site</span></a><br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #FF8000">My</span> <span style="color: #FFBF00">NG</span></a><br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #008040">My</span> <span style="color: #408040">Deviant</span><span style="color: #808080">ART</span></a></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p26457"></a>
+				<b class="postauthor">bashscrazy</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Tue Aug 12, 2008 2:25 am&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Wizard</td>
+				</tr>
+							<tr>
+					<td><img src="forums_files/file_008.htm" width="96" height="72" alt="User avatar"></td>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://youtube.com/bashscrazy"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=66"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Tue Jul 08, 2008 1:21 am<br><b>Posts:</b> 312<br><b>Location:</b> Canada				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle">Loathsome wrote:</div><div class="quotecontent">eh, this is not fan art.<br>that's not edd<br>or tom<br>or anyone else<br><br>edit:<br><br><div class="quotetitle"><b>Quote:</b></div><div class="quotecontent"><span style="font-weight: bold">Help, Suggestions, and Feedback</span><br><br><span style="font-style: italic">Help, Suggestions and feedback on either the forums and the main site go here!</span></div><br><br>Feedback. That's what I want on this.<br><br><span style="font-style: italic">uuuuh</span><br><br>oh well</div><br><br>but it's supposed to be feedback about the mainsite or the forum<br>not your pictures</div>
+
+											<span class="postbody"><br>_________________<br><a href="https://web.archive.org/web/20081221115245/http://youtube.com/bashscrazy" class="postlink"><img src="forums_files/bashscrazynv7.jpg" alt="Image"></a></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p26459"></a>
+				<b class="postauthor">c00k13</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Tue Aug 12, 2008 2:30 am&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Wizard</td>
+				</tr>
+							<tr>
+					<td><img src="forums_files/file_004.htm" width="100" height="100" alt="User avatar"></td>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=711"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Thu Jul 31, 2008 11:33 am<br><b>Posts:</b> 216<br><b>Location:</b> --error--				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">i dont care were it goes it looks <span style="color: #FF0000"><span style="font-size: 200%; line-height: normal">amazing</span></span><br><br> <img src="forums_files/12.gif" alt=":'(" title="Cry"> i cant draw for my life <img src="forums_files/12.gif" alt=":'(" title="Cry"></div>
+
+											<span class="postbody"><br>_________________<br><img src="forums_files/th_read.gif" alt="Image"><span style="font-size: 150%; line-height: normal"><br><img src="forums_files/th_nuts32.jpg" alt="Image"><br><br><a href="https://web.archive.org/web/20081221115245/http://r1.bloodwars.net/r.php?r=34753" class="postlink">warning do not click this is only for cool people</a></span></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p27037"></a>
+				<b class="postauthor" style="color: #FF0000">Edd</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Wed Aug 13, 2008 12:04 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td><center><img src="forums_files/Forum Ranks - _0016_Site Owner .jpg" alt="Site Admin" title="Site Admin"></center></td>
+				</tr>
+							<tr>
+					<td><center><img src="forums_files/54.jpg" width="120" height="120" alt="User avatar"></center></td>				</tr>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=54"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Mon Jul 07, 2008 10:17 pm<br><b>Posts:</b> 1481<br><b>Location:</b> England				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">should go in blabberbox, seeing as you want people to discuss the artwork..<br><br> i would have an art forum, bu i think most people would try submitting paint drawings</div>
+
+											<span class="postbody"><br>_________________<br><img src="forums_files/edd_drumm_gorrilaz.gif" alt="Image"></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p27277"></a>
+				<b class="postauthor" style="color: #000000">Loathsome</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Aug 14, 2008 12:41 am&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Cry Baby</td>
+				</tr>
+							<tr>
+					<td><img src="forums_files/file_003.htm" width="100" height="100" alt="User avatar"></td>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.loathed.co.nr/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=693"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Tue Jul 29, 2008 12:15 pm<br><b>Posts:</b> 65<br><b>Location:</b> Sweden				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">^lol<br><br><br><br>Realism<br><br><img src="forums_files/Portrait_of_a_friend_by_Loath_some.png" alt="Image"></div>
+
+											<span class="postbody"><br>_________________<br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #0080FF">Web</span><span style="color: #00FFFF">site</span></a><br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #FF8000">My</span> <span style="color: #FFBF00">NG</span></a><br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #008040">My</span> <span style="color: #408040">Deviant</span><span style="color: #808080">ART</span></a></span>
+												<br><br>
+							<span class="gensmall">Last edited by <span style="color: #000000;" class="username-coloured">Loathsome</span> on Sun Dec 07, 2008 1:16 pm, edited 1 time in total.</span>
+						<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p27336"></a>
+				<b class="postauthor">eddideas</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Aug 14, 2008 3:39 am&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td class="postdetails">This user is better than you.</td>
+				</tr>
+							<tr>
+					<td><img src="forums_files/eddideaskj4.jpg" width="100" height="100" alt="User avatar"></td>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=359"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Fri Jul 11, 2008 8:52 pm<br><b>Posts:</b> 13188<br><b>Location:</b> Upon the clouds, in the sea, faraway.				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody"><img src="forums_files/23.gif" alt=":up:" title="Arrow Up"> holy shit! thats good shit! <img src="forums_files/5.gif" alt=":O" title="=O"></div>
+
+											<span class="postbody"><br>_________________<br>Thinking of you wherever you are<br>We pray for our sorrows to end<br>and hope that our hearts will blend<br>Now I will step forward to realize this wish<br>And who knows<br>Starting a new journey may not be so hard<br>or maybe it has already begun<br>There are many worlds<br>but they share the same sky<br>one sky<br>one destiny</span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p27454"></a>
+				<b class="postauthor" style="color: #000000">Loathsome</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Aug 14, 2008 1:33 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Cry Baby</td>
+				</tr>
+							<tr>
+					<td><img src="forums_files/file_003.htm" width="100" height="100" alt="User avatar"></td>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.loathed.co.nr/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=693"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Tue Jul 29, 2008 12:15 pm<br><b>Posts:</b> 65<br><b>Location:</b> Sweden				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">thanks (:</div>
+
+											<span class="postbody"><br>_________________<br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #0080FF">Web</span><span style="color: #00FFFF">site</span></a><br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #FF8000">My</span> <span style="color: #FFBF00">NG</span></a><br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #008040">My</span> <span style="color: #408040">Deviant</span><span style="color: #808080">ART</span></a></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p27463"></a>
+				<b class="postauthor" style="color: #00AA00">Essy knickers</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Aug 14, 2008 3:09 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td><center><img src="forums_files/Forum Ranks - _0020_Global Moderator .jpg" alt="Site Admin" title="Site Admin"></center></td>
+				</tr>
+							<tr>
+					<td><center><img src="forums_files/56.jpg" width="120" height="120" alt="User avatar"></center></td>				</tr>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://esseh.sheezyart.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=56"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Tue Jul 08, 2008 12:13 am<br><b>Posts:</b> 941<br><b>Location:</b> Anywhere the wind blows~				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">You've gotten a lot better since last I checked.</div>
+
+											<span class="postbody"><br>_________________<br><img src="forums_files/JayneAnimationMine2.gif" alt="Image"></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p28019"></a>
+				<b class="postauthor" style="color: #FF0000">Edd</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Fri Aug 15, 2008 1:01 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td><center><img src="forums_files/Forum Ranks - _0016_Site Owner .jpg" alt="Site Admin" title="Site Admin"></center></td>
+				</tr>
+							<tr>
+					<td><center><img src="forums_files/54.jpg" width="120" height="120" alt="User avatar"></center></td>				</tr>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=54"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Mon Jul 07, 2008 10:17 pm<br><b>Posts:</b> 1481<br><b>Location:</b> England				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">Holy shit! I almost doubted you drew that haha</div>
+
+											<span class="postbody"><br>_________________<br><img src="forums_files/edd_drumm_gorrilaz.gif" alt="Image"></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p143374"></a>
+				<b class="postauthor" style="color: #000000">Loathsome</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sun Dec 07, 2008 1:21 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Cry Baby</td>
+				</tr>
+							<tr>
+					<td><img src="forums_files/file_003.htm" width="100" height="100" alt="User avatar"></td>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.loathed.co.nr/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=693"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Tue Jul 29, 2008 12:15 pm<br><b>Posts:</b> 65<br><b>Location:</b> Sweden				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">sketchdump<br><!-- m --><a class="postlink" href="https://web.archive.org/web/20081221115245/http://fc51.deviantart.com/fs37/f/2008/246/e/1/dump_by_Loath_some.png">http://fc51.deviantart.com/fs37/f/2008/ ... h_some.png</a><!-- m --><br><!-- m --><a class="postlink" href="https://web.archive.org/web/20081221115245/http://loath-some.deviantart.com/art/dump-2-98660960">http://loath-some.deviantart.com/art/dump-2-98660960</a><!-- m --><br><br>doodle<br><img src="forums_files/Beldrama_doodle_by_Loath_some.png" alt="Image"><br><br><!-- m --><a class="postlink" href="https://web.archive.org/web/20081221115245/http://fc68.deviantart.com/fs37/f/2008/273/e/c/Yell_by_Loath_some.png">http://fc68.deviantart.com/fs37/f/2008/ ... h_some.png</a><!-- m --><br><br><!-- m --><a class="postlink" href="https://web.archive.org/web/20081221115245/http://fc73.deviantart.com/fs38/f/2008/312/2/e/Frozen_Empire_by_Loath_some.png">http://fc73.deviantart.com/fs38/f/2008/ ... h_some.png</a><!-- m --><br><br><img src="forums_files/Ellen_by_Loath_some.png" alt="Image"><br><br>Graffiti sketch<br><img src="forums_files/graffiti_sketch_by_Loath_some.png" alt="Image"><br><br><!-- m --><a class="postlink" href="https://web.archive.org/web/20081221115245/http://fc73.deviantart.com/fs39/f/2008/338/1/3/IDDDD_by_Loath_some.png">http://fc73.deviantart.com/fs39/f/2008/ ... h_some.png</a><!-- m --><br><br><br><br><br><br><br><br><br><br><br><br><br><br>SOME OF THEM COULDN'T BE LINKED TO IMG TAGS CUS EDD IS A BITCH WITH HIS LIMITATIONS<br><br>I WANT MY RIGHTS BACK<br><br><br><br><br><br>AAAH!</div>
+
+											<span class="postbody"><br>_________________<br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #0080FF">Web</span><span style="color: #00FFFF">site</span></a><br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #FF8000">My</span> <span style="color: #FFBF00">NG</span></a><br><a href="https://web.archive.org/web/20081221115245/http://www.weirdthings.org.uk/wp-content/uploads/2008/05/all-babies-have-big-mouths-but-not-as-much-as-this-baby.jpg" class="postlink"><span style="color: #008040">My</span> <span style="color: #408040">Deviant</span><span style="color: #808080">ART</span></a></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p143420"></a>
+				<b class="postauthor">Teh LJ</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sun Dec 07, 2008 2:24 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Semi-automatic poster</td>
+				</tr>
+							<tr>
+					<td><img src="forums_files/file_007.htm" width="70" height="70" alt="User avatar"></td>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=1378"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Sat Nov 01, 2008 8:16 pm<br><b>Posts:</b> 3441<br><b>Location:</b> U.K				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">Nice drawings!</div>
+
+											<span class="postbody"><br>_________________<br>This is <span style="color: #FF0000">MADNESS!!!</span><br>Madness.... oh wait, it is.<br><img src="forums_files/TehLJ.webp" alt="Image"><br>Credit for Arc for sig picture.<br>Credit to give by Tilita's friend for avatar.<br><br><br><img src="forums_files/tehljsigna3.jpg" alt="Image"><br><img src="forums_files/6.gif" alt="O_O" title="Wide Eye"> I do not want to tell...<br>Made by Tilita!</span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p143771"></a>
+				<b class="postauthor">scotty</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sun Dec 07, 2008 4:46 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Semi-automatic poster</td>
+				</tr>
+							<tr>
+					<td><center><img src="forums_files/265.jpg" width="120" height="120" alt="User avatar"></center></td>				</tr>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.geocities.com/scotty83rd"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://edit.yahoo.com/config/send_webmesg?.target=scotty83rd%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=265"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Wed Jul 09, 2008 9:26 pm<br><b>Posts:</b> 3341<br><b>Location:</b> england,wakefield				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">wow.<br><br><br>i take it u use  macromedia flash?</div>
+
+											<span class="postbody"><br>_________________<br>bit by bit the penguins steal my sanity<br><img src="forums_files/scottyfirmamf9.jpg" alt="Image"><br><img src="forums_files/ubd6005uo1.png" alt="Image"><br><img src="forums_files/ubd7288yg3.png" alt="Image"><br><a href="https://web.archive.org/web/20081221115245/http://dragcave.net/viewdragon/1fk5" class="postlink"><img src="forums_files/1fk5.png" alt="Image"></a> <a href="https://web.archive.org/web/20081221115245/http://dragcave.net/viewdragon/tq27" class="postlink"><img src="forums_files/tq27.gif" alt="Image"></a>click the dragons let them grow!</span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p143800"></a>
+				<b class="postauthor" style="color: #0066FF">Simsarmy</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tbody><tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Loathsome's sketchbook</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sun Dec 07, 2008 5:12 pm&nbsp;</div></td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tbody><tr>
+					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>
+				</tr>
+							<tr>
+
+				</tr>
+					<td><center><img src="forums_files/Forum Ranks - _0022_Administrator .jpg" alt="Site Admin" title="Site Admin"></center></td>
+				</tr>
+							<tr>
+					<td><center><img src="forums_files/108.jpg" width="120" height="120" alt="User avatar"></center></td>				</tr>
+				</tr>
+			<tr>
+<td>
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://projectdistrict.awardspace.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> 
+&nbsp;<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=108"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a> 
+ 
+</td>
+</tr>
+				</tbody></table>
+
+				<span class="postdetails">
+					<br><b>Joined:</b> Tue Jul 08, 2008 11:11 am<br><b>Posts:</b> 705<br><b>Location:</b> OH BRITANNIA...				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tbody><tr>
+					<td>
+					
+						<div class="postbody">Apparently, he didn't care about peoples opinions of his work...<br>Say bye bye topic!</div>
+
+											<span class="postbody"><br>_________________<br><div align="center">٩(̾●̮̮̃̾•̃̾)۶<br><br>- <a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk/forums/rules.htm" class="postlink"><span style="color: #00BF00"><span style="font-weight: bold">Don't forget to read the rules.</span></span></a><br>- <a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk/forums/viewtopic.php?f=10&amp;t=313" class="postlink"><span style="color: #00BF00"><span style="font-weight: bold">Please read the beginners guide to the forums.</span></span></a><br><br><span style="font-weight: bold"><span style="color: #0000FF">Coming soon. :3</span> <a href="https://web.archive.org/web/20081221115245/http://projectdistrict.awardspace.com/" class="postlink">»» <span style="text-decoration: underline">Project District</span> ««</a></span><br><br>“Effective leadership is not about making speeches or being liked; leadership is defined by results not attributes.”</div></span>
+					<br clear="all"><br>
+						<table width="100%" cellspacing="0">
+						<tbody><tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				</tbody></table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>
+			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>
+	</tr>
+	</tbody></table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tbody><tr align="center">
+	</tr>
+	</tbody></table>
+
+	<table width="100%" cellspacing="1">
+	<tbody><tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+				</td>
+			</tr>
+	</tbody></table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all">
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tbody><tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="index.htm">Board index</a> » <a href="16.htm">Trash Pile</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</tbody></table>	<br clear="all">
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tbody><tr>
+	</tbody></table>
+
+<br clear="all">
+
+<table width="100%" cellspacing="1">
+<tbody><tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">You <strong>cannot</strong> post new topics in this forum<br>You <strong>cannot</strong> reply to topics in this forum<br>You <strong>cannot</strong> edit your posts in this forum<br>You <strong>cannot</strong> delete your posts in this forum<br>You <strong>cannot</strong> post attachments in this forum<br></span></td>
+</tr>
+</tbody></table>
+
+<br clear="all">
+
+<table width="100%" cellspacing="0">
+<tbody><tr>
+	<td></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tbody><tr>
+	</tr>
+	</tbody></table>
+
+	</form>
+</td>
+</tr>
+</tbody></table>
+
+<!--
+ _______  _______  _______  _______  _______ _________
+(  ____ \(  ____ \(  ____ \(  ____ )(  ____ \\__   __/
+| (    \/| (    \/| (    \/| (    )|| (    \/   ) (   
+| (_____ | (__    | |      | (____)|| (__       | |   
+(_____  )|  __)   | |      |     __)|  __)      | |   
+      ) || (      | |      | (\ (   | (         | |   
+/\____) || (____/\| (____/\| ) \ \__| (____/\   | |   
+\_______)(_______/(_______/|/   \__/(_______/   )_(
+
+-->
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	</div>
+<div align="right">
+	<span style="font-size: 10px">
+<a href="https://web.archive.org/web/20081221115245/http://www.eddsworld.co.uk/"><img src="forums_files/logofaded.png"></a>
+	</span>
+</div>
+<br>
+</td>
+<td class="page_right" width="1px"></td>
+</tr>
+<tr><td colspan="3" class="page_foot"></td></tr>
+</tbody></table>
+
+
+</div></body></html>
+<!--
+     FILE ARCHIVED ON 11:52:45 Dec 21, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:53:20 Nov 29, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 4.351
+  exclusion.robots: 0.034
+  exclusion.robots.policy: 0.024
+  esindex: 0.009
+  cdx.remote: 6.852
+  LoadShardBlock: 239.026 (3)
+  PetaboxLoader3.resolve: 155.478 (2)
+  PetaboxLoader3.datanode: 203.52 (4)
+  load_resource: 156.787
+-->

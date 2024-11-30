@@ -1,0 +1,1228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb"><head><script src="forums_files/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app204.us.archive.org';v.server_ms=213;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="forums_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="forums_files/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="forums_files/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://eddsworld.co.uk:80/oldforums/viewtopic.php?f=10&amp;t=5187","20100528014714","https://web.archive.org/","web","/_static/",
+	      "1275011234");
+</script>
+<link rel="stylesheet" type="text/css" href="forums_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="forums_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-language" content="en-gb">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="copyright" content="2002-2006 phpBB Group">
+<meta name="keywords" content="">
+<meta name="description" content="">
+
+<title>Eddsworld Forums • View topic - The Rules</title>
+
+<link rel="stylesheet" href="forums_files/stylesheet.css" type="text/css">
+
+<script type="text/javascript">
+// <![CDATA[
+
+
+function popup(url, width, height, name)
+      {
+       if (!name)
+       {
+          name = '_popup';
+       }
+
+       window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+         return false;
+      }
+
+
+function jumpto()
+{
+	var page = prompt('Enter the page number you wish to go to:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username()
+      {
+       popup(url, 760, 570, '_usersearch');
+         return false;
+      }
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+
+// ]]>
+</script>
+<script>
+
+var timer = null;
+var speed = 3; //1 is  slow
+var endTop = 0;
+var endLeft = 0;
+
+//******************************************************
+// Simple little function to get Elements as an object
+//******************************************************
+function getEl(id)
+{
+	var el = document.getElementById(id);
+	return el;
+}
+//******************************************************
+// Function to show Elements
+//******************************************************
+function showEl(id)
+{
+	getEl(id).style.display ="";
+}
+//******************************************************
+// Function to hide Elements
+//******************************************************
+function hideEl(id)
+{
+	getEl(id).style.display ="none";
+}
+
+//******************************************************
+// Function to move Element
+//******************************************************
+function moveEl(id)
+{
+	var popup = getEl(id);
+	var currentTop = parseInt(popup.offsetTop);
+	var currentLeft = parseInt(popup.offsetLeft);
+	
+	var keepMoving = false;
+	//Move
+	if (currentTop <= endTop)
+	{
+		popup.style.top = (currentTop + speed) + "px";
+		keepMoving = true;
+	}
+	if(currentLeft <= endLeft)
+	{	
+		popup.style.left = (currentLeft + speed) + "px";
+		keepMoving = true;
+	}
+	if (keepMoving)
+	{
+		startMove(id);
+	}
+	else
+	{
+		endMove();
+	}
+}
+//******************************************************
+// Function to start the move
+//******************************************************
+function startMove(id)
+{
+	timer = setTimeout("moveEl('"+id+"')", 1);
+}
+//******************************************************
+// Function to end the move
+//******************************************************
+function endMove()
+{
+	clearTimeout(timer);
+}
+
+</script>
+
+
+<script language="JavaScript">
+
+<!-- Begin
+var Temp2;
+var timerID = null;
+var timerRunning = false;
+function arry() {
+this.length = 12;
+this[0] = 31;
+this[1] = 28;
+this[2] = 31;
+this[3] = 30;
+this[4] = 31;
+this[5] = 30;
+this[6] = 31;
+this[7] = 31;
+this[8] = 30;
+this[9] = 31;
+this[10] = 30;
+this[11] = 31;
+}
+var date = new arry();
+
+function stopclock() {
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;
+}
+
+function startclock() {
+stopclock();
+showtime();
+}
+
+function showtime() {
+now = new Date();
+var CurMonth = now.getMonth();
+var CurDate = now.getDate();
+var CurYear = now.getFullYear();
+now = null;
+if (25 < CurDate) {
+CurDate -= date[CurMonth]; CurMonth++;
+}
+if (11 < CurMonth) {
+CurMonth -= 12; CurYear++;
+}
+
+var Yearleft = 2008 - CurYear;
+var Monthleft = 11 - CurMonth;
+var Dateleft = 25 - CurDate;
+
+document.dateform.a.value = Yearleft;
+document.dateform.b.value = Monthleft;
+document.dateform.c.value = Dateleft;
+
+timerID = setTimeout("showtime()",1000);
+timerRunning = true;
+}
+// End -->
+</script>
+
+
+<style>
+
+#popup 
+{
+	height:500px; 
+	width:500px; 
+	border:1px solid #000;
+	position:absolute; 
+	background:#FFFFFF;
+	top:-200px;
+	left:-200px;
+}
+
+</style>
+<link href="forums_files/prime_bbcode_note.css" rel="stylesheet" type="text/css"></head>
+
+<body class="ltr" onload="startclock()"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr; height: 1px;">
+</div><div id="wm-ipp-print">The Wayback Machine - 
+https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/
+oldforums/viewtopic.php?f=10&amp;t=5187</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://eddsworld.co.uk/oldforums/viewtopic.php?f=10&t=5187","20100528014714",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<div>
+<a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/">Back to Eddsworld!</a>
+</div>
+<div id="wrapheader">
+<a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/">
+<div id="logodesc">
+
+	</div></a>
+
+
+
+
+
+<center>
+<!-- <form name=dateform>Only
+<input type=text name=a size=2 value=""> years, 
+<input type=text name=b size=2 value=""> months, and
+<input type=text name=c size=2 value=""> days left until Christmas!</form> -->
+</center>
+
+
+<table width="100%" cellspacing="0" cellpadding="0"><tbody><tr>
+<td class="page_left" width="0px"></td>
+        <td class="page_center">
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tbody><tr>
+<!-- <span style="font-size: 10px">Welcome  -->
+			<td class="genmed">
+<span style="font-size: 12px">
+				
+			</span></td>
+			<td class="genmed" align="right">
+				<a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/chatrules.php">Chat</a>
+				&nbsp; &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/faq.php">FAQ</a>
+				&nbsp; &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/search.php">Search</a>
+			</td>
+		</tr>
+		</tbody></table>
+	</div>
+
+
+
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tbody><tr>
+			<td class="gensmall">Last visit was: Fri May 28, 2010 1:47 am</td>
+			<td class="gensmall" align="right">It is currently Fri May 28, 2010 1:47 am<br></td>
+		</tr>
+		</tbody></table>
+	</div>
+
+
+
+<div id="wrapcentre">
+
+	
+	<p class="searchbar">
+		<span style="float: left;"><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/search.php?search_id=unanswered">View unanswered posts</a> | <a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/search.php?search_id=active_topics">View active topics</a></span>
+		
+		<span style="float: right;"><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/search.php?search_id=newposts">View new posts</a> | <a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/search.php?search_id=egosearch">View your posts</a></span>
+		
+	</p>
+	
+
+	<br style="clear: both;">
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tbody><tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/index.php">Board index</a> » <a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/viewforum.php?f=19">Boring Important Things</a> » <a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/viewforum.php?f=10">Forums Annoucements</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</tbody></table>
+
+
+	<br>
+
+
+
+
+
+<!--
+
+<div style="background-color:#666666; color:#FFFFFF; border:#FFFFFF; text-align:center;">Site Maintenance at 11:45pm! The site shouldn't be down for more than 5 minutes. (hopefully), sorry guys! - Simsarmy</div>
+
+-->
+
+
+<center></center>
+<div id="pageheader">	<h2>The Rules</h2>	<p class="moderators">Moderator: <a style="color:#00FF00;" href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=group&amp;g=9">Moderators</a></p></div><br clear="all"><br><div id="pagecontent">	<table width="100%" cellspacing="1">	<tbody><tr>		<td align="left" valign="middle" nowrap="nowrap">				</td>					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> of <strong>1</strong><br></td>			<td class="gensmall" nowrap="nowrap">&nbsp;[ 21 posts ]&nbsp;</td>			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>			</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr>		<td class="cat">			<table width="100%" cellspacing="0">			<tbody><tr>				<td class="nav" nowrap="nowrap">&nbsp;								</td>				<td class="nav" align="right" nowrap="nowrap"><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/viewtopic.php?f=10&amp;t=5187&amp;view=previous">Previous topic</a> | <a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/viewtopic.php?f=10&amp;t=5187&amp;view=next">Next topic</a>&nbsp;</td>			</tr>			</tbody></table>		</td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">			<tbody><tr>			<th>Author</th>			<th>Message</th>		</tr>	<tr class="row1">			<td align="center" valign="middle">				<a name="p478094"></a>				<b class="postauthor" style="color: #00FF00">Lovelyfairy27</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> The Rules</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sun Dec 27, 2009 8:39 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Cutie Pie</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0019_Moderator%20.jpg" alt="Cutie Pie" title="Cutie Pie"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/346.png" width="119" height="99" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=478094"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=346"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Jul 11, 2008 4:02 pm<br><b>Posts:</b> 12435<br><b>Location:</b> IN CANADIA				</span>
+
+<script type="text/javascript">
+var slapped478094 = 0;
+function slap478094()
+{
+if ("Lovelyfairy27" == "Simsarmy") {
+document.getElementById('slapcounter478094').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Lovelyfairy27" == "Edd") {
+document.getElementById('slapcounter478094').innerHTML = "I cannot slap Edd!";
+}
+else if ("Lovelyfairy27" == "Fishcakes") {
+slapped478094 = slapped478094 + 100;
+document.getElementById('slapcounter478094').innerHTML = "I have slapped Lovelyfairy27 " + slapped478094 + " times";
+}
+else {
+// alert("You slapped Lovelyfairy27");
+if (slapped478094 > 0) {
+document.getElementById('slapcounter478094').innerHTML = "I have slapped Lovelyfairy27 " + slapped478094 + " times";
+slapped478094 ++;
+}
+else {
+slapped478094 ++;
+document.getElementById('slapcounter478094').innerHTML = "I have slapped Lovelyfairy27"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap478094()" value="Slap"><br>
+<div id="slapcounter478094"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><span style="font-size: 150%; line-height: normal">Golden Rule: Don't be Evil!</span><br><br>Remember, if you have any problem, be sure to notify a moderator.<br><br><span style="font-weight: bold">Breaking the following banned content will result in a <span style="text-decoration: underline">permanent ban</span>, usually <span style="text-decoration: underline">without warning</span>:</span><br><br><ul>1-Violence or racial intolerance. <br>2-Illicit drugs or drug paraphernalia. <br>3-Pornographic, XXX material, exploitation of minors, adult, babes or mature content.<br>4-Excessive profanity/vulgar languages.<br><span style="font-style: italic">The
+ degree of the excessiveness will be determined by the Moderator, if you
+ don't want to be banned for this offense, keep your swearing down to <span style="font-weight: bold">Curse Words</span>.</span><br>5-Hacking/cracking content.<br>6-
+Illegal MP3/Movie/Applications/Torrent/P2P/Emule link (It is also 
+illegal to provide links to illegal files hosted on other websites). <br>7-Illicit or illegal content (Including yahoo rares, yahoo cracks, etc).<br>8-Bigotry, racism, hatred, material which may be insulting to another person(s) or company.<br>9-
+Copyrighted material, trademarks, trade secrets or other intellectual 
+property rights used without proper authorization, material that is 
+obscene, defamatory, constitutes an illegal threat, or violates export 
+control laws.<br>10-Mail fraud, pyramid schemes.<br>11-Redirection to another services.<br>12-Asking for personal information about other members from staff member(s) (IP, E-mail, etc.)<br>13-Personal information about you or someone else (Addresses, Phone numbers etc...): Displaying or Asking.</ul><br><span style="font-weight: bold">We expect a community atmosphere here, and as a result, there are a few things we would like to keep in check:</span><br><br><span style="font-weight: bold">Advertising</span><br><br><ul>1-
+Do not Advertise websites. This includes making a new topic, designed 
+simply to promote a service or website, or posting in an existing one.<br>2-You <span style="font-weight: bold">MAY</span>
+ post links to Websites in your Signature. SunShip Forums and it's staff
+ is not liable for any damage caused by pressing the links, you do so at
+ your OWN RISK. <span style="font-style: italic">We will however, do our best to delete any offending links.</span><br>3-Posting links to<br>- <span style="font-weight: bold">interesting</span> sites<br>- that you don't own<br>- is likely to spark conversation<br>- doesn't promote a product<br>...is acceptable. For example: an article found on a website.</ul><br><span style="font-weight: bold">Accounts</span><br><br><ul>1-No Alternative Accounts are allowed on this Forum. <span style="font-weight: bold">Under any circumstance.</span><br>2-The punishment for breaking this rule is typically having the Alternative Account <span style="font-weight: bold">Permanently Banned</span>, and the Main account <span style="font-weight: bold">Temporarily Banned</span>.<br>3-Using an Alternative Account to bypass a Ban will result in the ban being incremented or changed to a Permanent Ban.</ul><br><span style="font-weight: bold">Posting</span><br><br><ul>1-DOUBLE POSTING is frowned upon, but may be accepted depending on circumstance:<br>- You've run out of allowed images per post.<br>- You're creating a Forum Game, or other very large post, and need more space.<br>- New information will only make sense if created in an entirely new post. <span style="font-weight: bold">Be careful, Moderators will use their judgement to decide if this is true.</span><br><br>2-
+If you have content you feel might be inappropriate but DOESN'T conflict
+ with our rules, don't hesitate to place [NSFW] (Not Safe For Work) into
+ the Topic or next to the Link.</ul><br><br><span style="font-weight: bold">Bumping and Existing Topics</span><br><br><ul>1-You should always search to make sure the topic you're creating doesn't already exist!<br>2-
+There is nothing in the rules that says Bumping dead topics is not 
+allowed... (you can't even report it), if a topic is dead and someone 
+has revived, don't reply; and it'll stay that way!<br>3-HOWEVER, mass bumping, and bumping your own topic is not allowed.<br><span style="font-style: italic">Bumping your own topic might be allowed when adding content to Galleries (IE. Picture Galleries)</span><br>4-Moderators have the right to lock topics they feel do not need to be bumped any more.</ul><br><span style="font-weight: bold">Punishment</span><br><br><ul>1-Breaking the non-"Insta-ban" rules will usually result in a warning.<br>2-A <span style="font-weight: bold">Non-Formal Warning</span>, is when a Moderator or Admin kindly asks you to stop breaking a rule, usually in public.<br>3-A <span style="font-weight: bold">Formal Warning</span> is when you're given a <span style="font-weight: bold">Black Mark</span>
+ on your account for the offense. You can't see these, however; 
+Moderators will usually send you a Personal Message when you've got one.<br>4-If you get <span style="text-decoration: underline">three</span> <span style="font-weight: bold">Formal Warnings</span> you'll be banned temporarily or permanently depending on the severity of your total offenses.</ul><br><br><br>And Remember, you can only make a topic if you have over 50 posts.<br>Also, no rape jokes are allowed.</div>											<span class="postbody"><br>_________________<br><div class="quotetitle"><b>Quote:</b></div><div class="quotecontent">Megan's Zac: oh whoops I dropped my pen..<br>Megan's Zac: oh man, I can't get it..I hope no one who thinks I have a hot butt is looking</div><br><img src="forums_files/f_vee6p8os53km_a27402f.png" alt="Image"></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p478250"></a>				<b class="postauthor">Trap Wolf</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules...mostly lol</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Mon Dec 28, 2009 2:18 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Zanta's Little Helper</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0010_Rank%205%20.jpg" alt="Zanta's Little Helper" title="Zanta's Little Helper"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/1276.png" width="90" height="120" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=478250"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.omg%20i%20hate%20you%20all.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=msnm&amp;u=1276"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.icq.com/people/webmsg.php?to=657345624565245"><img src="forums_files/icon_contact_icq.gif" alt="ICQ" title="ICQ"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://edit.yahoo.com/config/send_webmesg?.target=Notarealemail%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=aim&amp;u=1276"><img src="forums_files/icon_contact_aim.gif" alt="AIM" title="AIM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=jabber&amp;u=1276"><img src="forums_files/icon_contact_jabber.gif" alt="Jabber" title="Jabber"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=1276"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Oct 17, 2008 7:29 pm<br><b>Posts:</b> 5447<br><b>Location:</b> Omg I hate you all.				</span>
+
+<script type="text/javascript">
+var slapped478250 = 0;
+function slap478250()
+{
+if ("Trap Wolf" == "Simsarmy") {
+document.getElementById('slapcounter478250').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Trap Wolf" == "Edd") {
+document.getElementById('slapcounter478250').innerHTML = "I cannot slap Edd!";
+}
+else if ("Trap Wolf" == "Fishcakes") {
+slapped478250 = slapped478250 + 100;
+document.getElementById('slapcounter478250').innerHTML = "I have slapped Trap Wolf " + slapped478250 + " times";
+}
+else {
+// alert("You slapped Trap Wolf");
+if (slapped478250 > 0) {
+document.getElementById('slapcounter478250').innerHTML = "I have slapped Trap Wolf " + slapped478250 + " times";
+slapped478250 ++;
+}
+else {
+slapped478250 ++;
+document.getElementById('slapcounter478250').innerHTML = "I have slapped Trap Wolf"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap478250()" value="Slap"><br>
+<div id="slapcounter478250"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">What about the signiture rules? :P</div>											<span class="postbody"><br>_________________<br><div align="center">Omg I hate you all.<br><img src="forums_files/TrapWolfSigniture.jpg" alt="Image"><br><span style="font-size: 150%; line-height: normal"><a href="https://web.archive.org/web/20100528014714/http://www.facebook.com/profile.php?ref=name&amp;id=100000366336051#/profile.php?v=info&amp;ref=profile&amp;id=100000123001021" class="postlink">Facebook</a> | <a href="https://web.archive.org/web/20100528014714/http://www.youtube.com/user/ArcanaLightHalfLycan" class="postlink">Youtube</a> | <a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/viewtopic.php?f=4&amp;t=5497" class="postlink">POP IS CAMP</a></span> | <a href="https://web.archive.org/web/20100528014714/http://eddsworld.wikia.com/wiki/Eddsworld_Wiki" class="postlink"><span style="font-size: 150%; line-height: normal">Eddsworld Wikia</span></a><br><a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/viewtopic.php?f=30&amp;t=5491" class="postlink"><span style="font-size: 200%; line-height: normal">Eddsworld Higurashi (restart)</span></a></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p478288"></a>				<b class="postauthor" style="color: #00FF00">Lovelyfairy27</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules...mostly lol</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Mon Dec 28, 2009 5:36 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Cutie Pie</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0019_Moderator%20.jpg" alt="Cutie Pie" title="Cutie Pie"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/346.png" width="119" height="99" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=478288"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=346"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Jul 11, 2008 4:02 pm<br><b>Posts:</b> 12435<br><b>Location:</b> IN CANADIA				</span>
+
+<script type="text/javascript">
+var slapped478288 = 0;
+function slap478288()
+{
+if ("Lovelyfairy27" == "Simsarmy") {
+document.getElementById('slapcounter478288').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Lovelyfairy27" == "Edd") {
+document.getElementById('slapcounter478288').innerHTML = "I cannot slap Edd!";
+}
+else if ("Lovelyfairy27" == "Fishcakes") {
+slapped478288 = slapped478288 + 100;
+document.getElementById('slapcounter478288').innerHTML = "I have slapped Lovelyfairy27 " + slapped478288 + " times";
+}
+else {
+// alert("You slapped Lovelyfairy27");
+if (slapped478288 > 0) {
+document.getElementById('slapcounter478288').innerHTML = "I have slapped Lovelyfairy27 " + slapped478288 + " times";
+slapped478288 ++;
+}
+else {
+slapped478288 ++;
+document.getElementById('slapcounter478288').innerHTML = "I have slapped Lovelyfairy27"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap478288()" value="Slap"><br>
+<div id="slapcounter478288"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">D:&lt; I DONT HAVE THEM WENCH! which is why i said the rules...MOSTLY lol</div>											<span class="postbody"><br>_________________<br><div class="quotetitle"><b>Quote:</b></div><div class="quotecontent">Megan's Zac: oh whoops I dropped my pen..<br>Megan's Zac: oh man, I can't get it..I hope no one who thinks I have a hot butt is looking</div><br><img src="forums_files/f_vee6p8os53km_a27402f.png" alt="Image"></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p478293"></a>				<b class="postauthor">Trap Wolf</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules...mostly lol</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Mon Dec 28, 2009 6:01 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Zanta's Little Helper</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0010_Rank%205%20.jpg" alt="Zanta's Little Helper" title="Zanta's Little Helper"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/1276.png" width="90" height="120" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=478293"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.omg%20i%20hate%20you%20all.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=msnm&amp;u=1276"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.icq.com/people/webmsg.php?to=657345624565245"><img src="forums_files/icon_contact_icq.gif" alt="ICQ" title="ICQ"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://edit.yahoo.com/config/send_webmesg?.target=Notarealemail%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=aim&amp;u=1276"><img src="forums_files/icon_contact_aim.gif" alt="AIM" title="AIM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=jabber&amp;u=1276"><img src="forums_files/icon_contact_jabber.gif" alt="Jabber" title="Jabber"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=1276"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Oct 17, 2008 7:29 pm<br><b>Posts:</b> 5447<br><b>Location:</b> Omg I hate you all.				</span>
+
+<script type="text/javascript">
+var slapped478293 = 0;
+function slap478293()
+{
+if ("Trap Wolf" == "Simsarmy") {
+document.getElementById('slapcounter478293').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Trap Wolf" == "Edd") {
+document.getElementById('slapcounter478293').innerHTML = "I cannot slap Edd!";
+}
+else if ("Trap Wolf" == "Fishcakes") {
+slapped478293 = slapped478293 + 100;
+document.getElementById('slapcounter478293').innerHTML = "I have slapped Trap Wolf " + slapped478293 + " times";
+}
+else {
+// alert("You slapped Trap Wolf");
+if (slapped478293 > 0) {
+document.getElementById('slapcounter478293').innerHTML = "I have slapped Trap Wolf " + slapped478293 + " times";
+slapped478293 ++;
+}
+else {
+slapped478293 ++;
+document.getElementById('slapcounter478293').innerHTML = "I have slapped Trap Wolf"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap478293()" value="Slap"><br>
+<div id="slapcounter478293"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">Oh well. At least they are there even if not in BBC code form. c:</div>											<span class="postbody"><br>_________________<br><div align="center">Omg I hate you all.<br><img src="forums_files/TrapWolfSigniture.jpg" alt="Image"><br><span style="font-size: 150%; line-height: normal"><a href="https://web.archive.org/web/20100528014714/http://www.facebook.com/profile.php?ref=name&amp;id=100000366336051#/profile.php?v=info&amp;ref=profile&amp;id=100000123001021" class="postlink">Facebook</a> | <a href="https://web.archive.org/web/20100528014714/http://www.youtube.com/user/ArcanaLightHalfLycan" class="postlink">Youtube</a> | <a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/viewtopic.php?f=4&amp;t=5497" class="postlink">POP IS CAMP</a></span> | <a href="https://web.archive.org/web/20100528014714/http://eddsworld.wikia.com/wiki/Eddsworld_Wiki" class="postlink"><span style="font-size: 150%; line-height: normal">Eddsworld Wikia</span></a><br><a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/viewtopic.php?f=30&amp;t=5491" class="postlink"><span style="font-size: 200%; line-height: normal">Eddsworld Higurashi (restart)</span></a></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p478456"></a>				<b class="postauthor">Anonymous66</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules...mostly lol</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Mon Dec 28, 2009 11:34 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Eddicted</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0000_Rank%202%20.jpg" alt="Eddicted" title="Eddicted"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/y.htm" width="120" height="120" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=478456"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://ggroleplay.freeforums.org/index.php"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=10623"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Sun Dec 27, 2009 6:30 pm<br><b>Posts:</b> 105<br><b>Location:</b> Thirty-two snozberry trees past the border of insanity.				</span>
+
+<script type="text/javascript">
+var slapped478456 = 0;
+function slap478456()
+{
+if ("Anonymous66" == "Simsarmy") {
+document.getElementById('slapcounter478456').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Anonymous66" == "Edd") {
+document.getElementById('slapcounter478456').innerHTML = "I cannot slap Edd!";
+}
+else if ("Anonymous66" == "Fishcakes") {
+slapped478456 = slapped478456 + 100;
+document.getElementById('slapcounter478456').innerHTML = "I have slapped Anonymous66 " + slapped478456 + " times";
+}
+else {
+// alert("You slapped Anonymous66");
+if (slapped478456 > 0) {
+document.getElementById('slapcounter478456').innerHTML = "I have slapped Anonymous66 " + slapped478456 + " times";
+slapped478456 ++;
+}
+else {
+slapped478456 ++;
+document.getElementById('slapcounter478456').innerHTML = "I have slapped Anonymous66"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap478456()" value="Slap"><br>
+<div id="slapcounter478456"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">Yeah that 50 rule post thingy is going to most likely cause spam later</div>											<span class="postbody"><br>_________________<br><span style="font-size: 150%; line-height: normal"><span style="color: #FF0000">The new forum no one</span></span><br>Dude.....I robot camel...... I am I smoking something, or is that really a robot camel.</span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p478461"></a>				<b class="postauthor">Twewy</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules...mostly lol</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Mon Dec 28, 2009 11:49 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>It's over 9000!!!</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0011_Rank%206%20.jpg" alt="It's over 9000!!!" title="It's over 9000!!!"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/1620.png" width="120" height="120" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=478461"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://twewyfan08.webs.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=msnm&amp;u=1620"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://edit.yahoo.com/config/send_webmesg?.target=eas692%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=1620"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Wed Dec 03, 2008 11:32 pm<br><b>Posts:</b> 9360<br><b>Location:</b> I am penis cupcake.  I will eat you.				</span>
+
+<script type="text/javascript">
+var slapped478461 = 0;
+function slap478461()
+{
+if ("Twewy" == "Simsarmy") {
+document.getElementById('slapcounter478461').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Twewy" == "Edd") {
+document.getElementById('slapcounter478461').innerHTML = "I cannot slap Edd!";
+}
+else if ("Twewy" == "Fishcakes") {
+slapped478461 = slapped478461 + 100;
+document.getElementById('slapcounter478461').innerHTML = "I have slapped Twewy " + slapped478461 + " times";
+}
+else {
+// alert("You slapped Twewy");
+if (slapped478461 > 0) {
+document.getElementById('slapcounter478461').innerHTML = "I have slapped Twewy " + slapped478461 + " times";
+slapped478461 ++;
+}
+else {
+slapped478461 ++;
+document.getElementById('slapcounter478461').innerHTML = "I have slapped Twewy"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap478461()" value="Slap"><br>
+<div id="slapcounter478461"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">Trap Wolf wrote:</div><div class="quotecontent">Oh well. At least they are there even if not in BBC code form. c:</div><br>British Broadcasting Channel?</div>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p478463"></a>				<b class="postauthor">Trap Wolf</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules...mostly lol</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Mon Dec 28, 2009 11:51 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Zanta's Little Helper</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0010_Rank%205%20.jpg" alt="Zanta's Little Helper" title="Zanta's Little Helper"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/1276.png" width="90" height="120" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=478463"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.omg%20i%20hate%20you%20all.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=msnm&amp;u=1276"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.icq.com/people/webmsg.php?to=657345624565245"><img src="forums_files/icon_contact_icq.gif" alt="ICQ" title="ICQ"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://edit.yahoo.com/config/send_webmesg?.target=Notarealemail%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=aim&amp;u=1276"><img src="forums_files/icon_contact_aim.gif" alt="AIM" title="AIM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=jabber&amp;u=1276"><img src="forums_files/icon_contact_jabber.gif" alt="Jabber" title="Jabber"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=1276"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Oct 17, 2008 7:29 pm<br><b>Posts:</b> 5447<br><b>Location:</b> Omg I hate you all.				</span>
+
+<script type="text/javascript">
+var slapped478463 = 0;
+function slap478463()
+{
+if ("Trap Wolf" == "Simsarmy") {
+document.getElementById('slapcounter478463').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Trap Wolf" == "Edd") {
+document.getElementById('slapcounter478463').innerHTML = "I cannot slap Edd!";
+}
+else if ("Trap Wolf" == "Fishcakes") {
+slapped478463 = slapped478463 + 100;
+document.getElementById('slapcounter478463').innerHTML = "I have slapped Trap Wolf " + slapped478463 + " times";
+}
+else {
+// alert("You slapped Trap Wolf");
+if (slapped478463 > 0) {
+document.getElementById('slapcounter478463').innerHTML = "I have slapped Trap Wolf " + slapped478463 + " times";
+slapped478463 ++;
+}
+else {
+slapped478463 ++;
+document.getElementById('slapcounter478463').innerHTML = "I have slapped Trap Wolf"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap478463()" value="Slap"><br>
+<div id="slapcounter478463"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">BBCode! D:&lt;</div>											<span class="postbody"><br>_________________<br><div align="center">Omg I hate you all.<br><img src="forums_files/TrapWolfSigniture.jpg" alt="Image"><br><span style="font-size: 150%; line-height: normal"><a href="https://web.archive.org/web/20100528014714/http://www.facebook.com/profile.php?ref=name&amp;id=100000366336051#/profile.php?v=info&amp;ref=profile&amp;id=100000123001021" class="postlink">Facebook</a> | <a href="https://web.archive.org/web/20100528014714/http://www.youtube.com/user/ArcanaLightHalfLycan" class="postlink">Youtube</a> | <a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/viewtopic.php?f=4&amp;t=5497" class="postlink">POP IS CAMP</a></span> | <a href="https://web.archive.org/web/20100528014714/http://eddsworld.wikia.com/wiki/Eddsworld_Wiki" class="postlink"><span style="font-size: 150%; line-height: normal">Eddsworld Wikia</span></a><br><a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/viewtopic.php?f=30&amp;t=5491" class="postlink"><span style="font-size: 200%; line-height: normal">Eddsworld Higurashi (restart)</span></a></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p478793"></a>				<b class="postauthor">Kevincool</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules...mostly lol</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Tue Dec 29, 2009 9:37 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Hilary's Bootcamp</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0007_Rank%201%20.jpg" alt="Hilary's Bootcamp" title="Hilary's Bootcamp"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/g2.gif" width="100" height="100" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=478793"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=10612"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Sat Dec 26, 2009 2:19 am<br><b>Posts:</b> 0				</span>
+
+<script type="text/javascript">
+var slapped478793 = 0;
+function slap478793()
+{
+if ("Kevincool" == "Simsarmy") {
+document.getElementById('slapcounter478793').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Kevincool" == "Edd") {
+document.getElementById('slapcounter478793').innerHTML = "I cannot slap Edd!";
+}
+else if ("Kevincool" == "Fishcakes") {
+slapped478793 = slapped478793 + 100;
+document.getElementById('slapcounter478793').innerHTML = "I have slapped Kevincool " + slapped478793 + " times";
+}
+else {
+// alert("You slapped Kevincool");
+if (slapped478793 > 0) {
+document.getElementById('slapcounter478793').innerHTML = "I have slapped Kevincool " + slapped478793 + " times";
+slapped478793 ++;
+}
+else {
+slapped478793 ++;
+document.getElementById('slapcounter478793').innerHTML = "I have slapped Kevincool"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap478793()" value="Slap"><br>
+<div id="slapcounter478793"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">what do you mean by mostly lol</div>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p479125"></a>				<b class="postauthor">scotty</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules...mostly lol</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Wed Dec 30, 2009 12:46 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Zanta's Little Helper</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0010_Rank%205%20.jpg" alt="Zanta's Little Helper" title="Zanta's Little Helper"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/265.jpg" width="99" height="100" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=479125"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.geocities.com/scotty83rd"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=msnm&amp;u=265"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://edit.yahoo.com/config/send_webmesg?.target=scotty83rd%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=265"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Wed Jul 09, 2008 9:26 pm<br><b>Posts:</b> 6080<br><b>Location:</b> england,wakefield				</span>
+
+<script type="text/javascript">
+var slapped479125 = 0;
+function slap479125()
+{
+if ("scotty" == "Simsarmy") {
+document.getElementById('slapcounter479125').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("scotty" == "Edd") {
+document.getElementById('slapcounter479125').innerHTML = "I cannot slap Edd!";
+}
+else if ("scotty" == "Fishcakes") {
+slapped479125 = slapped479125 + 100;
+document.getElementById('slapcounter479125').innerHTML = "I have slapped scotty " + slapped479125 + " times";
+}
+else {
+// alert("You slapped scotty");
+if (slapped479125 > 0) {
+document.getElementById('slapcounter479125').innerHTML = "I have slapped scotty " + slapped479125 + " times";
+slapped479125 ++;
+}
+else {
+slapped479125 ++;
+document.getElementById('slapcounter479125').innerHTML = "I have slapped scotty"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap479125()" value="Slap"><br>
+<div id="slapcounter479125"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">dam it, for a few days the forum was lawless and i could run freeeeee<br><br>but not now D: , anyways nice to see {at least some} of the rules back <img src="forums_files/9.gif" alt="xD" title="Laugh"></div>											<span class="postbody"><br>_________________<br>bit by bit the penguins steal my sanity<br><img src="forums_files/scottyfirmamf9.jpg" alt="Image"><br><img src="forums_files/ubd6005uo1.png" alt="Image"><br><a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4467" class="postlink">scotty comics</a><img src="forums_files/scotty599.png" alt="Image"><br><!-- m --><a class="postlink" href="https://web.archive.org/web/20100528014714/http://thegamingsite.ueuo.com/forum/">http://thegamingsite.ueuo.com/forum/</a><!-- m --> <img src="forums_files/22.gif" alt="&lt;--" title="Arrow &lt;">-join please? :)</span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p481958"></a>				<b class="postauthor">CoolEdd</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules...mostly lol</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Fri Jan 08, 2010 5:51 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>I'm a Mongoose in a monster truck</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0008_Rank%203%20.jpg" alt="I'm a Mongoose in a monster truck" title="I'm a Mongoose in a monster truck"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/8403.gif" width="100" height="100" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=481958"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=msnm&amp;u=8403"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=8403"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Tue Nov 03, 2009 10:30 pm<br><b>Posts:</b> 817<br><b>Location:</b> At the underworld hotel with a awsome room				</span>
+
+<script type="text/javascript">
+var slapped481958 = 0;
+function slap481958()
+{
+if ("CoolEdd" == "Simsarmy") {
+document.getElementById('slapcounter481958').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("CoolEdd" == "Edd") {
+document.getElementById('slapcounter481958').innerHTML = "I cannot slap Edd!";
+}
+else if ("CoolEdd" == "Fishcakes") {
+slapped481958 = slapped481958 + 100;
+document.getElementById('slapcounter481958').innerHTML = "I have slapped CoolEdd " + slapped481958 + " times";
+}
+else {
+// alert("You slapped CoolEdd");
+if (slapped481958 > 0) {
+document.getElementById('slapcounter481958').innerHTML = "I have slapped CoolEdd " + slapped481958 + " times";
+slapped481958 ++;
+}
+else {
+slapped481958 ++;
+document.getElementById('slapcounter481958').innerHTML = "I have slapped CoolEdd"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap481958()" value="Slap"><br>
+<div id="slapcounter481958"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">Kevincool wrote:</div><div class="quotecontent">what do you mean by mostly lol</div><br>Well
+ if your new to eddsworld there was an error on the forum. so as a 
+result the forum was wiped clean of all topics,rules and other stuff 
+luckily it didn't wiped out the groups,subjects and the ranks for each 
+member.</div>											<span class="postbody"><br>_________________<br><img src="forums_files/CoolEdd2-1.png" alt="Image"><br><img src="forums_files/CoolEdd3-1.png" alt="Image"><a href="https://web.archive.org/web/20100528014714/http://internetometer.com/give/8483" class="postlink"><img src="forums_files/8483.png" alt="Image"></a><br><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=18779175&amp;style=metal&amp;p=0"></ruffle-object><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=18730491&amp;style=metal&amp;p=0"></ruffle-object><br><span style="font-size: 150%; line-height: normal">Links</span><br><span style="font-size: 85%; line-height: normal"><a href="https://web.archive.org/web/20100528014714/http://www.youtube.com/user/haloremix1" class="postlink">Youtube</a> <a href="https://web.archive.org/web/20100528014714/http://www.bitstrips.com/user/87406/" class="postlink">Bitstrips</a></span><br><span style="font-size: 50%; line-height: normal">Hayleey Royal Slave</span></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p484265"></a>				<b class="postauthor" style="color: #0066FF">Jay</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules...mostly lol</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Jan 14, 2010 12:31 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Part Man, Part Machine, All Cop.</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0022_Administrator%20.jpg" alt="Part Man, Part Machine, All Cop." title="Part Man, Part Machine, All Cop."></center></td>				</tr>							<tr>					<td><center><img src="forums_files/4055.jpg" width="100" height="100" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=484265"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=msnm&amp;u=4055"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=4055"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Wed May 06, 2009 3:07 pm<br><b>Posts:</b> 822<br><b>Location:</b> Frozen Citadel to the North				</span>
+
+<script type="text/javascript">
+var slapped484265 = 0;
+function slap484265()
+{
+if ("Jay" == "Simsarmy") {
+document.getElementById('slapcounter484265').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Jay" == "Edd") {
+document.getElementById('slapcounter484265').innerHTML = "I cannot slap Edd!";
+}
+else if ("Jay" == "Fishcakes") {
+slapped484265 = slapped484265 + 100;
+document.getElementById('slapcounter484265').innerHTML = "I have slapped Jay " + slapped484265 + " times";
+}
+else {
+// alert("You slapped Jay");
+if (slapped484265 > 0) {
+document.getElementById('slapcounter484265').innerHTML = "I have slapped Jay " + slapped484265 + " times";
+slapped484265 ++;
+}
+else {
+slapped484265 ++;
+document.getElementById('slapcounter484265').innerHTML = "I have slapped Jay"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap484265()" value="Slap"><br>
+<div id="slapcounter484265"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">I made several alterations to your post, Megan, just to make the post more organized and prettier in case someone gets lost.</div>											<span class="postbody"><br>_________________<br><a href="https://web.archive.org/web/20100528014714/http://internetometer.com/give/6926" class="postlink"><img src="forums_files/6926.png" alt="Image"></a><br><br><a href="https://web.archive.org/web/20100528014714/http://ps3trophycard.com/profile/ForsakenShadow" class="postlink"><img src="forums_files/card5.png" alt="Image"></a></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p484268"></a>				<b class="postauthor" style="color: #00FF00">Lovelyfairy27</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Jan 14, 2010 12:42 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Cutie Pie</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0019_Moderator%20.jpg" alt="Cutie Pie" title="Cutie Pie"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/346.png" width="119" height="99" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=484268"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=346"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Jul 11, 2008 4:02 pm<br><b>Posts:</b> 12435<br><b>Location:</b> IN CANADIA				</span>
+
+<script type="text/javascript">
+var slapped484268 = 0;
+function slap484268()
+{
+if ("Lovelyfairy27" == "Simsarmy") {
+document.getElementById('slapcounter484268').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Lovelyfairy27" == "Edd") {
+document.getElementById('slapcounter484268').innerHTML = "I cannot slap Edd!";
+}
+else if ("Lovelyfairy27" == "Fishcakes") {
+slapped484268 = slapped484268 + 100;
+document.getElementById('slapcounter484268').innerHTML = "I have slapped Lovelyfairy27 " + slapped484268 + " times";
+}
+else {
+// alert("You slapped Lovelyfairy27");
+if (slapped484268 > 0) {
+document.getElementById('slapcounter484268').innerHTML = "I have slapped Lovelyfairy27 " + slapped484268 + " times";
+slapped484268 ++;
+}
+else {
+slapped484268 ++;
+document.getElementById('slapcounter484268').innerHTML = "I have slapped Lovelyfairy27"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap484268()" value="Slap"><br>
+<div id="slapcounter484268"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">&gt;:P its not prettier</div>											<span class="postbody"><br>_________________<br><div class="quotetitle"><b>Quote:</b></div><div class="quotecontent">Megan's Zac: oh whoops I dropped my pen..<br>Megan's Zac: oh man, I can't get it..I hope no one who thinks I have a hot butt is looking</div><br><img src="forums_files/f_vee6p8os53km_a27402f.png" alt="Image"></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p484270"></a>				<b class="postauthor">New999</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Jan 14, 2010 12:44 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>I'm a Mongoose in a monster truck</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0008_Rank%203%20.jpg" alt="I'm a Mongoose in a monster truck" title="I'm a Mongoose in a monster truck"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/3219.gif" width="60" height="60" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=484270"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=msnm&amp;u=3219"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=3219"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Sat Mar 28, 2009 4:08 pm<br><b>Posts:</b> 892<br><b>Location:</b> On The Moon!				</span>
+
+<script type="text/javascript">
+var slapped484270 = 0;
+function slap484270()
+{
+if ("New999" == "Simsarmy") {
+document.getElementById('slapcounter484270').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("New999" == "Edd") {
+document.getElementById('slapcounter484270').innerHTML = "I cannot slap Edd!";
+}
+else if ("New999" == "Fishcakes") {
+slapped484270 = slapped484270 + 100;
+document.getElementById('slapcounter484270').innerHTML = "I have slapped New999 " + slapped484270 + " times";
+}
+else {
+// alert("You slapped New999");
+if (slapped484270 > 0) {
+document.getElementById('slapcounter484270').innerHTML = "I have slapped New999 " + slapped484270 + " times";
+slapped484270 ++;
+}
+else {
+slapped484270 ++;
+document.getElementById('slapcounter484270').innerHTML = "I have slapped New999"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap484270()" value="Slap"><br>
+<div id="slapcounter484270"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">Lovelyfairy27 wrote:</div><div class="quotecontent">And Remember, you can only make a topic if you have over 50 posts.</div><br>Sadly, that rule has been broken so many times, it seems its not working <img src="forums_files/4.gif" alt=":(" title="Frown">.<br>Mostly because alot of those people dont have the time to read the rules before they do so.<br><br>But yay for some of the rules staying here!<br>I though the forums was going to be chaotic without some of these.</div>											<span class="postbody"><br>_________________<br><img src="forums_files/animatedsig.gif" alt="Image"><br>Click here if you like coke: <a href="https://web.archive.org/web/20100528014714/http://internetometer.com/give/8553" class="postlink"><img src="forums_files/8553.png" alt="Image"></a><br><div align="center"><div class="quotetitle">TWO wrote:</div><div class="quotecontent">The cake is a lie.</div></div><br><div align="center">Epic...</div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p484275"></a>				<b class="postauthor">Trap Wolf</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Jan 14, 2010 1:04 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Zanta's Little Helper</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0010_Rank%205%20.jpg" alt="Zanta's Little Helper" title="Zanta's Little Helper"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/1276.png" width="90" height="120" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=484275"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.omg%20i%20hate%20you%20all.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=msnm&amp;u=1276"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.icq.com/people/webmsg.php?to=657345624565245"><img src="forums_files/icon_contact_icq.gif" alt="ICQ" title="ICQ"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://edit.yahoo.com/config/send_webmesg?.target=Notarealemail%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=aim&amp;u=1276"><img src="forums_files/icon_contact_aim.gif" alt="AIM" title="AIM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=jabber&amp;u=1276"><img src="forums_files/icon_contact_jabber.gif" alt="Jabber" title="Jabber"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=1276"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Oct 17, 2008 7:29 pm<br><b>Posts:</b> 5447<br><b>Location:</b> Omg I hate you all.				</span>
+
+<script type="text/javascript">
+var slapped484275 = 0;
+function slap484275()
+{
+if ("Trap Wolf" == "Simsarmy") {
+document.getElementById('slapcounter484275').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Trap Wolf" == "Edd") {
+document.getElementById('slapcounter484275').innerHTML = "I cannot slap Edd!";
+}
+else if ("Trap Wolf" == "Fishcakes") {
+slapped484275 = slapped484275 + 100;
+document.getElementById('slapcounter484275').innerHTML = "I have slapped Trap Wolf " + slapped484275 + " times";
+}
+else {
+// alert("You slapped Trap Wolf");
+if (slapped484275 > 0) {
+document.getElementById('slapcounter484275').innerHTML = "I have slapped Trap Wolf " + slapped484275 + " times";
+slapped484275 ++;
+}
+else {
+slapped484275 ++;
+document.getElementById('slapcounter484275').innerHTML = "I have slapped Trap Wolf"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap484275()" value="Slap"><br>
+<div id="slapcounter484275"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">Lovelyfairy27 wrote:</div><div class="quotecontent">&gt;:P its not prettier</div><br>I think it's <span style="font-weight: bold">very</span> pretty...<br><br>...Er. &lt;.&lt;</div>											<span class="postbody"><br>_________________<br><div align="center">Omg I hate you all.<br><img src="forums_files/TrapWolfSigniture.jpg" alt="Image"><br><span style="font-size: 150%; line-height: normal"><a href="https://web.archive.org/web/20100528014714/http://www.facebook.com/profile.php?ref=name&amp;id=100000366336051#/profile.php?v=info&amp;ref=profile&amp;id=100000123001021" class="postlink">Facebook</a> | <a href="https://web.archive.org/web/20100528014714/http://www.youtube.com/user/ArcanaLightHalfLycan" class="postlink">Youtube</a> | <a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/viewtopic.php?f=4&amp;t=5497" class="postlink">POP IS CAMP</a></span> | <a href="https://web.archive.org/web/20100528014714/http://eddsworld.wikia.com/wiki/Eddsworld_Wiki" class="postlink"><span style="font-size: 150%; line-height: normal">Eddsworld Wikia</span></a><br><a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/viewtopic.php?f=30&amp;t=5491" class="postlink"><span style="font-size: 200%; line-height: normal">Eddsworld Higurashi (restart)</span></a></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p484455"></a>				<b class="postauthor">tord is awsome</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Jan 14, 2010 9:56 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Bacon Lover</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0007_Rank%201%20.jpg" alt="Bacon Lover" title="Bacon Lover"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/mmfn87.jpg" width="120" height="90" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=484455"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=10032"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Sat Dec 12, 2009 6:07 pm<br><b>Posts:</b> 26<br><b>Location:</b> non of your beez wax,and if you dare touch that slap button...				</span>
+
+<script type="text/javascript">
+var slapped484455 = 0;
+function slap484455()
+{
+if ("tord is awsome" == "Simsarmy") {
+document.getElementById('slapcounter484455').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("tord is awsome" == "Edd") {
+document.getElementById('slapcounter484455').innerHTML = "I cannot slap Edd!";
+}
+else if ("tord is awsome" == "Fishcakes") {
+slapped484455 = slapped484455 + 100;
+document.getElementById('slapcounter484455').innerHTML = "I have slapped tord is awsome " + slapped484455 + " times";
+}
+else {
+// alert("You slapped tord is awsome");
+if (slapped484455 > 0) {
+document.getElementById('slapcounter484455').innerHTML = "I have slapped tord is awsome " + slapped484455 + " times";
+slapped484455 ++;
+}
+else {
+slapped484455 ++;
+document.getElementById('slapcounter484455').innerHTML = "I have slapped tord is awsome"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap484455()" value="Slap"><br>
+<div id="slapcounter484455"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">i do not like the no under 50 post rule <img src="forums_files/smile0011.jpg" alt=":Angry:" title="Angry"><br><br>by the way is that a new avatar,trap</div>											<span class="postbody"><br>_________________<br><span style="font-size: 150%; line-height: normal">Level Up</span><br><a href="https://web.archive.org/web/20100528014714/http://www.fugly.com/media/flashdir/Game/Scary_Maze_Game.swf" class="postlink">http://www.fugly.com/media/flashdir/Game/Scary_Maze_Game.swf</a><img src="forums_files/Money-300x300.jpg" alt="Image"></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p484457"></a>				<b class="postauthor">Trap Wolf</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Thu Jan 14, 2010 9:58 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Zanta's Little Helper</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0010_Rank%205%20.jpg" alt="Zanta's Little Helper" title="Zanta's Little Helper"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/1276.png" width="90" height="120" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=484457"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.omg%20i%20hate%20you%20all.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=msnm&amp;u=1276"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.icq.com/people/webmsg.php?to=657345624565245"><img src="forums_files/icon_contact_icq.gif" alt="ICQ" title="ICQ"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://edit.yahoo.com/config/send_webmesg?.target=Notarealemail%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=aim&amp;u=1276"><img src="forums_files/icon_contact_aim.gif" alt="AIM" title="AIM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=jabber&amp;u=1276"><img src="forums_files/icon_contact_jabber.gif" alt="Jabber" title="Jabber"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=1276"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Oct 17, 2008 7:29 pm<br><b>Posts:</b> 5447<br><b>Location:</b> Omg I hate you all.				</span>
+
+<script type="text/javascript">
+var slapped484457 = 0;
+function slap484457()
+{
+if ("Trap Wolf" == "Simsarmy") {
+document.getElementById('slapcounter484457').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Trap Wolf" == "Edd") {
+document.getElementById('slapcounter484457').innerHTML = "I cannot slap Edd!";
+}
+else if ("Trap Wolf" == "Fishcakes") {
+slapped484457 = slapped484457 + 100;
+document.getElementById('slapcounter484457').innerHTML = "I have slapped Trap Wolf " + slapped484457 + " times";
+}
+else {
+// alert("You slapped Trap Wolf");
+if (slapped484457 > 0) {
+document.getElementById('slapcounter484457').innerHTML = "I have slapped Trap Wolf " + slapped484457 + " times";
+slapped484457 ++;
+}
+else {
+slapped484457 ++;
+document.getElementById('slapcounter484457').innerHTML = "I have slapped Trap Wolf"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap484457()" value="Slap"><br>
+<div id="slapcounter484457"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">It's
+ to prevent spam and advertising. But when Simsy comes back he'll be 
+able to prevent people with under 50 posts from making topics.<br><br>Yes it's a new avatar.<br>No you can not make double posts. The edit button is your friend. &lt;3</div>											<span class="postbody"><br>_________________<br><div align="center">Omg I hate you all.<br><img src="forums_files/TrapWolfSigniture.jpg" alt="Image"><br><span style="font-size: 150%; line-height: normal"><a href="https://web.archive.org/web/20100528014714/http://www.facebook.com/profile.php?ref=name&amp;id=100000366336051#/profile.php?v=info&amp;ref=profile&amp;id=100000123001021" class="postlink">Facebook</a> | <a href="https://web.archive.org/web/20100528014714/http://www.youtube.com/user/ArcanaLightHalfLycan" class="postlink">Youtube</a> | <a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/viewtopic.php?f=4&amp;t=5497" class="postlink">POP IS CAMP</a></span> | <a href="https://web.archive.org/web/20100528014714/http://eddsworld.wikia.com/wiki/Eddsworld_Wiki" class="postlink"><span style="font-size: 150%; line-height: normal">Eddsworld Wikia</span></a><br><a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/forums/viewtopic.php?f=30&amp;t=5491" class="postlink"><span style="font-size: 200%; line-height: normal">Eddsworld Higurashi (restart)</span></a></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p484497"></a>				<b class="postauthor">tord is awsome</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Fri Jan 15, 2010 12:55 am&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Bacon Lover</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0007_Rank%201%20.jpg" alt="Bacon Lover" title="Bacon Lover"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/mmfn87.jpg" width="120" height="90" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=484497"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=10032"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Sat Dec 12, 2009 6:07 pm<br><b>Posts:</b> 26<br><b>Location:</b> non of your beez wax,and if you dare touch that slap button...				</span>
+
+<script type="text/javascript">
+var slapped484497 = 0;
+function slap484497()
+{
+if ("tord is awsome" == "Simsarmy") {
+document.getElementById('slapcounter484497').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("tord is awsome" == "Edd") {
+document.getElementById('slapcounter484497').innerHTML = "I cannot slap Edd!";
+}
+else if ("tord is awsome" == "Fishcakes") {
+slapped484497 = slapped484497 + 100;
+document.getElementById('slapcounter484497').innerHTML = "I have slapped tord is awsome " + slapped484497 + " times";
+}
+else {
+// alert("You slapped tord is awsome");
+if (slapped484497 > 0) {
+document.getElementById('slapcounter484497').innerHTML = "I have slapped tord is awsome " + slapped484497 + " times";
+slapped484497 ++;
+}
+else {
+slapped484497 ++;
+document.getElementById('slapcounter484497').innerHTML = "I have slapped tord is awsome"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap484497()" value="Slap"><br>
+<div id="slapcounter484497"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">didnt realize the double post thing oops. <img src="forums_files/smile0006.jpg" alt=":Shocked:" title="Shocked"></div>											<span class="postbody"><br>_________________<br><span style="font-size: 150%; line-height: normal">Level Up</span><br><a href="https://web.archive.org/web/20100528014714/http://www.fugly.com/media/flashdir/Game/Scary_Maze_Game.swf" class="postlink">http://www.fugly.com/media/flashdir/Game/Scary_Maze_Game.swf</a><img src="forums_files/Money-300x300.jpg" alt="Image"></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p484754"></a>				<b class="postauthor">phoenix07</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Fri Jan 15, 2010 7:25 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Smeg Head</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0007_Rank%201%20.jpg" alt="Smeg Head" title="Smeg Head"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/10736.gif" width="59" height="59" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=484754"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://s887.photobucket.com/home/dexb07"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=10736"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Tue Jan 12, 2010 7:43 pm<br><b>Posts:</b> 7<br><b>Location:</b> Canada eh?				</span>
+
+<script type="text/javascript">
+var slapped484754 = 0;
+function slap484754()
+{
+if ("phoenix07" == "Simsarmy") {
+document.getElementById('slapcounter484754').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("phoenix07" == "Edd") {
+document.getElementById('slapcounter484754').innerHTML = "I cannot slap Edd!";
+}
+else if ("phoenix07" == "Fishcakes") {
+slapped484754 = slapped484754 + 100;
+document.getElementById('slapcounter484754').innerHTML = "I have slapped phoenix07 " + slapped484754 + " times";
+}
+else {
+// alert("You slapped phoenix07");
+if (slapped484754 > 0) {
+document.getElementById('slapcounter484754').innerHTML = "I have slapped phoenix07 " + slapped484754 + " times";
+slapped484754 ++;
+}
+else {
+slapped484754 ++;
+document.getElementById('slapcounter484754').innerHTML = "I have slapped phoenix07"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap484754()" value="Slap"><br>
+<div id="slapcounter484754"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">I'm
+ sorry if I broke any rules, I'm new to forums, i barely pay attention 
+to them, so i never knew that there were rules. Now i know and will read
+ the rules from now on.  <img src="forums_files/smile0013.jpg" alt=":Crying:" title="Crying">  <img src="forums_files/smile0005.jpg" alt=":Sad:" title="Sad"></div>											<span class="postbody"><br>_________________<br><span style="color: #FF0000"><span style="font-size: 200%; line-height: normal">WHY R U READING THIS SIGNATURE? UR WASTING UR TIME!!</span></span><br><img src="forums_files/woman-yelling-istock-de.jpg" alt="Image"></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p485191"></a>				<b class="postauthor">pivotmasteruk</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sun Jan 17, 2010 12:10 am&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Hilary's Bootcamp</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0007_Rank%201%20.jpg" alt="Hilary's Bootcamp" title="Hilary's Bootcamp"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/10772.gif" width="47" height="47" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=485191"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://www.youtube.com/user/pivotmasterUK"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=contact&amp;action=msnm&amp;u=10772"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=10772"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Sun Jan 17, 2010 12:02 am<br><b>Posts:</b> 0<br><b>Location:</b> uk, manchester, altrincham				</span>
+
+<script type="text/javascript">
+var slapped485191 = 0;
+function slap485191()
+{
+if ("pivotmasteruk" == "Simsarmy") {
+document.getElementById('slapcounter485191').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("pivotmasteruk" == "Edd") {
+document.getElementById('slapcounter485191').innerHTML = "I cannot slap Edd!";
+}
+else if ("pivotmasteruk" == "Fishcakes") {
+slapped485191 = slapped485191 + 100;
+document.getElementById('slapcounter485191').innerHTML = "I have slapped pivotmasteruk " + slapped485191 + " times";
+}
+else {
+// alert("You slapped pivotmasteruk");
+if (slapped485191 > 0) {
+document.getElementById('slapcounter485191').innerHTML = "I have slapped pivotmasteruk " + slapped485191 + " times";
+slapped485191 ++;
+}
+else {
+slapped485191 ++;
+document.getElementById('slapcounter485191').innerHTML = "I have slapped pivotmasteruk"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap485191()" value="Slap"><br>
+<div id="slapcounter485191"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">can you post links to your youtube channel for ppl to look at??? just wondering</div>											<span class="postbody"><br>_________________<br>CAN U HEAR ME<br><img src="forums_files/y6g2e8c5.gif" alt="Image"></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p485368"></a>				<b class="postauthor">Briggsy</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sun Jan 17, 2010 2:22 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Smeg Head</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0007_Rank%201%20.jpg" alt="Smeg Head" title="Smeg Head"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/10742.jpg" width="120" height="120" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=485368"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=10742"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Wed Jan 13, 2010 5:44 pm<br><b>Posts:</b> 24				</span>
+
+<script type="text/javascript">
+var slapped485368 = 0;
+function slap485368()
+{
+if ("Briggsy" == "Simsarmy") {
+document.getElementById('slapcounter485368').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Briggsy" == "Edd") {
+document.getElementById('slapcounter485368').innerHTML = "I cannot slap Edd!";
+}
+else if ("Briggsy" == "Fishcakes") {
+slapped485368 = slapped485368 + 100;
+document.getElementById('slapcounter485368').innerHTML = "I have slapped Briggsy " + slapped485368 + " times";
+}
+else {
+// alert("You slapped Briggsy");
+if (slapped485368 > 0) {
+document.getElementById('slapcounter485368').innerHTML = "I have slapped Briggsy " + slapped485368 + " times";
+slapped485368 ++;
+}
+else {
+slapped485368 ++;
+document.getElementById('slapcounter485368').innerHTML = "I have slapped Briggsy"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap485368()" value="Slap"><br>
+<div id="slapcounter485368"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">i missed the one right at the bottom ='( sorry eddsworld  <img src="forums_files/smile0013.jpg" alt=":Crying:" title="Crying"></div>											<span class="postbody"><br>_________________<br>Inspired by Eddsworld... obviously nowhere near as good... and nowhere near finished but I don't care XD<br><br><!-- m --><a class="postlink" href="https://web.archive.org/web/20100528014714/http://www.youtube.com/watch?v=2EYZqiL4w2s">http://www.youtube.com/watch?v=2EYZqiL4w2s</a><!-- m --></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p485375"></a>				<b class="postauthor">Briggsy</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: The Rules</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sun Jan 17, 2010 2:37 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<center></center><table cellspacing="4" align="center" width="150">						<tbody><tr>					<td><center><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></center></td>				</tr>							<tr>					<td class="postdetails"><center>Smeg Head</center></td>				</tr>							<tr>					<td><center><img src="forums_files/Forum%20Ranks%20-%20_0007_Rank%201%20.jpg" alt="Smeg Head" title="Smeg Head"></center></td>				</tr>							<tr>					<td><center><img src="forums_files/10742.jpg" width="120" height="120" alt="User avatar"></center></td>				</tr>			
+<tr><td><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=485375"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/memberlist.php?mode=viewprofile&amp;u=10742"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Wed Jan 13, 2010 5:44 pm<br><b>Posts:</b> 24				</span>
+
+<script type="text/javascript">
+var slapped485375 = 0;
+function slap485375()
+{
+if ("Briggsy" == "Simsarmy") {
+document.getElementById('slapcounter485375').innerHTML = "I cannot slap Simsarmy!";
+}
+else if ("Briggsy" == "Edd") {
+document.getElementById('slapcounter485375').innerHTML = "I cannot slap Edd!";
+}
+else if ("Briggsy" == "Fishcakes") {
+slapped485375 = slapped485375 + 100;
+document.getElementById('slapcounter485375').innerHTML = "I have slapped Briggsy " + slapped485375 + " times";
+}
+else {
+// alert("You slapped Briggsy");
+if (slapped485375 > 0) {
+document.getElementById('slapcounter485375').innerHTML = "I have slapped Briggsy " + slapped485375 + " times";
+slapped485375 ++;
+}
+else {
+slapped485375 ++;
+document.getElementById('slapcounter485375').innerHTML = "I have slapped Briggsy"; } } }
+</script>
+
+<br><br><br>
+
+<center><input type="button" onclick="slap485375()" value="Slap"><br>
+<div id="slapcounter485375"></div></center>
+
+	</td>			<td valign="top">			<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">are
+ members with under 50 posts aloud to make a new topic in the Fan Stuff 
+board? and sorry ive double posted but I dont know how to edit posts, if
+ you can edit posts ?=/</div>											<span class="postbody"><br>_________________<br>Inspired by Eddsworld... obviously nowhere near as good... and nowhere near finished but I don't care XD<br><br><!-- m --><a class="postlink" href="https://web.archive.org/web/20100528014714/http://www.youtube.com/watch?v=2EYZqiL4w2s">http://www.youtube.com/watch?v=2EYZqiL4w2s</a><!-- m --></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table width="100%" cellspacing="1" class="tablebg">	<tbody><tr align="center">		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=10&amp;t=5187&amp;start=0"><span class="gensmall">Display posts from previous:</span> <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select>&nbsp;<span class="gensmall">Sort by</span> <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select>&nbsp;<input class="btnlite" type="submit" value="Go" name="sort"></form></td>	</tr>	</tbody></table>	<table width="100%" cellspacing="1">	<tbody><tr>		<td align="left" valign="middle" nowrap="nowrap">				</td>					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> of <strong>1</strong><br></td>			<td class="gensmall" nowrap="nowrap">&nbsp;[ 21 posts ]&nbsp;</td>			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>			</tr>	</tbody></table></div><div id="pagefooter"></div><br clear="all"><table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tbody><tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/index.php">Board index</a> » <a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/viewforum.php?f=19">Boring Important Things</a> » <a href="https://web.archive.org/web/20100528014714/http://eddsworld.co.uk:80/oldforums/viewforum.php?f=10">Forums Annoucements</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</tbody></table>
+	<br clear="all">	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr>		<td class="cat"><h4>Who is online</h4></td>	</tr>	<tr>		<td class="row1"><p class="gensmall">Users browsing this forum: <span style="color: #9E8DA7;" class="username-coloured">Alexa [Bot]</span> and 0 guests</p></td>	</tr>	</tbody></table><br clear="all"><table width="100%" cellspacing="1"><tbody><tr>	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">You <strong>cannot</strong> post new topics in this forum<br>You <strong>cannot</strong> reply to topics in this forum<br>You <strong>cannot</strong> edit your posts in this forum<br>You <strong>cannot</strong> delete your posts in this forum<br>You <strong>cannot</strong> post attachments in this forum<br></span></td></tr></tbody></table><br clear="all"><table width="100%" cellspacing="0"><tbody><tr>	<td></td>	<td align="right">
+	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tbody><tr>
+		<td nowrap="nowrap"><span class="gensmall">Jump to:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+		
+			<option value="-1">Select a forum</option>
+		<option value="-1">------------------</option>
+			<option value="19">Boring Important Things</option>
+		
+			<option value="8">&nbsp; &nbsp;Rules</option>
+		
+			<option value="32">&nbsp; &nbsp;Introduce Yourself</option>
+		
+			<option value="10" selected="selected">&nbsp; &nbsp;Forums Annoucements</option>
+		
+			<option value="27">&nbsp; &nbsp;&nbsp; &nbsp;Announcement Archive</option>
+		
+			<option value="21">The Main chunk</option>
+		
+			<option value="3">&nbsp; &nbsp;Blabberbox</option>
+		
+			<option value="7">&nbsp; &nbsp;Entertainment in a Jar</option>
+		
+			<option value="13">&nbsp; &nbsp;&nbsp; &nbsp;Forum Games</option>
+		
+			<option value="31">&nbsp; &nbsp;&nbsp; &nbsp;Roleplay</option>
+		
+			<option value="4">&nbsp; &nbsp;Animation Generation</option>
+		
+			<option value="5">&nbsp; &nbsp;&nbsp; &nbsp;Eddsworld Animations</option>
+		
+			<option value="17">&nbsp; &nbsp;Arty art</option>
+		
+			<option value="30">&nbsp; &nbsp;Writing Stuff</option>
+		
+			<option value="6">&nbsp; &nbsp;Fan Stuff</option>
+		
+			<option value="25">&nbsp; &nbsp;Contests</option>
+		
+			<option value="23">Where dead threads rest..</option>
+		
+			<option value="12">&nbsp; &nbsp;Goldmine</option>
+		
+			<option value="29">&nbsp; &nbsp;Simsarmy's Blunder</option>
+		
+
+		</select>&nbsp;<input class="btnlite" type="submit" value="Go"></td>
+	</tr>
+	</tbody></table>
+
+	</form>
+</td></tr></tbody></table><!--
+ _______  _______  _______  _______  _______ _________
+(  ____ \(  ____ \(  ____ \(  ____ )(  ____ \\__   __/
+| (    \/| (    \/| (    \/| (    )|| (    \/   ) (   
+| (_____ | (__    | |      | (____)|| (__       | |   
+(_____  )|  __)   | |      |     __)|  __)      | |   
+      ) || (      | |      | (\ (   | (         | |   
+/\____) || (____/\| (____/\| ) \ \__| (____/\   | |   
+\_______)(_______/(_______/|/   \__/(_______/   )_(
+
+-->
+
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	
+</div>
+<div align="right">
+	<span style="font-size: 10px">
+<a href="https://web.archive.org/web/20100528014714/http://www.eddsworld.co.uk/"><img src="forums_files/logofaded.png"></a>
+	</span>
+</div>
+<br>
+</td>
+<td class="page_right" width="1px"></td>
+</tr>
+<tr><td colspan="3" class="page_foot"></td></tr>
+</tbody></table>
+<script src="forums_files/kp.php"></script>
+
+
+
+</div></body></html>
+<!--
+     FILE ARCHIVED ON 01:47:14 May 28, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:39:20 Nov 29, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.676
+  exclusion.robots: 0.032
+  exclusion.robots.policy: 0.019
+  esindex: 0.011
+  cdx.remote: 6.308
+  LoadShardBlock: 52.083 (3)
+  PetaboxLoader3.datanode: 96.611 (4)
+  load_resource: 112.184
+  PetaboxLoader3.resolve: 45.649
+-->
