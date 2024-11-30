@@ -1,0 +1,2604 @@
+/* Layout
+ ------------ */
+* {
+	/* Reset browsers default margin, padding and font sizes */
+	margin: 0;
+	padding: 0;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+	font-size: 100%;
+        background:#0D5E1C url(greenbackground.gif);
+        background-repeat: repeat;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:link {color: LimeGreen; text-decoration: underline; }
+a:active {color: LimeGreen; text-decoration: underline; }
+a:visited {color: DarkOliveGreen; text-decoration: underline; }
+a:hover {color: DarkRed; text-decoration: none; }
+
+body {
+	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+ 	color: #000000;
+	background-color: #A8FF9E;
+	font-size: 62.5%; /* This sets the default font size to be equivalent to 10px */
+	margin: 15px 120px 15px 120px;
+        padding: 4px;
+        border-color: #FFFFFF;	
+        border-style: solid;
+
+
+}
+
+
+#wrapheader {
+	min-height: 193px;
+	height: auto !important;
+	height: 193px;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+#snow {
+background-image: url(https://web.archive.org/web/20100926194019im_/http://www.eddsworld.co.uk/forums/styles/xmas/theme/images/xmas.png);
+height: 100%;
+}
+
+
+
+
+#wrapcentre {
+	margin: 30px 30px 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#wrapfooter {
+	text-align: center;
+	clear: both;
+        padding: 0px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#wrapnav {
+        font-size: 70.5%;
+	width: 100%;
+	margin: 0;
+	background-color: #00FF00;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#logodesc {
+	margin-bottom: 0px;
+	padding: 25px 25px;
+        background url('/web/20100926194019im_/http://eddsworld.co.uk/oldforums/styles/EddsworldDefualt/theme/images/main-bg.jpg');
+        height: 85px;
+        min-width:400px;
+}
+*/
+
+#logodesc {
+	margin-bottom: 0px;
+        background: center no-repeat url(forumlogo.jpg);
+		background-color:#FFFFFF;
+        height: 100px;
+        min-width:400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menubar {
+        font-size: 1.3em;
+	margin: 0px 0px 0px 0px;
+        padding: 15px 10px;
+        border-width: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#datebar {
+        font-size: 1.0em;
+	margin: 0px 0px 0px 0px;
+        background: #FFFFFF;
+        padding: 0px 10px;
+        border-width: 0px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#findbar {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.forumrules {
+	background-color: #FFFFFF;
+	border-width: 0px;
+	padding: 4px;
+	font-weight: normal;
+	font-size: 1.1em;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.breadcrumbs{
+	color: #000000;
+	font-size: 0.8em;
+	font-weight: bold;
+	background-color: #FBFBFB;
+	padding: 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page_center{
+background: #FFFFFF;
+background-image: url(cellthing.png);
+background-repeat: repeat-x;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page_left{
+background: #012000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page_right{
+background: #013100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page_foot{
+background: #012000;
+height: 0px;
+}
+#pageheader { }
+#pagecontent { }
+#pagefooter { }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#poll { }
+#postrow { }
+#postdata { }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Text
+ --------------------- */
+.sub_title {
+	color: #FFFFFF;
+	font-family: Verdana, "Lucida Grande", "Trebuchet MS", sans-serif;
+	font-weight: normal;
+	font-size: 1.0em;
+	text-decoration: none;
+        margin: 0px 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+	color: #000000;
+	font-family: Verdana, "Lucida Grande", "Trebuchet MS", sans-serif;
+	font-weight: normal;
+	font-size: 2.5em;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-decoration: none;
+	line-height: 120%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 120%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h4 {
+	margin: 0;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+	font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.moderators {
+	margin: 0;
+	float: left;
+	color: #FCC263;
+	font-weight: bold;
+         font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rtl p.moderators {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.linkmcp {
+	margin: 0;
+	float: right;
+	white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rtl p.linkmcp {
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.breadcrumbs {
+	margin: 0;
+	float: left;
+	color: black;
+	font-weight: bold;
+	white-space: normal;
+	font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rtl p.breadcrumbs {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.datetime {
+	margin: 0;
+	float: right;
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rtl p.datetime {
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.searchbar {
+	padding: 2px 0;
+	white-space: nowrap;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.searchbarreg {
+	margin: 0;
+	float: right;
+	white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rtl p.searchbarreg {
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.forumdesc {
+	padding-bottom: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.topicauthor {
+	margin: 1px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.topicdetails {
+	margin: 1px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.postreported, .postreported a:visited, .postreported a:hover, .postreported a:link, .postreported a:active {
+	margin: 1px 0;
+	color: red;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.postapprove, .postapprove a:visited, .postapprove a:hover, .postapprove a:link, .postapprove a:active {
+	color: green;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.postapprove img, .postreported img {
+	vertical-align: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.postauthor {
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.postdetails {
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.postbody {
+	font-size: 1.3em;
+	line-height: 1.4em;
+	font-family: "Lucida Grande", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.postbody li, ol, ul {
+	margin: 0 0 0 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rtl .postbody li, .rtl ol, .rtl ul {
+	margin: 0 1.5em 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.posthilit {
+	background-color: #FEE4BA;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav {
+	margin: 0;
+	color: #333333;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination {
+	padding: 4px;
+	color: black;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cattitle {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gen {
+	margin: 1px 1px;
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.genmed {
+	margin: 1px 1px;
+	font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gensmall {
+	margin: 1px 1px;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright {
+	color: #000000;
+	font-weight: normal;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titles {
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.error {
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tables
+ ------------ */
+th {
+	color: #000000;
+	font-size: 1.1em;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	white-space: nowrap;
+	padding: 0px 0px;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+td {
+	padding: 0px;
+}
+td.profile {
+	padding: 0px;
+        background-color: #CCFFCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tablebg {
+	background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.catdiv {
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #FFFFFF;
+        background-image: url(cellthing.png);
+}
+.rtl .catdiv {
+	background-color: #FFFFFF;
+        background-image: url(cellthing.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cat {
+	height: 28px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #FFFFFF;
+	text-indent: 10px;
+        background-image: url(cellthing.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row1 {
+	background-color: #FBFBFB;
+	padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row2 {
+	background-color: #FBFBFB;
+	padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row3 {
+	background-color: #EEEEEE;
+	padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rowgood {
+	background-color: #F8FCE4;
+	padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rowneutral {
+	background-color: #F3F5ED;
+	padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rowbad {
+	background-color: #FBE0DB;
+	padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spacer {
+	background-color: #212121;
+        padding: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hr {
+	height: 1px;
+	border-width: 0;
+	color: #54684A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.legend {
+	text-align:center;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Links
+ ------------ */
+a:link {
+	color: #000540;
+	text-decoration: underline;
+         font-weight: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:active,
+a:visited {
+	color: #000540;
+	text-decoration: none;
+         font-weight: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:hover {
+	color: #66FF00;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a.forumlink {
+	color: #333333;
+	font-weight: bold;
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a.topictitle {
+	margin: 1px 0;
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a.topictitle:visited {
+	text-decoration:  none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+th a,
+th a:visited {
+	color: #000000 !important;
+	text-decoration: none;
+font-weight: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+th a:hover {
+	text-decoration: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Form Elements
+ ------------ */
+form {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input {
+	color: #000000;
+	font-family: "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	padding: 1px;
+	border: 1px solid #000000;
+	background-color: #CCFFCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+textarea {
+	background-color: #00FF00;
+	color: #000000;
+	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1.3em; 
+	line-height: 1.4em;
+	font-weight: normal;
+	border: 1px solid #000000;
+	padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+select {
+	color: #000000;
+	background-color: #CCFFCC;
+	font-family: "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	border: 0px solid #000000;
+	padding: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+option {
+	padding: 0 1em 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rtl option {
+	padding: 0 0 0 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input.radio {
+	border: none;
+	background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.post {
+	background-color: #CCFFCC;
+	border: 0px solid #FFFFFF;
+        color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnbbcode {
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 1.1em;
+	font-family: "Lucida Grande", Verdana, Helvetica, sans-serif;
+	background-color: #3F3F3F;
+	border: 1px solid #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnmain {
+        color: #000000;
+	font-weight: bold;
+	background-color: #CCFFCC;
+	border: 0px solid #000000;
+	cursor: pointer;
+	padding: 0px 0px;
+	font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnlite {
+        color: #000000;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: normal;
+	background-color: #CCFFCC;
+	border: 0px solid #000000;
+	cursor: pointer;
+	padding: 0px 0px;
+	font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnfile {
+        color: #000000;
+	font-weight: normal;
+	background-color: #FFFFFF;
+	border: 0px solid #000000;
+	padding: 0px 0px;
+	font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.helpline {
+	background-color: #F5F5F5;
+	border-style: none;
+        color: #000000;
+        padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BBCode
+ ------------ */
+.quotetitle, .attachtitle {
+	margin: 10px 5px 0 5px;
+	padding: 4px;
+	border-width: 0px 1px 0 1px;
+	border-style: solid;
+	border-color: #000000;
+	color: #CC0033;
+	background-image:url('/web/20100926194019im_/http://eddsworld.co.uk/oldforums/styles/EddsworldDefualt/theme/images/cellpic1.jpg');
+	background-repeat: repeat-x;
+        background-color: #000000;
+	font-size: 0.85em;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quotetitle .quotetitle {
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quotecontent, .attachcontent {
+	margin: 0 5px 10px 5px;
+	padding: 5px;
+	border-color: #000000;
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.4em;
+	font-family: "Lucida Grande", "Trebuchet MS", Helvetica, Arial, sans-serif;
+	background-color: #F2F2F2;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attachcontent {
+	font-size: 0.85em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.codetitle {
+	margin: 10px 5px 0 5px;
+	padding: 2px 4px;
+	border-width: 0px 1px 0 1px;
+	border-style: solid;
+	border-color: #000000;
+	color: #FFFFFF;
+        background-image:url('/web/20100926194019im_/http://eddsworld.co.uk/oldforums/styles/EddsworldDefualt/theme/images/cellpic1.jpg');
+	background-repeat: repeat-x;
+	background-color: #000000;
+	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.codecontent {
+	direction: ltr;
+	margin: 0 5px 10px 5px;
+	padding: 5px;
+	border-color: #FFFFFF;
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	font-weight: normal;
+	color: #000000;
+	font-size: 0.85em;
+	font-family: Monaco, 'Courier New', monospace;
+	background-color: #F2F2F2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.syntaxbg {
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.syntaxcomment {
+	color: #FF8000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.syntaxdefault {
+	color: #0000BB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.syntaxhtml {
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.syntaxkeyword {
+	color: #006633;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.syntaxstring {
+	color: #990000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Private messages
+ ------------------ */
+.pm_marked_colour {
+	background-color: #404040;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pm_replied_colour {
+	background-color: #BFB9B3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pm_friend_colour {
+	background-color: #006633;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pm_foe_colour {
+	background-color: #990000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Misc
+ ------------ */
+img {
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sep {
+	color: white;
+	background-color: #FFA34F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table.colortable td {
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pre {
+	font-size: 1.1em;
+	font-family: Monaco, 'Courier New', monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nowrap {
+	white-space: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.username-coloured {
+	font-weight: bold;
+}
+
+li.header dl.icon {
+&nbsp; &nbsp;height: 1%;
+}
+dl.icon {
+&nbsp; &nbsp;min-height: 46px;
+&nbsp; &nbsp;height: auto !important;
+&nbsp; &nbsp;height: 116px;
+}
+
+dl.icon {
+/*min-height: 35px;*/
+min-height: 46px;
+}
+
+
+
+
+
+
+/* EDIT BY SIMSARMY */
+#box {
+	padding:5px 5px 5px 5px;
+	width:75%;
+	background-color:#CCFFCC;
+	border:2px solid #246A02;
+	font:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+@import url("https://web.archive.org/web/20100926194019cs_/http://www.eddsworld.co.uk/forums/chat/css/shoutbox.css");
+/*
+     FILE ARCHIVED ON 19:40:19 Sep 26, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:24:49 Nov 25, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.858
+  exclusion.robots: 0.026
+  exclusion.robots.policy: 0.013
+  esindex: 0.016
+  cdx.remote: 8.083
+  LoadShardBlock: 108.805 (3)
+  PetaboxLoader3.datanode: 65.065 (4)
+  PetaboxLoader3.resolve: 114.212 (2)
+  load_resource: 106.994
+*/
