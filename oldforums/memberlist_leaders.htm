@@ -44,213 +44,7 @@
 
 <link rel="stylesheet" href="forums_files/stylesheet.css" type="text/css">
 
-<script type="text/javascript">
-// <![CDATA[
 
-
-function popup(url, width, height, name)
-      {
-       if (!name)
-       {
-          name = '_popup';
-       }
-
-       window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
-         return false;
-      }
-
-
-function jumpto()
-{
-	var page = prompt('Enter the page number you wish to go to:', '');
-	var perpage = '';
-	var base_url = '';
-
-	if (page !== null && !isNaN(page) && page > 0)
-	{
-		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
-	}
-}
-
-/**
-* Find a member
-*/
-function find_username()
-      {
-       popup(url, 760, 570, '_usersearch');
-         return false;
-      }
-
-/**
-* Mark/unmark checklist
-* id = ID of parent container, name = name prefix, state = state [true/false]
-*/
-function marklist(id, name, state)
-{
-	var parent = document.getElementById(id);
-	if (!parent)
-	{
-		eval('parent = document.' + id);
-	}
-
-	if (!parent)
-	{
-		return;
-	}
-
-	var rb = parent.getElementsByTagName('input');
-	
-	for (var r = 0; r < rb.length; r++)
-	{
-		if (rb[r].name.substr(0, name.length) == name)
-		{
-			rb[r].checked = state;
-		}
-	}
-}
-
-
-
-// ]]>
-</script>
-<script>
-
-var timer = null;
-var speed = 3; //1 is  slow
-var endTop = 0;
-var endLeft = 0;
-
-//******************************************************
-// Simple little function to get Elements as an object
-//******************************************************
-function getEl(id)
-{
-	var el = document.getElementById(id);
-	return el;
-}
-//******************************************************
-// Function to show Elements
-//******************************************************
-function showEl(id)
-{
-	getEl(id).style.display ="";
-}
-//******************************************************
-// Function to hide Elements
-//******************************************************
-function hideEl(id)
-{
-	getEl(id).style.display ="none";
-}
-
-//******************************************************
-// Function to move Element
-//******************************************************
-function moveEl(id)
-{
-	var popup = getEl(id);
-	var currentTop = parseInt(popup.offsetTop);
-	var currentLeft = parseInt(popup.offsetLeft);
-	
-	var keepMoving = false;
-	//Move
-	if (currentTop <= endTop)
-	{
-		popup.style.top = (currentTop + speed) + "px";
-		keepMoving = true;
-	}
-	if(currentLeft <= endLeft)
-	{	
-		popup.style.left = (currentLeft + speed) + "px";
-		keepMoving = true;
-	}
-	if (keepMoving)
-	{
-		startMove(id);
-	}
-	else
-	{
-		endMove();
-	}
-}
-//******************************************************
-// Function to start the move
-//******************************************************
-function startMove(id)
-{
-	timer = setTimeout("moveEl('"+id+"')", 1);
-}
-//******************************************************
-// Function to end the move
-//******************************************************
-function endMove()
-{
-	clearTimeout(timer);
-}
-
-</script>
-
-
-<script language="JavaScript">
-
-<!-- Begin
-var Temp2;
-var timerID = null;
-var timerRunning = false;
-function arry() {
-this.length = 12;
-this[0] = 31;
-this[1] = 28;
-this[2] = 31;
-this[3] = 30;
-this[4] = 31;
-this[5] = 30;
-this[6] = 31;
-this[7] = 31;
-this[8] = 30;
-this[9] = 31;
-this[10] = 30;
-this[11] = 31;
-}
-var date = new arry();
-
-function stopclock() {
-if(timerRunning)
-clearTimeout(timerID);
-timerRunning = false;
-}
-
-function startclock() {
-stopclock();
-showtime();
-}
-
-function showtime() {
-now = new Date();
-var CurMonth = now.getMonth();
-var CurDate = now.getDate();
-var CurYear = now.getFullYear();
-now = null;
-if (25 < CurDate) {
-CurDate -= date[CurMonth]; CurMonth++;
-}
-if (11 < CurMonth) {
-CurMonth -= 12; CurYear++;
-}
-
-var Yearleft = 2008 - CurYear;
-var Monthleft = 11 - CurMonth;
-var Dateleft = 25 - CurDate;
-
-document.dateform.a.value = Yearleft;
-document.dateform.b.value = Monthleft;
-document.dateform.c.value = Dateleft;
-
-timerID = setTimeout("showtime()",1000);
-timerRunning = true;
-}
-// End -->
-</script>
 
 
 <style>
@@ -405,6 +199,30 @@ __wm.bt(725,27,25,2,"web","http://www.eddsworld.co.uk/forums/memberlist.php?mode
 </tr>
 <tr class="row2">
 
+	<td class="gen" align="center"><strong><a href="https://web.archive.org/web/20100209182112/http://www.eddsworld.co.uk/forums/memberlist.php?mode=viewprofile&amp;u=108" style="color: #AA0000;" class="username-coloured">Tom from Eddsworld</a></strong></td>
+	<td class="gensmall" align="center">&nbsp;</td>
+	<td class="gensmall" align="center" nowrap="nowrap">&nbsp;
+		
+			<a style="font-weight: bold; color:#AA0000" href="https://web.archive.org/web/20100209182112/http://www.eddsworld.co.uk/forums/memberlist.php?mode=group&amp;g=5">Administrators</a>
+		
+	&nbsp;</td>
+	<td class="gen" align="center"><img src="forums_files/Forum%20Ranks%20-%20_0022_Administrator%20.jpg" alt="Epic Win" title="Epic Win"></td>
+	<td class="gen" align="center">&nbsp;<a href="https://web.archive.org/web/20100209182112/http://www.eddsworld.co.uk/forums/ucp.php?i=pm&amp;mode=compose&amp;u=55"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a>&nbsp;</td>
+</tr>
+<tr class="row2">
+
+	<td class="gen" align="center"><strong><a href="https://web.archive.org/web/20100209182112/http://www.eddsworld.co.uk/forums/memberlist.php?mode=viewprofile&amp;u=108" style="color: #0066FF;" class="username-coloured">Jonathan Lett</a></strong></td>
+	<td class="gensmall" align="center">&nbsp;</td>
+	<td class="gensmall" align="center" nowrap="nowrap">&nbsp;
+		
+			<a style="font-weight: bold; color:#0066FF" href="https://web.archive.org/web/20100209182112/http://www.eddsworld.co.uk/forums/memberlist.php?mode=group&amp;g=15">Forum Manager</a>
+		
+	&nbsp;</td>
+	<td class="gen" align="center"><img src="forums_files/Forum%20Ranks%20-%20_0022_Administrator%20.jpg" alt="Eddsworld Codemonkey." title="Eddsworld Codemonkey."></td>
+	<td class="gen" align="center">&nbsp;<a href="https://web.archive.org/web/20100209182112/http://www.eddsworld.co.uk/forums/ucp.php?i=pm&amp;mode=compose&amp;u=2"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a>&nbsp;</td>
+</tr>
+<tr class="row2">
+
 	<td class="gen" align="center"><strong><a href="https://web.archive.org/web/20100209182112/http://www.eddsworld.co.uk/forums/memberlist.php?mode=viewprofile&amp;u=108" style="color: #0066FF;" class="username-coloured">Simsarmy</a></strong></td>
 	<td class="gensmall" align="center">&nbsp;</td>
 	<td class="gensmall" align="center" nowrap="nowrap">&nbsp;
@@ -550,6 +368,19 @@ __wm.bt(725,27,25,2,"web","http://www.eddsworld.co.uk/forums/memberlist.php?mode
 	&nbsp;</td>
 	<td class="gen" align="center"><img src="forums_files/Forum%20Ranks%20-%20_0019_Moderator%20.jpg" alt="Moderator" title="Moderator"></td>
 	<td class="gen" align="center">&nbsp;<a href="https://web.archive.org/web/20100209182112/http://www.eddsworld.co.uk/forums/ucp.php?i=pm&amp;mode=compose&amp;u=267"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a>&nbsp;</td>
+</tr>
+
+<tr class="row2">
+
+	<td class="gen" align="center"><strong><a href="https://web.archive.org/web/20100209182112/http://www.eddsworld.co.uk/forums/memberlist.php?mode=viewprofile&amp;u=267" style="color: #00FF00;" class="username-coloured">Kyh</a></strong></td>
+	<td align="center">All forums&nbsp;</td>
+	<td class="gensmall" align="center" nowrap="nowrap">&nbsp;
+		
+			<a style="font-weight: bold; color:#00FF00" href="https://web.archive.org/web/20100209182112/http://www.eddsworld.co.uk/forums/memberlist.php?mode=group&amp;g=9">Moderators</a>
+		
+	&nbsp;</td>
+	<td class="gen" align="center"><img src="forums_files/Forum%20Ranks%20-%20_0019_Moderator%20.jpg" alt="INCREDIBLY AWESOME." title="INCREDIBLY AWESOME."></td>
+	<td class="gen" align="center">&nbsp;<a href="https://web.archive.org/web/20100209182112/http://www.eddsworld.co.uk/forums/ucp.php?i=pm&amp;mode=compose&amp;u=84"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a>&nbsp;</td>
 </tr>
 
 </tbody></table>
