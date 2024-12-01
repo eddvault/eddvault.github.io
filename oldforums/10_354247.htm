@@ -1,0 +1,490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb"><head><script src="forums_files/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app203.us.archive.org';v.server_ms=358;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="forums_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="forums_files/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="forums_files/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.eddsworld.co.uk:80/forums/viewtopic.php?f=10&amp;p=354247","20090622175859","https://web.archive.org/","web","/_static/",
+	      "1245693539");
+</script>
+<link rel="stylesheet" type="text/css" href="forums_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="forums_files/iconochive.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-language" content="en-gb">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="copyright" content="2002-2006 phpBB Group">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>Eddsworld Forums • View topic - I've resigned</title>
+
+<link rel="stylesheet" href="forums_files/stylesheet.css" type="text/css">
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+      {
+       if (!name)
+       {
+          name = '_popup';
+       }
+
+       window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+         return false;
+      }
+
+
+function jumpto()
+{
+	var page = prompt('Enter the page number you wish to go to:', '3');
+	var perpage = '25';
+	var base_url = './viewtopic.php?f=10&amp;t=3940';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username()
+      {
+       popup(url, 760, 570, '_usersearch');
+         return false;
+      }
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+<script>
+
+var timer = null;
+var speed = 3; //1 is  slow
+var endTop = 0;
+var endLeft = 0;
+
+//******************************************************
+// Simple little function to get Elements as an object
+//******************************************************
+function getEl(id)
+{
+	var el = document.getElementById(id);
+	return el;
+}
+//******************************************************
+// Function to show Elements
+//******************************************************
+function showEl(id)
+{
+	getEl(id).style.display ="";
+}
+//******************************************************
+// Function to hide Elements
+//******************************************************
+function hideEl(id)
+{
+	getEl(id).style.display ="none";
+}
+
+//******************************************************
+// Function to move Element
+//******************************************************
+function moveEl(id)
+{
+	var popup = getEl(id);
+	var currentTop = parseInt(popup.offsetTop);
+	var currentLeft = parseInt(popup.offsetLeft);
+	
+	var keepMoving = false;
+	//Move
+	if (currentTop <= endTop)
+	{
+		popup.style.top = (currentTop + speed) + "px";
+		keepMoving = true;
+	}
+	if(currentLeft <= endLeft)
+	{	
+		popup.style.left = (currentLeft + speed) + "px";
+		keepMoving = true;
+	}
+	if (keepMoving)
+	{
+		startMove(id);
+	}
+	else
+	{
+		endMove();
+	}
+}
+//******************************************************
+// Function to start the move
+//******************************************************
+function startMove(id)
+{
+	timer = setTimeout("moveEl('"+id+"')", 1);
+}
+//******************************************************
+// Function to end the move
+//******************************************************
+function endMove()
+{
+	clearTimeout(timer);
+}
+
+</script>
+
+
+<script language="JavaScript">
+
+<!-- Begin
+var Temp2;
+var timerID = null;
+var timerRunning = false;
+function arry() {
+this.length = 12;
+this[0] = 31;
+this[1] = 28;
+this[2] = 31;
+this[3] = 30;
+this[4] = 31;
+this[5] = 30;
+this[6] = 31;
+this[7] = 31;
+this[8] = 30;
+this[9] = 31;
+this[10] = 30;
+this[11] = 31;
+}
+var date = new arry();
+
+function stopclock() {
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;
+}
+
+function startclock() {
+stopclock();
+showtime();
+}
+
+function showtime() {
+now = new Date();
+var CurMonth = now.getMonth();
+var CurDate = now.getDate();
+var CurYear = now.getFullYear();
+now = null;
+if (25 < CurDate) {
+CurDate -= date[CurMonth]; CurMonth++;
+}
+if (11 < CurMonth) {
+CurMonth -= 12; CurYear++;
+}
+
+var Yearleft = 2008 - CurYear;
+var Monthleft = 11 - CurMonth;
+var Dateleft = 25 - CurDate;
+
+document.dateform.a.value = Yearleft;
+document.dateform.b.value = Monthleft;
+document.dateform.c.value = Dateleft;
+
+timerID = setTimeout("showtime()",1000);
+timerRunning = true;
+}
+// End -->
+</script>
+
+
+<style>
+
+#popup 
+{
+	height:500px; 
+	width:500px; 
+	border:1px solid #000;
+	position:absolute; 
+	background:#FFFFFF;
+	top:-200px;
+	left:-200px;
+}
+
+</style>
+<link href="forums_files/prime_bbcode_note.css" rel="stylesheet" type="text/css"></head>
+
+<body class="ltr" onload="startclock()"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr; height: 1px;">
+</div><div id="wm-ipp-print">The Wayback Machine - 
+https://web.archive.org/web/20090622175859/http://
+www.eddsworld.co.uk:80/forums/viewtopic.php?f=10&amp;p=354247</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://www.eddsworld.co.uk/forums/viewtopic.php?f=10&p=354247","20090622175859",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<div>
+<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk/">Back to Eddsworld!</a>
+</div>
+<div id="wrapheader">
+<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk/forums/">
+<div id="logodesc">
+
+	</div></a>
+
+
+
+
+<center>
+<!-- <form name=dateform>Only
+<input type=text name=a size=2 value=""> years, 
+<input type=text name=b size=2 value=""> months, and
+<input type=text name=c size=2 value=""> days left until Christmas!</form> -->
+</center>
+
+<table width="100%" cellspacing="0" cellpadding="0"><tbody><tr>
+<td class="page_left" width="0px"></td>
+        <td class="page_center">
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tbody><tr>
+<!-- <span style="font-size: 10px">Welcome  -->
+			<td class="genmed">
+<span style="font-size: 12px">
+							</span></td>
+			<td class="genmed" align="right">
+				<a href="faq.htm">FAQ</a>
+		</tr>
+		</tbody></table>
+	</div>
+
+
+
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tbody><tr>
+		</tr>
+		</tbody></table>
+	</div>
+
+
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+			</p>
+	
+	<br style="clear: both;">
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tbody><tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="index.htm">Board index</a> » <a href="10.htm">Forums Annoucements</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</tbody></table>
+	<br>
+
+
+
+
+<!--
+
+<div style="background-color:#666666; color:#FFFFFF; border:#FFFFFF; text-align:center;">Site Maintenance at 11:45pm! The site shouldn't be down for more than 5 minutes. (hopefully), sorry guys! - Simsarmy</div>
+
+-->
+
+
+<center></center><div id="pageheader">	<h2>I've resigned</h2>	
+	<table width="100%" cellspacing="1">	<tbody><tr>		<td align="left" valign="middle" nowrap="nowrap">				</td>					
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr>		<td class="cat">			<table width="100%" cellspacing="0">			<tbody><tr>				<td class="nav" nowrap="nowrap">&nbsp;								</td>				
+			</tr>			</tbody></table>		</td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">			<tbody><tr>			<th>Author</th>			<th>Message</th>		</tr>	<tr class="row1">			<td align="center" valign="middle">				<a name="p332622"></a>				<b class="postauthor">lemonliz</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: I've resigned</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Tue Jun 02, 2009 11:33 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Semi-automatic poster</td>				</tr>							<tr>					<td><img src="forums_files/goodbye.jpg" width="100" height="100" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=332622"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=2290"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=2290"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon Feb 02, 2009 9:45 pm<br><b>Posts:</b> 3438<br><b>Location:</b> In Edward's arms (oOo fangirl!)				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">Tom from Eddsworld wrote:</div><div class="quotecontent">Is it that hard to read, kids? Is it?<br><br>Do
+ I need to change the title of the threat (which appears to be the only 
+part you manage to take in) to "I'm still going to be in the movies but 
+I'm not writing them for a while"?<br><br>Eesh.</div><br>I'm still sure some dodos will still be freaking out &gt;.&lt;</div>											<span class="postbody"><br>_________________<br><img src="forums_files/goodbye_002.jpg" alt="Image"><br><span style="font-size: 150%; line-height: normal"><span style="color: #FF0000">I'm not obsessed with Edward Elric. I'm just a stalker 8D8D8D8D</span></span><br><span style="font-size: 150%; line-height: normal">JOIN MA CLUB!</span> It's called the Anime Nerds <img src="forums_files/8.gif" alt="B)" title="Cool">:<br><!-- l --><a class="postlink-local" href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk/forums/viewtopic.php?f=7&amp;t=4183">viewtopic.php?f=7&amp;t=4183</a><!-- l --><br>Read teh rules &gt;=V</span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p337630"></a>				<b class="postauthor">Molotov</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: I've resigned</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 06, 2009 10:50 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Potential Spam Bot</td>				</tr>							<tr>					<td><img src="forums_files/file_004.htm" width="95" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=337630"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.dreamon.mil.nz/yeahright."><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=3775"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Thu Apr 23, 2009 11:38 am<br><b>Posts:</b> 1942<br><b>Location:</b> Your brain cavity, it's quite empty in here isn't it?				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">Since Tom's account is gone Twewy is the new author of this topic, I think his comment works pretty well.<br><div class="quotetitle">twewyfan08 wrote:</div><div class="quotecontent">Fangirls will rage in 3, 2, 1.....</div></div>											<span class="postbody"><br>_________________<br><img src="forums_files/newsigk.png" alt="Image"><img src="forums_files/sigadd.png" alt="Image"><br>Molotov's art  <img src="forums_files/smile0006.jpg" alt=":Shocked:" title="Shocked"> <a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=3962?" class="postlink">http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=3962?</a><br>Syrika stole my accent so I've adopted a posh one, spiffing.</span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p337635"></a>				<b class="postauthor" style="color: #00FF00">asdfland</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: I've resigned</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 06, 2009 10:56 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Semi-automatic poster</td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=337635"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://smouch.net/lol/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=856"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Thu Aug 14, 2008 2:01 pm<br><b>Posts:</b> 2960<br><b>Location:</b> Somewhere over the rainbow				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">I'm resisting an urge to change the author of the topic to Edd, just to see how people react.</div>											<span class="postbody"><br>_________________<br><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">STOP, SEARCH, AND LEARN</span></span><br>Don't ask others to make up for your lack of knowledge, search it instead.<br><a href="https://web.archive.org/web/20090622175859/http://www.google.com/" class="postlink"><span style="color: #0000FF"><span style="text-decoration: underline">Google</span></span></a>, <a href="https://web.archive.org/web/20090622175859/http://www.yahoo.com/" class="postlink"><span style="color: #0000FF"><span style="text-decoration: underline">Yahoo</span></span></a><br><span style="font-weight: bold">Awards: Funniest Member of 2008 (Not that it means anything)<br>Strictest Moderator of 2009 (Not that it means anything)</span><br><img src="forums_files/ubda3737tj5.gif" alt="Image"></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p337636"></a>				<b class="postauthor">twewyfan08</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: I've resigned</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 06, 2009 10:57 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_online.gif" alt="Online" title="Online"></td>				</tr>							<tr>					<td class="postdetails">We get it, you post a lot</td>				</tr>							<tr>					<td><img src="forums_files/file.htm" width="120" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=337636"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://twewyfan08.webs.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=1620"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://edit.yahoo.com/config/send_webmesg?.target=eas692%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=1620"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Wed Dec 03, 2008 11:32 pm<br><b>Posts:</b> 5736<br><b>Location:</b> Virginia				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">I guess that means I'm Tom now.<br><br>Screw Edd, I get all the real fangirls.<br><br>*smacked for impersonating Tom*</div>											<span class="postbody"><br>_________________<br>You have 7 Days.<br>Fail, and face erasure.<br><br>Plz join this RP.<br><!-- l --><a class="postlink-local" href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk/forums/viewtopic.php?f=15&amp;t=4282">viewtopic.php?f=15&amp;t=4282</a><!-- l --></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p337637"></a>				<b class="postauthor">Molotov</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: I've resigned</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 06, 2009 11:00 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Potential Spam Bot</td>				</tr>							<tr>					<td><img src="forums_files/file_004.htm" width="95" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=337637"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.dreamon.mil.nz/yeahright."><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=3775"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Thu Apr 23, 2009 11:38 am<br><b>Posts:</b> 1942<br><b>Location:</b> Your brain cavity, it's quite empty in here isn't it?				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">asdfland wrote:</div><div class="quotecontent">I'm resisting an urge to change the author of the topic to Edd, just to see how people react.</div><br><br>That would be a very interesting social experiment. My bet is on Eddsworld imploding.</div>											<span class="postbody"><br>_________________<br><img src="forums_files/newsigk.png" alt="Image"><img src="forums_files/sigadd.png" alt="Image"><br>Molotov's art  <img src="forums_files/smile0006.jpg" alt=":Shocked:" title="Shocked"> <a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=3962?" class="postlink">http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=3962?</a><br>Syrika stole my accent so I've adopted a posh one, spiffing.</span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p338385"></a>				<b class="postauthor">steveo</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: I've resigned</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sun Jun 07, 2009 3:51 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">We get it, you post a lot</td>				</tr>							<tr>					<td><img src="forums_files/file_003.htm" width="101" height="116" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=338385"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=2053"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Tue Jan 13, 2009 8:06 pm<br><b>Posts:</b> 5542<br><b>Location:</b> hacking your computer. you have waay too much porn on it.				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">Molotov wrote:</div><div class="quotecontent"><div class="quotetitle">asdfland wrote:</div><div class="quotecontent">I'm resisting an urge to change the author of the topic to Edd, just to see how people react.</div><br><br>That would be a very interesting social experiment. My bet is on Eddsworld imploding.</div><br>i want to see this =3</div>											<span class="postbody"><br>_________________<br><img src="forums_files/steveoname.jpg" alt="Image"><br><br><img src="forums_files/signaturesteve.gif" alt="Image"><br><br>thanks to aissu for the immense animated siggy!<br><br><a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk/forums/viewtopic.php?f=15&amp;t=2539&amp;start=475" class="postlink"><span style="font-weight: bold"><span style="color: #FF0000">join us!</span></span></a></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p338643"></a>				<b class="postauthor">Inferno Falcon</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: I've resigned</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sun Jun 07, 2009 8:40 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Potential Spam Bot</td>				</tr>							<tr>					<td><img src="forums_files/file_005.htm" width="120" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=338643"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.bloginashoe.blogspot.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=aim&amp;u=4016"><img src="forums_files/icon_contact_aim.gif" alt="AIM" title="AIM"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=4016"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon May 04, 2009 12:16 am<br><b>Posts:</b> 1623<br><b>Location:</b> Tord's United States of Whatever				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><span style="color: #000000">Same XD</span></div>											<span class="postbody"><br>_________________<br><a href="https://web.archive.org/web/20090622175859/http://http//www.eddsworld.co.uk" class="postlink"><img src="forums_files/eddsworldcm7.png" alt="Image"></a><br><img src="forums_files/portal_fan.gif" alt="Image"><br><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8342119&amp;style=metal&amp;p=0"></ruffle-object><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8342251&amp;style=metal&amp;p=0"></ruffle-object><br><br>(18:11:40) Edd: There was a guy called inferno,<br>who was particulary slow,<br>by the time he said hi<br>the others said bye<br>because it was time to go</span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p353537"></a>				<b class="postauthor">CharizardMaster48</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: I've resigned</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 20, 2009 7:20 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_online.gif" alt="Online" title="Online"></td>				</tr>							<tr>					<td class="postdetails">Skills</td>				</tr>							<tr>					<td><img src="forums_files/file_002.htm" width="120" height="114" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=353537"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=4889"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Wed Jun 17, 2009 5:59 pm<br><b>Posts:</b> 101				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">tom...is...irriplaceible!
+ they like him the best and that is why they mourned for him longer then
+ they did tord! tord was the meanie to everyone lol</div>											<span class="postbody"><br>_________________<br>if i did not laugh, i would weep</span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p354247"></a>				<b class="postauthor">twewyfan08</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: I've resigned</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sun Jun 21, 2009 4:22 am&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_online.gif" alt="Online" title="Online"></td>				</tr>							<tr>					<td class="postdetails">We get it, you post a lot</td>				</tr>							<tr>					<td><img src="forums_files/file.htm" width="120" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=354247"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://twewyfan08.webs.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=1620"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://edit.yahoo.com/config/send_webmesg?.target=eas692%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=1620"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Wed Dec 03, 2008 11:32 pm<br><b>Posts:</b> 5736<br><b>Location:</b> Virginia				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">He is not quitting EW.<br><br><br>Just writing.</div>											<span class="postbody"><br>_________________<br>You have 7 Days.<br>Fail, and face erasure.<br><br>Plz join this RP.<br><!-- l --><a class="postlink-local" href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk/forums/viewtopic.php?f=15&amp;t=4282">viewtopic.php?f=15&amp;t=4282</a><!-- l --></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table width="100%" cellspacing="1" class="tablebg">	<tbody><tr align="center">		
+			</tr>	</tbody></table></div><center><script type="text/javascript">
+<!--
+/**
+ * Toggle the visibility of the qr box
+ */
+function toggle_quick_reply()
+{
+	if (document.getElementById('quick_reply'))
+	{
+		if (document.getElementById('quick_reply').style.display == 'none')
+		{
+			document.getElementById('quick_reply').style.display = 'block';
+		}
+		else
+		{
+			document.getElementById('quick_reply').style.display = 'none';
+		}
+	}
+}
+
+
+if (0)
+{
+	if (document.addEventListener)
+	{
+		document.addEventListener('DOMContentLoaded', toggle_quick_reply, false);
+	}
+	else
+	{
+		onload_functions.push('toggle_quick_reply()');
+	}
+}
+//-->
+</script>
+
+<div id="quick_reply">
+	<form action="" method="post">
+		<table class="tablebg" width="100%" cellspacing="1">
+		<tbody><tr>
+			<th colspan="2">Quick reply</th>
+		</tr>
+				<tr>
+			<td class="row2" align="center" valign="middle" colspan="2"><textarea name="message" id="message" disabled="" rows="15" cols="76" tabindex="2" style="width: 70%; height: 250px;"></textarea></td>
+		</tr>
+				<tr>
+			<td class="cat" align="center" colspan="2">
+			</td>
+		</tr>
+		</tbody></table>
+		</form>
+</div></center><div id="pagefooter"></div><br clear="all"><table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tbody><tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="index.htm">Board index</a> » <a href="10.htm">Forums Annoucements</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</tbody></table>	<br clear="all">	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr>		
+	</tr>	</tbody></table><br clear="all"><table width="100%" cellspacing="1"><tbody><tr>	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">You <strong>cannot</strong> post new topics in this forum<br>You <strong>cannot</strong> reply to topics in this forum<br>You <strong>cannot</strong> edit your posts in this forum<br>You <strong>cannot</strong> delete your posts in this forum<br>You <strong>cannot</strong> post attachments in this forum<br></span></td></tr></tbody></table><br clear="all"><table width="100%" cellspacing="0"><tbody><tr>	<td></td>	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tbody><tr>
+	</tr>
+	</tbody></table>
+
+	</form>
+</td></tr></tbody></table><!--
+ _______  _______  _______  _______  _______ _________
+(  ____ \(  ____ \(  ____ \(  ____ )(  ____ \\__   __/
+| (    \/| (    \/| (    \/| (    )|| (    \/   ) (   
+| (_____ | (__    | |      | (____)|| (__       | |   
+(_____  )|  __)   | |      |     __)|  __)      | |   
+      ) || (      | |      | (\ (   | (         | |   
+/\____) || (____/\| (____/\| ) \ \__| (____/\   | |   
+\_______)(_______/(_______/|/   \__/(_______/   )_(
+
+-->
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	</div>
+<div align="right">
+	<span style="font-size: 10px">
+<a href="https://web.archive.org/web/20090622175859/http://www.eddsworld.co.uk/"><img src="forums_files/logofaded.png"></a>
+	</span>
+</div>
+<br>
+</td>
+<td class="page_right" width="1px"></td>
+</tr>
+<tr><td colspan="3" class="page_foot"></td></tr>
+</tbody></table>
+
+
+</div></body></html>
+<!--
+     FILE ARCHIVED ON 17:58:59 Jun 22, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:50:31 Dec 01, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.807
+  exclusion.robots: 0.04
+  exclusion.robots.policy: 0.025
+  esindex: 0.013
+  cdx.remote: 12.384
+  LoadShardBlock: 138.528 (3)
+  PetaboxLoader3.datanode: 161.208 (4)
+  load_resource: 160.769
+  PetaboxLoader3.resolve: 91.492
+-->

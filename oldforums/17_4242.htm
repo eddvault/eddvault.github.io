@@ -1,0 +1,558 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<!-- PINGAS -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb"><head><script src="forums_files/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app217.us.archive.org';v.server_ms=422;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="forums_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="forums_files/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="forums_files/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.eddsworld.co.uk:80/forums/viewtopic.php?f=17&amp;t=4242","20090804060057","https://web.archive.org/","web","/_static/",
+	      "1249365657");
+</script>
+<link rel="stylesheet" type="text/css" href="forums_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="forums_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-language" content="en-gb">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="copyright" content="2002-2006 phpBB Group">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>Eddsworld Forums • View topic - Edd cubeecraft</title>
+
+<link rel="stylesheet" href="forums_files/stylesheet.css" type="text/css">
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+      {
+       if (!name)
+       {
+          name = '_popup';
+       }
+
+       window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+         return false;
+      }
+
+
+function jumpto()
+{
+	var page = prompt('Enter the page number you wish to go to:', '1');
+	var perpage = '25';
+	var base_url = './viewtopic.php?f=17&amp;t=4242';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username()
+      {
+       popup(url, 760, 570, '_usersearch');
+         return false;
+      }
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+<script>
+
+var timer = null;
+var speed = 3; //1 is  slow
+var endTop = 0;
+var endLeft = 0;
+
+//******************************************************
+// Simple little function to get Elements as an object
+//******************************************************
+function getEl(id)
+{
+	var el = document.getElementById(id);
+	return el;
+}
+//******************************************************
+// Function to show Elements
+//******************************************************
+function showEl(id)
+{
+	getEl(id).style.display ="";
+}
+//******************************************************
+// Function to hide Elements
+//******************************************************
+function hideEl(id)
+{
+	getEl(id).style.display ="none";
+}
+
+//******************************************************
+// Function to move Element
+//******************************************************
+function moveEl(id)
+{
+	var popup = getEl(id);
+	var currentTop = parseInt(popup.offsetTop);
+	var currentLeft = parseInt(popup.offsetLeft);
+	
+	var keepMoving = false;
+	//Move
+	if (currentTop <= endTop)
+	{
+		popup.style.top = (currentTop + speed) + "px";
+		keepMoving = true;
+	}
+	if(currentLeft <= endLeft)
+	{	
+		popup.style.left = (currentLeft + speed) + "px";
+		keepMoving = true;
+	}
+	if (keepMoving)
+	{
+		startMove(id);
+	}
+	else
+	{
+		endMove();
+	}
+}
+//******************************************************
+// Function to start the move
+//******************************************************
+function startMove(id)
+{
+	timer = setTimeout("moveEl('"+id+"')", 1);
+}
+//******************************************************
+// Function to end the move
+//******************************************************
+function endMove()
+{
+	clearTimeout(timer);
+}
+
+</script>
+
+
+<script language="JavaScript">
+
+<!-- Begin
+var Temp2;
+var timerID = null;
+var timerRunning = false;
+function arry() {
+this.length = 12;
+this[0] = 31;
+this[1] = 28;
+this[2] = 31;
+this[3] = 30;
+this[4] = 31;
+this[5] = 30;
+this[6] = 31;
+this[7] = 31;
+this[8] = 30;
+this[9] = 31;
+this[10] = 30;
+this[11] = 31;
+}
+var date = new arry();
+
+function stopclock() {
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;
+}
+
+function startclock() {
+stopclock();
+showtime();
+}
+
+function showtime() {
+now = new Date();
+var CurMonth = now.getMonth();
+var CurDate = now.getDate();
+var CurYear = now.getFullYear();
+now = null;
+if (25 < CurDate) {
+CurDate -= date[CurMonth]; CurMonth++;
+}
+if (11 < CurMonth) {
+CurMonth -= 12; CurYear++;
+}
+
+var Yearleft = 2008 - CurYear;
+var Monthleft = 11 - CurMonth;
+var Dateleft = 25 - CurDate;
+
+document.dateform.a.value = Yearleft;
+document.dateform.b.value = Monthleft;
+document.dateform.c.value = Dateleft;
+
+timerID = setTimeout("showtime()",1000);
+timerRunning = true;
+}
+// End -->
+</script>
+
+
+<style>
+
+#popup 
+{
+	height:500px; 
+	width:500px; 
+	border:1px solid #000;
+	position:absolute; 
+	background:#FFFFFF;
+	top:-200px;
+	left:-200px;
+}
+
+</style>
+<link href="forums_files/prime_bbcode_note.css" rel="stylesheet" type="text/css"></head>
+
+<body class="ltr" onload="startclock()"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr; height: 1px;">
+</div><div id="wm-ipp-print">The Wayback Machine - 
+https://web.archive.org/web/20090804060057/http://
+www.eddsworld.co.uk:80/forums/viewtopic.php?f=17&amp;t=4242</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(725,27,25,2,"web","http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&t=4242","20090804060057",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<div>
+<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/">Back to Eddsworld!</a>
+</div>
+<div id="wrapheader">
+<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/">
+<div id="logodesc">
+
+	</div></a>
+
+
+
+
+<center>
+<!-- <form name=dateform>Only
+<input type=text name=a size=2 value=""> years, 
+<input type=text name=b size=2 value=""> months, and
+<input type=text name=c size=2 value=""> days left until Christmas!</form> -->
+</center>
+
+<table width="100%" cellspacing="0" cellpadding="0"><tbody><tr>
+<td class="page_left" width="0px"></td>
+        <td class="page_center">
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tbody><tr>
+<!-- <span style="font-size: 10px">Welcome  -->
+			<td class="genmed">
+<span style="font-size: 12px">
+							</span></td>
+			<td class="genmed" align="right">
+				<a href="faq.htm">FAQ</a>
+		</tr>
+		</tbody></table>
+	</div>
+
+
+
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tbody><tr>
+		</tr>
+		</tbody></table>
+	</div>
+
+
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+			</p>
+	
+	<br style="clear: both;">
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tbody><tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="index.htm">Board index</a> »  <a href="17.htm">Arty art</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</tbody></table>
+	<br>
+
+
+
+
+<!--
+
+<div style="background-color:#666666; color:#FFFFFF; border:#FFFFFF; text-align:center;">Site Maintenance at 11:45pm! The site shouldn't be down for more than 5 minutes. (hopefully), sorry guys! - Simsarmy</div>
+
+-->
+
+
+<center></center>
+<div id="pageheader">	<h2>Edd cubeecraft</h2>	
+	<table width="100%" cellspacing="1">	<tbody><tr>		<td align="left" valign="middle" nowrap="nowrap">				</td>					
+		</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr>		<td class="cat">			<table width="100%" cellspacing="0">			<tbody><tr>				<td class="nav" nowrap="nowrap">&nbsp;
+		</td>				
+			</tr>			</tbody></table>		</td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">			<tbody><tr>			<th>Author</th>			<th>Message</th>		</tr>	<tr class="row1">			<td align="center" valign="middle">				<a name="p346758"></a>				<b class="postauthor" style="color: #FF0000">Edd</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 1:15 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					
+			<td class="postdetails">Site Admin</td>				</tr>							<td><img src="forums_files/Forum Ranks - _0016_Site Owner .jpg" alt="Site Admin" title="Site Admin"></td>
+					<tr>					
+			<td><img src="forums_files/54.jpg" width="120" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346758"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=54"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon Jul 07, 2008 10:17 pm<br><b>Posts:</b> 2070<br><b>Location:</b> England				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><a><img src="forums_files/edd_cubee.png" alt="Image"></a><br><br>Decided
+ to make one... if any of you are any good at making these, or any of 
+you wanna try, that would be awesome, because im not sure if ive done it
+ correctly :P<br><br>You just cut out the shapes and slice the red lines
+ and the slots, and fold it all together, no sellotape or glue needed 
+(unless you are as bad as me at making them)<br><br>For printing help go here:<br><a href="https://web.archive.org/web/20090804060057/http://www.cubeecraft.com/blog/printing-help/" class="postlink">http://www.cubeecraft.com/blog/printing-help/</a></div>											<span class="postbody"><br>_________________<br><img src="forums_files/comic001.jpg" alt="Image"><a href="https://web.archive.org/web/20090804060057/http://dragcave.net/view/wjlZ" class="postlink"><img src="forums_files/wjlZ.png" alt="Image">Click me please!</a><br><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8343721&amp;style=metal&amp;p=0"></ruffle-object><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8343717&amp;style=metal&amp;p=0"></ruffle-object></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p346760"></a>				<b class="postauthor">streetbackguy</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 1:20 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Semi-automatic poster</td>				</tr>							<tr>					<td><img src="forums_files/file_009.htm" width="96" height="96" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346760"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=2042"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=2042"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon Jan 12, 2009 8:52 pm<br><b>Posts:</b> 2352<br><b>Location:</b> In Tasha's bedroom ;-)				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">i found it pretty awesome! 8D<br><br>pity i dont have glue so far D:</div>											<span class="postbody"><br>_________________<br><div align="center"><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4190" class="postlink">My art!</a>|<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=15&amp;t=4481" class="postlink">Pokemon World RP</a><br><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4371" class="postlink"><img src="forums_files/GOgif.gif" alt="Image"></a><br><img src="forums_files/2ebvcw6.gif" alt="Image"><br><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4489" class="postlink">WTF?! A Baghead92 and streetbackguy comic collab?</a></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p346764"></a>				
+<b class="postauthor">Kelsey</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 1:24 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">INCREDIBLY AWESOME.</td>				</tr>							<tr>					
+	<td><img src="forums_files/662.gif" width="100" height="100" alt="User avatar"></td>
+				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346764"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=662"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://edit.yahoo.com/config/send_webmesg?.target=kelsey101_1%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=662"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Jul 25, 2008 9:13 pm<br><b>Posts:</b> 7286<br><b>Location:</b> La La Land				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">HOLY JEBUS.<br><br>That's awesome. I'm so printing it out and trying i-<br><br><br>Wait.<br><br><br>WHERE THE FUDGE DOES THIS SLIP GO?! D:&lt;</div>											<span class="postbody"><br>_________________<br><span style="font-weight: bold"><span style="color: #0000FF">Simsarmy</span></span> has HIJACKED this signature.<br><br><img src="forums_files/Kelsey.webp" alt="Image"></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p346765"></a>				<b class="postauthor" style="color: #FF0000">Edd</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 1:24 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					
+				<td class="postdetails">Site Admin</td>				</tr>							<td><img src="forums_files/Forum Ranks - _0016_Site Owner .jpg" alt="Site Admin" title="Site Admin"></td>
+					<tr>					
+				<td><img src="forums_files/54.jpg" width="120" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346765"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=54"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon Jul 07, 2008 10:17 pm<br><b>Posts:</b> 2070<br><b>Location:</b> England				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">streetbackguy wrote:</div><div class="quotecontent">i found it pretty awesome! 8D<br><br>pity i dont have glue so far D:</div><br><br> You don't need glue or tape<br><br><br> Oh and if you do make it, photos of it would be lovely :D</div>											<span class="postbody"><br>_________________<br><img src="forums_files/comic001.jpg" alt="Image"><a href="https://web.archive.org/web/20090804060057/http://dragcave.net/view/wjlZ" class="postlink"><img src="forums_files/wjlZ.png" alt="Image">Click me please!</a><br><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8343721&amp;style=metal&amp;p=0"></ruffle-object><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8343717&amp;style=metal&amp;p=0"></ruffle-object></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p346769"></a>				<b class="postauthor">streetbackguy</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 1:26 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Semi-automatic poster</td>				</tr>							<tr>					<td><img src="forums_files/file_009.htm" width="96" height="96" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346769"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=2042"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=2042"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon Jan 12, 2009 8:52 pm<br><b>Posts:</b> 2352<br><b>Location:</b> In Tasha's bedroom ;-)				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">Edd wrote:</div><div class="quotecontent"><div class="quotetitle">streetbackguy wrote:</div><div class="quotecontent">i found it pretty awesome! 8D<br><br>pity i dont have glue so far D:</div><br><br> You don't need glue or tape<br><br><br> Oh and if you do make it, photos of it would be lovely :D</div><br><br>i know, but i find it lasts longer if you stick the slips together :D</div>											<span class="postbody"><br>_________________<br><div align="center"><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4190" class="postlink">My art!</a>|<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=15&amp;t=4481" class="postlink">Pokemon World RP</a><br><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4371" class="postlink"><img src="forums_files/GOgif.gif" alt="Image"></a><br><img src="forums_files/2ebvcw6.gif" alt="Image"><br><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4489" class="postlink">WTF?! A Baghead92 and streetbackguy comic collab?</a></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p346770"></a>				<b class="postauthor">Kelsey</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 1:27 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">INCREDIBLY AWESOME.</td>				</tr>							<tr>					<td><img src="forums_files/file_004.htm" width="100" height="100" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346770"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=662"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://edit.yahoo.com/config/send_webmesg?.target=kelsey101_1%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=662"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Jul 25, 2008 9:13 pm<br><b>Posts:</b> 7286<br><b>Location:</b> La La Land				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">I went to go get hot glue for this just now.<br><br>I failed so epicly.<br><br><br>Anyway, I haven't made these Cube-ish things, so if I make one, the picture probably won't be.. the best.</div>											<span class="postbody"><br>_________________<br><span style="font-weight: bold"><span style="color: #0000FF">Simsarmy</span></span> has HIJACKED this signature.<br><br><img src="forums_files/Kelsey.webp" alt="Image"></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p346774"></a>				
+				<b class="postauthor">Trap Wolf</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									
+				<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> 
+				Sat Jun 13, 2009 1:32 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				
+				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							
+				
+				<tr>					<td class="postdetails">Semi-automatic poster</td>				</tr>							<tr>					
+				<td><img src="forums_files/1276.png" width="90" height="120" alt="User avatar"></td>
+				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346774"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.thehuntersmoon.com/images/werewolf-pictures/werewolf-pictures.html"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=1276"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.icq.com/people/webmsg.php?to=657345624565245"><img src="forums_files/icon_contact_icq.gif" alt="ICQ" title="ICQ"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://edit.yahoo.com/config/send_webmesg?.target=Notarealemail%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=aim&amp;u=1276"><img src="forums_files/icon_contact_aim.gif" alt="AIM" title="AIM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=jabber&amp;u=1276"><img src="forums_files/icon_contact_jabber.gif" alt="Jabber" title="Jabber"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=1276"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Oct 17, 2008 7:29 pm<br><b>Posts:</b> 3093<br><b>Location:</b> Takin' a ride on your disco stick. :o				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">Omg, How did you make that Edd? &gt;.&lt;</div>											<span class="postbody"><br>_________________<br><div align="center"><img src="forums_files/TrapWolfhasa.webp" alt="Image"><br><span style="font-size: 150%; line-height: normal"><a href="https://web.archive.org/web/20090804060057/http://www.twitter.com/Trap_Wolf" class="postlink">Twitter</a>, <a href="https://web.archive.org/web/20090804060057/http://www.youtube.com/ArcanaLightHalfLycan" class="postlink">Youtube</a>, <a href="https://web.archive.org/web/20090804060057/http://www.myspace.com/ArcanaLightHalfLycan" class="postlink">Myspace</a>, Facebook*</span><br><span style="font-size: 85%; line-height: normal">Subscribe! Follow! Add me! Do whatever if you wish! ツ</span></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p346776"></a>				<b class="postauthor">MaryLizHicks</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 1:33 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Mega rad</td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346776"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.haipaaborosamu.deviantart.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://edit.yahoo.com/config/send_webmesg?.target=bort4ever%40rocketmail.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=3408"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon Apr 06, 2009 8:04 pm<br><b>Posts:</b> 969<br><b>Location:</b> Planet Rock				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">IF I HAD A PRINTER THIS WOULD BE WORKING WONDERFULLY x3</div>											<span class="postbody"><br>_________________<br>Come one, come all to <a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=15&amp;t=4485&amp;p=383047#p383047" class="postlink">Mr. Bobisnky's Circus.</a><br><img src="forums_files/coraline.webp" alt="Image"><br><a href="https://web.archive.org/web/20090804060057/http://kevan.org/brain.cgi?Mary%20Liz" class="postlink">BRAINS</a> |<a href="https://web.archive.org/web/20090804060057/http://haipaaborosamu.deviantart.com/" class="postlink">DeviantART</a> |<a href="https://web.archive.org/web/20090804060057/http://www.youtube.com/user/MaryLizHicks" class="postlink">Youtube</a> |<a href="https://web.archive.org/web/20090804060057/http://twitter.com/MaryLizHicks" class="postlink">Twitter</a><br><br><span style="font-size: 85%; line-height: normal">THANKS EDD</span></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p346780"></a>				<b class="postauthor">stephlovesspiders</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 1:40 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Hyperactive</td>				</tr>							<tr>					<td><img src="forums_files/639839-russellandlumpyseawhatifound_icon.jpg" width="120" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346780"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=aim&amp;u=1096"><img src="forums_files/icon_contact_aim.gif" alt="AIM" title="AIM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=1096"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Sun Sep 21, 2008 7:57 pm<br><b>Posts:</b> 10379<br><b>Location:</b> The South of England! :D				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">I wish my printer was working! DX</div>											<span class="postbody"><br>_________________<br><img src="forums_files/livvyaastephdserenachulcynthiagcynt.png" alt="Image"><br><img src="forums_files/signaturesteph.gif" alt="Image"><br><span style="color: #FF0000">VC?<a href="https://web.archive.org/web/20090804060057/http://i440.photobucket.com/albums/qq123/stemonie/VampireClubPeople.png" class="postlink">http://i440.photobucket.com/albums/qq123/stemonie/VampireClubPeople.png</a> Aissu=Awesome<br>Awww! Poisonous spiders are so cute! X333</span></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p346781"></a>				<b class="postauthor">streetbackguy</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 1:41 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Semi-automatic poster</td>				</tr>							<tr>					<td><img src="forums_files/file_009.htm" width="96" height="96" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346781"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=2042"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=2042"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon Jan 12, 2009 8:52 pm<br><b>Posts:</b> 2352<br><b>Location:</b> In Tasha's bedroom ;-)				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">MaryLizHicks wrote:</div><div class="quotecontent">IF I HAD A PRINTER THIS WOULD BE WORKING WONDERFULLY x3</div><br><br>i just remembered, i have a printer, BUT IT HAS NO INK! D,:</div>											<span class="postbody"><br>_________________<br><div align="center"><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4190" class="postlink">My art!</a>|<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=15&amp;t=4481" class="postlink">Pokemon World RP</a><br><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4371" class="postlink"><img src="forums_files/GOgif.gif" alt="Image"></a><br><img src="forums_files/2ebvcw6.gif" alt="Image"><br><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4489" class="postlink">WTF?! A Baghead92 and streetbackguy comic collab?</a></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p346782"></a>				<b class="postauthor" style="color: #FF0000">Edd</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 1:41 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					
+				<td class="postdetails">Site Admin</td>				</tr>		<td><img src="forums_files/Forum Ranks - _0016_Site Owner .jpg" alt="Site Admin" title="Site Admin"></td>					<tr>					
+				<td><img src="forums_files/54.jpg" width="120" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346782"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=54"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon Jul 07, 2008 10:17 pm<br><b>Posts:</b> 2070<br><b>Location:</b> England				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">Kind of lame how no one has a printer <img src="forums_files/24.gif" alt=":/" title="=/"></div>											<span class="postbody"><br>_________________<br><img src="forums_files/comic001.jpg" alt="Image"><a href="https://web.archive.org/web/20090804060057/http://dragcave.net/view/wjlZ" class="postlink"><img src="forums_files/wjlZ.png" alt="Image">Click me please!</a><br><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8343721&amp;style=metal&amp;p=0"></ruffle-object><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8343717&amp;style=metal&amp;p=0"></ruffle-object></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p346783"></a>				<b class="postauthor">streetbackguy</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 1:46 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Semi-automatic poster</td>				</tr>							<tr>					<td><img src="forums_files/file_009.htm" width="96" height="96" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346783"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=2042"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=2042"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon Jan 12, 2009 8:52 pm<br><b>Posts:</b> 2352<br><b>Location:</b> In Tasha's bedroom ;-)				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">Edd wrote:</div><div class="quotecontent">Kind of lame how no one has a printer <img src="forums_files/24.gif" alt=":/" title="=/"></div><br><br>i'll eventually sort it out by the end of today hopefully ;D</div>											<span class="postbody"><br>_________________<br><div align="center"><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4190" class="postlink">My art!</a>|<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=15&amp;t=4481" class="postlink">Pokemon World RP</a><br><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4371" class="postlink"><img src="forums_files/GOgif.gif" alt="Image"></a><br><img src="forums_files/2ebvcw6.gif" alt="Image"><br><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4489" class="postlink">WTF?! A Baghead92 and streetbackguy comic collab?</a></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p346829"></a>				<b class="postauthor">SirBoredALot</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 2:28 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Semi-automatic poster</td>				</tr>							<tr>					<td><img src="forums_files/file_010.htm" width="120" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346829"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=2229"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=2229"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Thu Jan 29, 2009 7:49 pm<br><b>Posts:</b> 4366<br><b>Location:</b> Lost in my world.				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">i has a printer!<br>and...it works!<br><br>it's old.<br><br>only black n white edd cube would be fitting? XD</div>											<span class="postbody"><br>_________________<br><div align="center"><img src="forums_files/SbALSigm_16613ff.png" alt="Image"><br><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?p=374996#p374996" class="postlink">Writing (Updated 7/10/09)</a> <a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4145" class="postlink">Comics (Updated 8/01/09)</a><br><br>(03:19:46) SirBoredALot: therefore i am sxe bojangles, son of sxe AJ</div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p346846"></a>				<b class="postauthor">&lt;insertnamehere&gt;</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 2:40 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Hyperactive</td>				</tr>							<tr>					<td><img src="forums_files/file_008.htm" width="100" height="100" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346846"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.okthen.co.uk/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=1546"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Sun Nov 23, 2008 11:31 am<br><b>Posts:</b> 12035<br><b>Location:</b> Your bedroom. ;-]				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">Making mine now.<br><br>The printer messed up but I can make it work, I think.<br><br>:3</div>											<span class="postbody"><br>_________________<br><div align="center"><img src="forums_files/SignaturePuddles.png" alt="Image"><br><br><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=2136" class="postlink"><img src="forums_files/4043896b26fd7ba9ff00dd47188d332f55b9d7d.jpg" alt="Image"></a><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=18&amp;t=3975" class="postlink"><img src="forums_files/juiqsg.png" alt="Image"></a><a href="https://web.archive.org/web/20090804060057/http://blogs.guardian.co.uk/news/pail13.jpg" class="postlink"><img src="forums_files/40439678e9e697e330a9c28573635624f587b5b.jpg" alt="Image"></a><br><br><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=9&amp;t=4549" class="postlink">BEST. THREAD. EVER.</a></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p346903"></a>				<b class="postauthor">Live4</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 3:18 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Semi-automatic poster</td>				</tr>							<tr>					<td><img src="forums_files/file_007.htm" width="120" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346903"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://tea.com/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=2654"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Sun Feb 22, 2009 9:06 pm<br><b>Posts:</b> 2453<br><b>Location:</b> The Coffee Shop				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">Attempted epicness has gave way to borderline epicness.<br><br>In other words, I finished.<br><br>I'll have my pic up in a sec.</div>											<span class="postbody"><br>_________________<br><div align="center"><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=18&amp;t=3383&amp;p=361331#p361331" class="postlink"><img src="forums_files/Livesig-1.png" alt="Image"></a></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p346922"></a>				<b class="postauthor" style="color: #FF0000">Edd</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 3:28 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					
+				
+				<td class="postdetails">Site Admin</td>				</tr>		<td><img src="forums_files/Forum Ranks - _0016_Site Owner .jpg" alt="Site Admin" title="Site Admin"></td>					<tr>					
+				<td><img src="forums_files/54.jpg" width="120" height="120" alt="User avatar"></td>	
+			</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346922"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=54"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon Jul 07, 2008 10:17 pm<br><b>Posts:</b> 2070<br><b>Location:</b> England				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">Holy crap, can't wait!</div>											<span class="postbody"><br>_________________<br><img src="forums_files/comic001.jpg" alt="Image"><a href="https://web.archive.org/web/20090804060057/http://dragcave.net/view/wjlZ" class="postlink"><img src="forums_files/wjlZ.png" alt="Image">Click me please!</a><br><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8343721&amp;style=metal&amp;p=0"></ruffle-object><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8343717&amp;style=metal&amp;p=0"></ruffle-object></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p346924"></a>				<b class="postauthor">Trap Wolf</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 3:28 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Semi-automatic poster</td>				</tr>							<tr>					
+<td><img src="forums_files/1276.png" width="90" height="120" alt="User avatar"></td>			</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346924"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.thehuntersmoon.com/images/werewolf-pictures/werewolf-pictures.html"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=1276"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.icq.com/people/webmsg.php?to=657345624565245"><img src="forums_files/icon_contact_icq.gif" alt="ICQ" title="ICQ"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://edit.yahoo.com/config/send_webmesg?.target=Notarealemail%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=aim&amp;u=1276"><img src="forums_files/icon_contact_aim.gif" alt="AIM" title="AIM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=jabber&amp;u=1276"><img src="forums_files/icon_contact_jabber.gif" alt="Jabber" title="Jabber"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=1276"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Oct 17, 2008 7:29 pm<br><b>Posts:</b> 3093<br><b>Location:</b> Takin' a ride on your disco stick. :o				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">Edd wrote:</div><div class="quotecontent">Kind of lame how no one has a printer <img src="forums_files/24.gif" alt=":/" title="=/"></div><br>I haz printer! :P</div>											<span class="postbody"><br>_________________<br><div align="center"><img src="forums_files/TrapWolfhasa.webp" alt="Image"><br><span style="font-size: 150%; line-height: normal"><a href="https://web.archive.org/web/20090804060057/http://www.twitter.com/Trap_Wolf" class="postlink">Twitter</a>, <a href="https://web.archive.org/web/20090804060057/http://www.youtube.com/ArcanaLightHalfLycan" class="postlink">Youtube</a>, <a href="https://web.archive.org/web/20090804060057/http://www.myspace.com/ArcanaLightHalfLycan" class="postlink">Myspace</a>, Facebook*</span><br><span style="font-size: 85%; line-height: normal">Subscribe! Follow! Add me! Do whatever if you wish! ツ</span></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p346939"></a>				<b class="postauthor" style="color: #FF0000">Edd</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 3:33 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					
+			<td class="postdetails">Site Admin</td>				</tr>		<td><img src="forums_files/Forum Ranks - _0016_Site Owner .jpg" alt="Site Admin" title="Site Admin"></td>					<tr>					<td><img src="forums_files/54.jpg" width="120" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346939"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=54"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon Jul 07, 2008 10:17 pm<br><b>Posts:</b> 2070<br><b>Location:</b> England				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><div class="quotetitle">Trap Wolf wrote:</div><div class="quotecontent"><div class="quotetitle">Edd wrote:</div><div class="quotecontent">Kind of lame how no one has a printer <img src="forums_files/24.gif" alt=":/" title="=/"></div><br>I haz printer! :P</div><br><br> Then why dontcha make one :D</div>											<span class="postbody"><br>_________________<br><img src="forums_files/comic001.jpg" alt="Image"><a href="https://web.archive.org/web/20090804060057/http://dragcave.net/view/wjlZ" class="postlink"><img src="forums_files/wjlZ.png" alt="Image">Click me please!</a><br><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8343721&amp;style=metal&amp;p=0"></ruffle-object><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8343717&amp;style=metal&amp;p=0"></ruffle-object></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p346942"></a>				
+			<b class="postauthor">Trap Wolf</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>								
+			<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post">
+			<b>Posted:</b> Sat Jun 13, 2009 3:35 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				
+			<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>				
+			<tr>					<td class="postdetails">Semi-automatic poster</td>				</tr>							<tr>					
+<td><img src="forums_files/1276.png" width="90" height="120" alt="User avatar"></td>			</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=346942"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.thehuntersmoon.com/images/werewolf-pictures/werewolf-pictures.html"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=1276"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.icq.com/people/webmsg.php?to=657345624565245"><img src="forums_files/icon_contact_icq.gif" alt="ICQ" title="ICQ"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://edit.yahoo.com/config/send_webmesg?.target=Notarealemail%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=aim&amp;u=1276"><img src="forums_files/icon_contact_aim.gif" alt="AIM" title="AIM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=jabber&amp;u=1276"><img src="forums_files/icon_contact_jabber.gif" alt="Jabber" title="Jabber"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=1276"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Oct 17, 2008 7:29 pm<br><b>Posts:</b> 3093<br><b>Location:</b> Takin' a ride on your disco stick. :o				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">I don't have the perpectual vision you have. :P<br><br>Seriously,
+ I'm failing at this cube thing. I tried for like two minutes and then I
+ got confused. I'll just print yours and take a picture of it with cell 
+phone. :3</div>											<span class="postbody"><br>_________________<br><div align="center"><img src="forums_files/TrapWolfhasa.webp" alt="Image"><br><span style="font-size: 150%; line-height: normal"><a href="https://web.archive.org/web/20090804060057/http://www.twitter.com/Trap_Wolf" class="postlink">Twitter</a>, <a href="https://web.archive.org/web/20090804060057/http://www.youtube.com/ArcanaLightHalfLycan" class="postlink">Youtube</a>, <a href="https://web.archive.org/web/20090804060057/http://www.myspace.com/ArcanaLightHalfLycan" class="postlink">Myspace</a>, Facebook*</span><br><span style="font-size: 85%; line-height: normal">Subscribe! Follow! Add me! Do whatever if you wish! ツ</span></div></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p347101"></a>				<b class="postauthor">elkstar</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 4:51 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Wizard</td>				</tr>							<tr>					<td><img src="forums_files/file_011.htm" width="100" height="100" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=347101"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=4063"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Wed May 06, 2009 8:03 pm<br><b>Posts:</b> 389<br><b>Location:</b> Infront of my computer and probably on Eddsworld				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody"><img src="forums_files/smile0005.jpg" alt=":Sad:" title="Sad">  I lost one of the arms....but this is what it looks like <img src="forums_files/smile0003.jpg" alt=":Happy:" title="Happy"> ...<br><img src="forums_files/DSC00491.webp" alt="Image"><br><img src="forums_files/DSC00492.webp" alt="Image"><br><img src="forums_files/DSC00493.webp" alt="Image"><br><img src="forums_files/DSC00494.webp" alt="Image"></div>											<span class="postbody"><br>_________________<br><span style="color: #FF0000"><span style="font-size: 150%; line-height: normal">BYE
+ LEAVING JULY 15-AUG 28! LOVE YOU ALL! I'm going to miss all of you! 
+Don't forget me! If I don't change this by August 31 I'm dead. :[ I hope
+ I make this trip, because I am SUPER afriad. Pray for me! x3</span></span></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p347219"></a>				<b class="postauthor">jamieh91</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 5:50 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Eddhead</td>				</tr>							<tr>					<td><img src="forums_files/file.htm" width="86" height="100" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=347219"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=4412"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=4412"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Sun May 31, 2009 6:48 pm<br><b>Posts:</b> 19<br><b>Location:</b> Dollinstown, NI				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">I though i'd have a go too....here are the results(sorry for small size)<br><br><img src="forums_files/phph3Vy9xPM.webp" alt="Image"><br><img src="forums_files/phphBtrVjPM3.webp" alt="Image"><br><img src="forums_files/phpzrn728PM4.webp" alt="Image"><br><img src="forums_files/phpmbq1I3PM2-1.jpg" alt="Image"><br><br>You can see some of the edges aren't well cut but i was pretty pleased with it  <img src="forums_files/smile0003.jpg" alt=":Happy:" title="Happy"></div>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p347242"></a>				<b class="postauthor">eddideas</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 6:08 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Hyperactive</td>				</tr>							<tr>					
+					<td><img src="forums_files/359.gif" width="100" height="100" alt="User avatar"></td>
+ </tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=347242"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=359"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Jul 11, 2008 8:52 pm<br><b>Posts:</b> 16884<br><b>Location:</b> In a boat.				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">Bitchin!<br><br>Edd, this is a fucking masterpiece!!</div>											<span class="postbody"><br>_________________<br><img src="forums_files/Yay.webp" alt="Image"></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p347330"></a>				<b class="postauthor">scotty</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 7:02 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">We get it, you post a lot</td>				</tr>							<tr>					<td><img src="forums_files/file_003.htm" width="99" height="100" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=347330"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.geocities.com/scotty83rd"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=contact&amp;action=msnm&amp;u=265"><img src="forums_files/icon_contact_msnm.gif" alt="MSNM/WLM" title="MSNM/WLM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://edit.yahoo.com/config/send_webmesg?.target=scotty83rd%40yahoo.com&amp;.src=pg"><img src="forums_files/icon_contact_yahoo.gif" alt="YIM" title="YIM"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=265"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Wed Jul 09, 2008 9:26 pm<br><b>Posts:</b> 5204<br><b>Location:</b> england,wakefield				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">i loled at the fully made verson of edd. cheeky grin :B</div>											<span class="postbody"><br>_________________<br>bit by bit the penguins steal my sanity<br><img src="forums_files/scottyfirmamf9.jpg" alt="Image"><br><img src="forums_files/ubd6005uo1.png" alt="Image"><br><a href="https://web.archive.org/web/20090804060057/http://dragcave.net/viewdragon/1fk5" class="postlink"><img src="forums_files/1fk5.png" alt="Image"></a> <br><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8035959&amp;style=metal&amp;p=0"></ruffle-object><br><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/forums/viewtopic.php?f=17&amp;t=4467" class="postlink">scotty comics</a></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row2">			<td align="center" valign="middle">				<a name="p347367"></a>				<b class="postauthor">Aissu</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 7:31 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row2">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					<td class="postdetails">Potential Spam Bot</td>				</tr>		<td><img src="forums_files/1427.gif" width="100" height="100" alt="User avatar"></td>	<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=347367"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=1427"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Fri Nov 07, 2008 11:41 pm<br><b>Posts:</b> 1328<br><b>Location:</b> Studying for final exams				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">I'm printing it currently. :D<br>I can't wait to build it, I'll make it as a pirate!</div>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row2">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr class="row1">			<td align="center" valign="middle">				<a name="p347492"></a>				<b class="postauthor" style="color: #FF0000">Edd</b>			</td>			<td width="100%" height="25">				<table width="100%" cellspacing="0">				<tbody><tr>									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Post subject:</b> Re: Edd cubeecraft</div><div style="float: right;"><img src="forums_files/icon_post_target.gif" width="12" height="9" alt="Post" title="Post"><b>Posted:</b> Sat Jun 13, 2009 8:54 pm&nbsp;</div></td>				</tr>				</tbody></table>			</td>		</tr>				<tr class="row1">			<td valign="top" class="profile">				<table cellspacing="4" align="center" width="150">							<tbody><tr>					<td><img src="forums_files/icon_user_offline.gif" alt="Offline" title="Offline"></td>				</tr>							<tr>					
+ <td class="postdetails">Site Admin</td>				</tr>	<td><img src="forums_files/Forum Ranks - _0016_Site Owner .jpg" alt="Site Admin" title="Site Admin"></td>						<tr>					
+ <td><img src="forums_files/54.jpg" width="120" height="120" alt="User avatar"></td>				</tr>			<tr><td><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=347492"><img src="forums_files/icon_contact_pm.gif" alt="Send private message" title="Send private message"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/"><img src="forums_files/icon_contact_www.gif" alt="WWW" title="WWW"></a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=54"><img src="forums_files/icon_user_profile.gif" alt="Profile" title="Profile"></a>  </td></tr>				</tbody></table>				<span class="postdetails">					<br><b>Joined:</b> Mon Jul 07, 2008 10:17 pm<br><b>Posts:</b> 2070<br><b>Location:</b> England				</span>			</td>			<td valign="top">				<table width="100%" cellspacing="5">				<tbody><tr>					<td>											<div class="postbody">Oh my god you guys are so awesome, seriously :D</div>											<span class="postbody"><br>_________________<br><img src="forums_files/comic001.jpg" alt="Image"><a href="https://web.archive.org/web/20090804060057/http://dragcave.net/view/wjlZ" class="postlink"><img src="forums_files/wjlZ.png" alt="Image">Click me please!</a><br><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8343721&amp;style=metal&amp;p=0"></ruffle-object><ruffle-object width="250" height="40"><param name="movie" value="http://listen.grooveshark.com/songWidget.swf"><param name="wmode" value="window"><param name="allowScriptAccess" value="always"><param name="flashvars" value="hostname=cowbell.grooveshark.com&amp;widgetID=8343717&amp;style=metal&amp;p=0"></ruffle-object></span>					<br clear="all"><br>						<table width="100%" cellspacing="0">						<tbody><tr valign="middle">							<td class="gensmall" align="right">														</td>						</tr>						</tbody></table>					</td>				</tr>				</tbody></table>			</td>		</tr>		<tr class="row1">			<td class="profile"><strong><a href="#wrapheader">Top</a></strong></td>			<td><div class="gensmall" style="float: right;">&nbsp;</div></td>		</tr>			<tr>		<td class="spacer" colspan="2" height="1"><img src="forums_files/spacer.gif" alt="" width="1" height="1"></td>	</tr>	</tbody></table>	<table width="100%" cellspacing="1" class="tablebg">	<tbody><tr align="center">		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=17&amp;t=4242&amp;start=0"><span class="gensmall">Display posts from previous:</span> <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select>&nbsp;<span class="gensmall">Sort by</span> <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select>&nbsp;<input class="btnlite" type="submit" value="Go" name="sort"></form></td>	</tr>	</tbody></table>	<table width="100%" cellspacing="1">	<tbody><tr>		<td align="left" valign="middle" nowrap="nowrap">				</td>					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Page <strong>1</strong> of <strong>3</strong><br></td>			<td class="gensmall" nowrap="nowrap">&nbsp;[ 56 posts ]&nbsp;</td>			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Click to jump to page…">Go to page</a> <strong>1</strong><span class="page-sep">, </span><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/viewtopic.php?f=17&amp;t=4242&amp;start=25">2</a><span class="page-sep">, </span><a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/viewtopic.php?f=17&amp;t=4242&amp;start=50">3</a> &nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/viewtopic.php?f=17&amp;t=4242&amp;start=25">Next</a></b></td>			</tr>	</tbody></table></div><center><script type="text/javascript">
+<!--
+/**
+ * Toggle the visibility of the qr box
+ */
+function toggle_quick_reply()
+{
+	if (document.getElementById('quick_reply'))
+	{
+		if (document.getElementById('quick_reply').style.display == 'none')
+		{
+			document.getElementById('quick_reply').style.display = 'block';
+		}
+		else
+		{
+			document.getElementById('quick_reply').style.display = 'none';
+		}
+	}
+}
+
+
+if (0)
+{
+	if (document.addEventListener)
+	{
+		document.addEventListener('DOMContentLoaded', toggle_quick_reply, false);
+	}
+	else
+	{
+		onload_functions.push('toggle_quick_reply()');
+	}
+}
+//-->
+</script>
+
+<div id="quick_reply">
+	<form action="" method="post">
+		<table class="tablebg" width="100%" cellspacing="1">
+		<tbody><tr>
+			<th colspan="2">Quick reply</th>
+		</tr>
+				<tr>
+			<td class="row2" align="center" valign="middle" colspan="2"><textarea name="message" id="message" rows="15" cols="76" tabindex="2" style="width: 70%; height: 250px;"></textarea></td>
+		</tr>
+				<tr>
+			<td class="cat" align="center" colspan="2">
+								<input type="submit" name="preview" tabindex="6" value="Preview" class="btnlite">&nbsp;&nbsp;
+				<input type="submit" name="post" tabindex="5" value="Submit" class="btnmain" accesskey="s">
+			</td>
+		</tr>
+		</tbody></table>
+		</form>
+</div></center><div id="pagefooter"></div><br clear="all"><table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tbody><tr>
+		<td class="row1">
+			<p class="breadcrumbs"><img src="forums_files/nav_icon.gif" border="0">&nbsp;<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/index.php">Board index</a> » <a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/viewforum.php?f=22">Showcases</a> » <a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/viewforum.php?f=17">Art Showcase</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</tbody></table>	<br clear="all">	<table class="tablebg" width="100%" cellspacing="1">	<tbody><tr>		<td class="cat"><h4>Who is online</h4></td>	</tr>	<tr>		<td class="row1"><p class="gensmall">Users browsing this forum: <span style="color: #9E8DA7;" class="username-coloured">Alexa [Bot]</span>, <a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk:80/forums/memberlist.php?mode=viewprofile&amp;u=436">DontDislucky</a> and 1 guest</p></td>	</tr>	</tbody></table><br clear="all"><table width="100%" cellspacing="1"><tbody><tr>	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">You <strong>cannot</strong> post new topics in this forum<br>You <strong>cannot</strong> reply to topics in this forum<br>You <strong>cannot</strong> edit your posts in this forum<br>You <strong>cannot</strong> delete your posts in this forum<br>You <strong>cannot</strong> post attachments in this forum<br></span></td></tr></tbody></table><br clear="all"><table width="100%" cellspacing="0"><tbody><tr>	<td></td>	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tbody><tr>
+		<td nowrap="nowrap"><span class="gensmall">Jump to:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Select a forum</option>
+		<option value="-1">------------------</option>			<option value="19">Important Stuff</option>
+					<option value="8">&nbsp; &nbsp;Rules</option>
+					<option value="20">&nbsp; &nbsp;Introduce Yourself Here</option>
+					<option value="10">&nbsp; &nbsp;Forums Annoucements</option>
+					<option value="21">Community</option>
+					<option value="3">&nbsp; &nbsp;Blabberbox</option>
+					<option value="7">&nbsp; &nbsp;Entertainment in a Jar</option>
+					<option value="13">&nbsp; &nbsp;&nbsp; &nbsp;Forum Games</option>
+					<option value="15">&nbsp; &nbsp;&nbsp; &nbsp;Roleplay</option>
+					<option value="6">&nbsp; &nbsp;Fan Stuff</option>
+					<option value="25">&nbsp; &nbsp;Contests</option>
+					<option value="22">Showcases</option>
+					<option value="4">&nbsp; &nbsp;Animation Showcase</option>
+					<option value="5">&nbsp; &nbsp;&nbsp; &nbsp;Eddsworld Animations</option>
+					<option value="17" selected="selected">&nbsp; &nbsp;Art Showcase</option>
+					<option value="18">&nbsp; &nbsp;Writing Showcase</option>
+					<option value="23">The Rest</option>
+					<option value="9">&nbsp; &nbsp;Help, Suggestions, and Feedback</option>
+					<option value="14">&nbsp; &nbsp;&nbsp; &nbsp;Help!!!</option>
+					<option value="12">&nbsp; &nbsp;Goldmine</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Go"></td>
+	</tr>
+	</tbody></table>
+
+	</form>
+</td></tr></tbody></table><!--
+ _______  _______  _______  _______  _______ _________
+(  ____ \(  ____ \(  ____ \(  ____ )(  ____ \\__   __/
+| (    \/| (    \/| (    \/| (    )|| (    \/   ) (   
+| (_____ | (__    | |      | (____)|| (__       | |   
+(_____  )|  __)   | |      |     __)|  __)      | |   
+      ) || (      | |      | (\ (   | (         | |   
+/\____) || (____/\| (____/\| ) \ \__| (____/\   | |   
+\_______)(_______/(_______/|/   \__/(_______/   )_(
+
+-->
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	</div>
+<div align="right">
+	<span style="font-size: 10px">
+<a href="https://web.archive.org/web/20090804060057/http://www.eddsworld.co.uk/"><img src="forums_files/logofaded.png"></a>
+	</span>
+</div>
+<br>
+</td>
+<td class="page_right" width="1px"></td>
+</tr>
+<tr><td colspan="3" class="page_foot"></td></tr>
+</tbody></table>
+
+
+</div></body></html>
+<!--
+     FILE ARCHIVED ON 06:00:57 Aug 04, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:27:33 Dec 01, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.875
+  exclusion.robots: 0.042
+  exclusion.robots.policy: 0.025
+  esindex: 0.014
+  cdx.remote: 6.186
+  LoadShardBlock: 182.483 (3)
+  PetaboxLoader3.resolve: 270.793 (3)
+  PetaboxLoader3.datanode: 63.402 (4)
+  load_resource: 181.794
+-->
