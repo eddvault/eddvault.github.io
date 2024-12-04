@@ -1,0 +1,2210 @@
+/*
+ *  © 2000-2012 deviantART, Inc. All rights reserved.
+ */
+div.surfer,
+img.surfer,
+a.surfer,
+.surfer {
+    display:none;
+    position:absolute !important;
+    cursor:default;
+    z-index:300;
+}
+img.surfer {
+    border:2px solid #3E8EB7;
+    margin:-2px 0 0 -2px;
+}
+/*img.surfer:not(:-moz-any-link) {
+    border:none;
+    margin:0;
+    outline:2px solid invert;
+}*/
+div.surfer2 {
+    border:1px solid white;
+    background:#277ADB;
+    opacity:.4;
+    display:none;
+    position:absolute;
+    cursor:default;
+    z-index:300;
+    _background:transparent;
+    _border-width:2px;
+    _border-color:highlight;
+    background: url("pixelofdestiny.png")\9;
+}
+
+
+/*
+@@require cssms/lib/survival.css
+*/
+
+#top {
+    padding-top:28px;
+}
+
+#top-collect {
+    width:100%;
+    left:0;
+    top:0;
+    position:absolute;
+    z-index:200;
+}
+body.modal-active #top-collect,
+body.scrolling-modal-active #top-collect {
+    z-index:190;
+}
+
+#lub, #lubber {
+    position:absolute;
+    left:17px;
+    right:17px;
+    visibility:hidden;
+}
+#lubber {
+    top:27px;
+    z-index:202;
+    border-top:3px solid #AFC81C;
+    background:transparent !important; /* what is overriding this? :/ */
+    height:1px;
+    _font-size:2pt;
+}
+#lubber i {
+    position:absolute;
+    right:0;
+    overflow:hidden;
+    width:5px;
+    top:-33px;
+    height:30px;
+    background:#AFC81C;
+}
+#lubber i.b {
+    background:#40534A;
+    border-left:1px solid #6B8075;
+    right:auto;
+    left:0;
+}
+#lub {
+    top:0;
+    z-index:125;
+    padding:39px 8px 8px 8px;
+    color:#DDD;
+    overflow:hidden;
+    height:175px;
+    _height:222;
+    background:#212A2A;
+}
+* html #lub iframe,
+* html #deviation div.collect-bubble iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:200%;
+    z-index:-1;
+}
+* html #deviation div.collect-bubble iframe {
+    filter:alpha(opacity=0);
+}
+#lub a.h {
+    text-decoration:underline;
+}
+#lub-saving {
+    position:fixed;
+    top:8px;
+    right:12px;
+    _position:absolute;
+    scrollerskates:expression(this.style.marginTop = document.body.scrollTop);
+    background:infobackground;
+    color:infotext;
+    border:1px solid infotext;
+    z-index:260;
+    font:9pt Tahoma,sans-serif;
+    padding:2px;
+    display:none;
+}
+#lub-saving.mac {
+    background:#FBFCC6;
+    color:black;
+    font:9pt LucidaGrande,sans-serif;
+}
+
+
+img.surfer {
+    z-index:253 !important;
+    border-color:#FFFFFF !important;
+}
+img.excited-surfer {
+    border-color:orange !important;
+    border-width:3px !important;
+    margin:-1px;
+    _margin:-3;
+}
+div.excited-surfer {
+    border-color:orange !important;
+    border-width:3px !important;
+    margin:-1px;
+    _margin:-3;
+}
+div.surfer-tv150 {
+    border:2px solid white;
+    margin:-2px;
+}
+#lub div.collection-head {
+    position:relative;
+    top:30px;
+    padding:10px 6px 2px 6px;
+    margin:0 10px;
+    border-bottom:1px solid #485856;
+    cursor:default;
+}
+#lub div.collection-head strong.h1 {
+    font:9pt Verdana, sans-serif;
+    color:#687876;
+}
+#lub div.collection-head span.collect-tagline {
+    position:relative;
+    left:20px;
+    font-size:8.25pt;
+}
+#lub div.collection-head span.collect-tagline,
+#lub div.collection-head span.collect-tagline a {
+    color:#88A8B6;
+}
+#lub div.collection-head span.collect-tagline a {
+    cursor:pointer;
+    color:#6888A6;
+    position:relative;
+    left:3px;
+}
+#lub div.collection-head span.collect-tagline img {
+    position:relative;
+    top:1px;
+}
+html body #lub div.collections {
+    overflow:auto;
+    _overflow-y:visible !important; /* js changes overflow property for FireFox a lot */
+    white-space:nowrap;
+    padding:39px 8px 8px 8px;
+    _width:100%;
+}
+html body #lub div.collections:not(:-moz-any-link) {
+    overflow:hidden;
+}
+html body #lub div.collections:not(:hello-its-safari) {
+    overflow:auto;
+}
+#lub {
+    padding:0 !important;
+    height:auto !important;
+}
+#friendslink {
+    right:73px !important;
+}
+#collectlink {
+    right:30px !important;
+}
+
+div.new-button {
+    position:relative;
+    display:inline;
+    display:inline-block;
+    display:-moz-inline-box;
+    top:55px;
+    background:url(/web/20120413083410im_/http://st.deviantart.net/minish/gallery/lub-buttons.gif) no-repeat 0 0;
+    cursor:pointer;
+    color:#D58411;
+    width:19px;
+    padding-top:21px;
+}
+div.pew-button {
+    background-position:-100px 0;
+}
+
+#lub a {
+    text-decoration:none;
+}
+#lub div.collections div.collectionzone {
+    height:139px;
+    position:relative;
+}
+* html #lub div.collections {
+    /* iframe stuff */
+    background:#212A2A;
+}
+#lub div.collections div.collectionzone a.betatime {
+    position:absolute;
+    z-index:125;
+    top:0;
+    left:0;
+    font:8.25pt Verdana, sans-serif;
+    color:#909F9D;
+    text-decoration:underline;
+}
+#lub div.collections div.collectionzone-iehack {
+    _height:151;
+}
+
+#lub div.collections div.collectionzone span.lubload {
+    display:block;
+    text-align:center;
+    position:relative;
+    background:no-repeat top center;
+    top:48px;
+    color:#AAA;
+    padding-top:24px;
+}
+#lub div.stackzone div.stackctrl {
+    margin-left:-6px;
+}
+#lub div.stackzone {
+    width:;
+}
+#lub div.stackzone div.notice {
+    position:absolute;
+    width:100%;
+    text-align:center;
+    padding-top:21px;
+    background:url(/web/20120413083410im_/http://st.deviantart.net/emoticons/d/deviation.gif) no-repeat top center;
+    bottom:42%;
+    color:#D58411;
+}
+#lub div.groupstack div.notice {
+    background:url(/web/20120413083410im_/http://st.deviantart.net/icons/activity/retrogroups.gif) no-repeat top center;
+    color:#FFF;
+}
+#lub div.groupstack div.notice-sent {
+    padding-top:0;
+    background:url(/web/20120413083410im_/http://st.deviantart.net/emoticons/e/email.gif) no-repeat 30% 3px;
+    bottom:47%;
+    text-indent:19px;
+    color:#FFF;
+    display:none;
+}
+div.groupstack div.label {
+    margin-top:-1.3em;
+}
+div.groupstack div.label a {
+    color:#CCC;
+}
+div.groupstack div.label a:hover {
+    text-decoration:underline !important;
+}
+
+#lub div.stackzone div.label {
+    padding:6px 0 0 0;
+    width:100%;
+    overflow:hidden;
+    color:#C0C4C2;
+    cursor:text;
+}
+#lub div.stackzone div.dim {
+    color:#68736D;
+    cursor:default;
+}
+#lub div.stackzone {
+    float:left;
+    /*_float:none !important;
+    _display:inline-block !important;*/
+    margin-right:12px;
+    width:140px;
+    mmargin-top:12px;
+}
+#lub div.maybedrop {
+    background-color:#374341;
+}
+#collectlink:focus {
+    background-position:-120px -122px;
+}
+#lub div.stackzone span.favup, #lub div.stackzone span.luvup, span#favup {
+    background:url(/web/20120413083410im_/http://st.deviantart.net/minish/widgets/favup.gif) no-repeat;
+    height:18px;
+    width:17px;
+    position:absolute;
+    margin-left:-9px;
+    left:50%;
+    top:37px;
+    z-index:264;
+}
+#lub div.stackzone span.luvup {
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/widgets/luvup.gif);
+}
+div.lubble {
+    border-top:1px solid #394343;
+    background:#192323;
+    _overflow-y:hidden;
+}
+div.lubble div.welcome {
+    position:relative;
+    float:left;
+    left:0;
+    top:0;
+    _position:absolute;
+    color:#ACB6B5;
+    overflow:hidden;
+    height:80%;
+    margin:24px 8px 0 12px;
+}
+div.lubble div.welcome h2 {
+    display:block !important;
+    color:#6C7675;
+    width:100%; /* for when js-enforced max width kicks in */
+    padding-right:4px; /* to prevent overflow cutoff */
+    line-height:1.2em;
+    max-height:2.4em;
+    overflow:hidden;
+}
+div.lubble div.welcome a {
+    color:#6C7675;
+    text-decoration:underline !important;
+}
+div.lubble div.welcome span.buttons {
+    position:absolute;
+    bottom:12px;
+    left:0;
+    line-height:1.7em;
+}
+div.lubble div.scrollzone {
+    overflow:auto;
+    overflow-y:hidden;
+    width:100%;
+    height:100%;
+}
+div.lubble div.stream {
+    text-align:left;
+    white-space:nowrap !important;
+}
+div.lubble div.stream a.thumbmenu {
+    display:none;
+}
+div.lubble div.buttons, div.lubble div.buttons a {
+    color:#DDDACE;
+    white-space:nowrap;
+}
+div.lubble div.stream div.stackzone {
+    margin-top:28px;
+}
+
+#lub div.collection-list div.pane {
+    float:left;
+    padding-right:1em;
+}
+#lub div.collection-list {
+    overflow:hidden;
+}
+
+#lub div.lub-trash {
+    position:absolute;
+    bottom:-30px;
+    height:30px;
+    width:70px;
+}
+
+div.boing, div.boing>span {
+    background:#111 !important;
+}
+* html div.boing span {
+    background:#111 !important;
+}
+
+#lub {
+    scrollerskates:0;
+}
+div.lub-dontmove {
+    scrollerskates:0 !important;
+    _margin-top:0 !important;
+}
+#lub.lub-float, /* real */
+div.lub-float /* IE6 */ {
+    margin-top:-104px;
+    position:fixed;
+    _position:absolute;
+    scrollerskates:expression(this.style.marginTop = document.body.scrollTop - 104); /* whee! */
+}
+
+div.tragic-arrow {
+    background:#EEE;
+    height:136px;
+    width:3px;
+    position:absolute;
+    z-index:230;
+    display:block;
+}
+
+
+div.surfer,
+img.surfer {
+    display:none;
+    position:absolute;
+    cursor:default;
+    z-index:250 !important;
+     -ms-interpolation-mode:bicubic;
+}
+img.surfer, div.surfer-stack {
+    border:2px solid white;
+    margin:-2px 0 0 -2px;
+}
+div.surfer-stack {
+    border:2px solid white;
+    margin:-32px 0 0 -2px;
+    padding-top:30px;
+    height:148px;
+    width:140px;
+    _width:144;
+    _height:180;
+}
+div.surfer-stack div.stack {
+    width:110px;
+    height:110px;
+}
+
+* html #top-55 div#top-deviant,
+* html #top div#top-deviant {
+    z-index:140;
+}
+#top-55 div.top-deviant-float,
+#top div.top-deviant-float {
+    position:fixed !important;
+    _position:absolute !important;
+    /*scrollerskates:expression(this.style.marginTop = document.body.scrollTop - 104);*/
+   scrollerskates:expression(this.style.marginTop = document.body.scrollTop - 71); /* whee! */
+   _width:100%;
+    _top:71;
+}
+#top div.top-deviant-float {
+    margin-top:-71px;
+}
+#top-55 div.top-deviant-dontmove,
+#top div.top-deviant-dontmove {
+    scrollerskates:0 !important;
+    _margin-top:0 !important;
+}
+#top div.top-deviant-float #rockdock {
+    _width:expression(this.parentNode.offsetWidth - 76);
+}
+#top-55 div.top-deviant-float #rockdock {
+    _width:expression(this.parentNode.offsetWidth - 42);
+}
+
+#deviation div.collect-bubble,
+div.bubbletwo div.collect-bubble {
+    background:url(/web/20120413083410im_/http://st.deviantart.net/minish/widgets/collect-talk.gif) no-repeat top left;
+    position:absolute;
+    z-index:24;
+    width:320px;
+    height:224px;
+    overflow:hidden;
+}
+#deviation div.collect-bubble div.stream,
+div.bubbletwo div.collect-bubble div.stream {
+    position:relative;
+    top:-16px;
+    margin-bottom:-30px;
+}
+div.bubbletwo div.collect-bubble {
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/widgets/collect-backtalk.gif);
+    margin-left:-312px;
+    margin-top:24px;
+}
+
+div.drag-and-collect { 
+    position:absolute;
+    width:121px;
+    height:20px;
+    background:url(/web/20120413083410im_/http://st.deviantart.net/minish/widgets/drag-and-collect.gif) no-repeat;
+    margin-left:-61px; /* one too far left is where you wanna beee */
+    z-index:100;
+}
+/*body.deviant div.drag-and-collect { 
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/widgets/drag-and-deviate.gif);
+}*/
+
+b.wild {
+    display:block;
+    position:absolute;
+    z-index:19;
+    margin-left:52px;
+    margin-top:-99px;
+    margin-top:-px;
+    height:99px;
+    height:1px;
+    overflow:hidden;
+}
+b.wild b.i {
+    display:block;
+    background:black;
+    position:absolute;
+    bottom:0;
+    left:48px;
+    width:4px;
+    height:6px;
+}
+b.wild b.img {
+    display:block;
+    background:black;
+    width:100px;
+    overflow:hidden;
+    height:93px;
+}
+b.wild b.img img {
+    position:relative;
+    left:0;
+    width:200%;
+}
+
+
+#lub div.tucked-away,
+#lub div.tucked-away div.stackzone div.label,
+#lub div.tucked-away div.stackzone div.label a {
+    cursor:pointer;
+    text-decoration:none !important;
+    color:#687876 !important;
+}
+
+#top-deviant a.dockrocker {
+    position:absolute;
+    top:71px;
+    text-indent:36px;
+    white-space:nowrap;
+    height:29px;
+    z-index:202; /* might as well */
+    display:block;
+    outline:none;
+    cursor:default;
+    background:#2A3737;
+    color:#8A938F;
+    line-height:29px;
+    vertical-align:middle;
+    text-decoration:none !important;
+}
+#top-deviant a.dockrocker:hover {
+    background:#1F292A;
+}
+/*#top-deviant a.dockrocker:active,
+#top-deviant a.dockrocker:focus,*/
+#top-deviant a.popup-active,
+#top-deviant a.popup-active:hover,
+#top-deviant a.lub-active,
+#top-deviant a.lub-active:hover {
+    color:#4B6412;
+    background-color:#AFC81C;
+}
+#top-deviant a.dockrocker span.i {
+    position:absolute;
+    top:0;
+    left:0;
+    background:url(/web/20120413083410im_/http://st.deviantart.net/styles/minimal/minish/icons-top5.gif) no-repeat;
+    width:30px;
+    height:29px;
+}
+#top-deviant a.dockrocker span.edge {
+    left:auto;
+    right:-4px;
+    _right:-5;
+    width:5px;
+    background-position:-155px -64px !important;
+}
+#top-deviant a.dockrocker:hover span.edge {
+    background-position:-155px -93px !important;
+}
+#top-deviant a.dockrocker:active span.edge,
+#top-deviant a.dockrocker:focus span.edge,
+#top-deviant a.popup-active span.edge,
+#top-deviant a.popup-active:hover span.edge,
+#top-deviant a.lub-active span.edge,
+#top-deviant a.lub-active:hover span.edge {
+    background-position:-155px -122px !important;
+}
+#top-deviant #top-collections {
+    right:34px;
+    width:86px;
+    text-indent:38px;
+}
+#top-deviant #top-friends {
+    right:123px;
+    width:86px;
+}
+#top-deviant #top-friends span.i {
+    background-position:-80px -64px;
+}
+#top-deviant #top-friends:hover span.i {
+    background-position:-80px -93px;
+}
+#top-deviant #top-friends:active span.i,
+#top-deviant #top-friends:focus span.i,
+#top-deviant #top-friends.popup-active span.i,
+#top-deviant #top-friends.popup-active:hover span.i {
+    background-position:-80px -122px;
+}
+#top-deviant #top-collections span.i {
+    background-position:-120px -64px;
+}
+#top-deviant #top-collections:hover span.i {
+    background-position:-120px -93px;
+}
+#top-deviant #top-collections:active span.i,
+#top-deviant #top-collections:focus span.i,
+#top-deviant #top-collections.popup-active span.i,
+#top-deviant #top-collections.popup-active:hover span.i,
+#top-deviant #top-collections.lub-active span.i,
+#top-deviant #top-collections.lub-active:hover span.i {
+    background-position:-120px -122px;
+}
+
+
+#top-deviant {
+    _height:3px;
+    _margin-bottom:-3px;
+}
+
+body.fullscreen #top-deviant a.dockrocker {
+    display:none;
+}
+
+#top-55 #lub,
+#top-55 #lubber {
+    left:17px !important;
+    right:17px !important;
+}
+#top-55 {
+    position:absolute;
+    left:0;
+    right:0;
+    top:0 !important;
+    overflow:visible !important;
+    font:8.25pt Verdana, sans-serif;
+    height:auto !important;
+    background:#73827D;
+    z-index:122;
+}
+#top-55 a {
+    text-decoration:none;
+}
+#top-55 #top-deviant {
+    left:0;
+    right:0;
+}
+#top-55 #rockdock {
+    left:0;
+    right:0;
+    position:relative !important;
+    padding-left:44px;
+    z-index:110 !important;
+    background:#374341 !important;
+    height:27px !important;
+    _height:28 !important;
+    line-height:25px !important;
+    padding-top:0 !important;
+    overflow:hidden;
+}
+#top-55 #menulink {
+    left:0;
+}
+
+#top-55 #top-deviant #top-collections span.edge {
+    display:none;
+}
+#top-55 #top-deviant #top-collections {
+    right:0px;
+}
+#top-55 #top-deviant #top-friends {
+    right:89px;
+}
+
+#top-55.stickaround {
+    position:fixed;
+}
+#top-55 #top-deviant a.dockrocker span.i,
+#top-55 #top-deviant #menulink {
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/styles/minimal/minish/icons-top7.gif);
+}
+
+#top div.iconset-top i,
+#top #top-deviant a.dockrocker span.i {
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/styles-trunk/minimal/minish/icons-top8.gif) !important;
+}
+
+#top a.dockrocker span.arrow {
+    display:none;
+}
+#top-55 a.dockrocker span.arrow {
+    display:block !important;
+}
+#top-55 #rockdock,
+#top-55 a.dockrocker {
+    top:0 !important;
+}
+#top-55 #rockdock {
+    top:0px !important;
+}
+
+#top-55 #lubber {
+    top:27px;
+    z-index:205;
+}
+#top-55 #lub {
+    z-index:100 !important;
+}
+#top-55 #rockdock {
+    border:1px solid #6B8075 !important;
+    border-top:0 !important;
+    margin:0 17px !important;
+    width:auto !important;
+    padding:0 7px !important;
+}
+#top-55 div.top-deviant-float {
+    z-index:200 !important;
+}
+
+#top-55 #exitlink {
+    margin-top:-2px !important;
+    padding-top:3px !important;
+}
+
+body.chatroom #top-55 #rockdock {
+    border-style:none none solid none !important;
+    margin:0 !important;
+}
+
+body.chatroom #top-55 #lub,
+body.chatroom #top-55 #lubber {
+    left:0 !important;
+    right:0 !important;
+}
+
+#top-55 #rockdock span.inputter, #top-55 #rockdock #entrancelink {
+    margin-top:-2px !important;
+}
+#top-55 #lostlink {
+    top:-1px !important;
+}
+
+/* Fix for small deviations being obscured by collect bar */
+#lub-deviation-clone {
+    position: absolute;
+    z-index: 100;
+    /* position set by JS */
+    padding: 10px;
+    background-color: #666;
+    opacity: 0.6;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.progress-bar {
+    background-image: -moz-linear-gradient(#9DA5B0, #B6BCC6);
+    background-image: -webkit-linear-gradient(#9DA5B0, #B6BCC6);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #9DA5B0),color-stop(1, #B6BCC6));
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px;
+    -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5) inset, 0 1px 0 0 #FFFFFF;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5) inset, 0 1px 0 0 #FFFFFF;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5) inset, 0 1px 0 0 #FFFFFF;
+    height: 13px;
+    margin-left: 0px;
+    margin-top: 3px;
+    padding-right: 0px;
+    position: relative;
+    width: 94px;
+    z-index: 90;
+}
+.progress {
+    background-color: #74D04C;
+    background-image: url(/web/20120413083410im_/miniprogbar.gif);
+    background-repeat: repeat-x;
+    border: 1px solid #4C8932;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px;
+    display: block;
+    height: 11px;
+    overflow: hidden;
+    position: absolute;
+}
+a.cancel-upload {
+    position: absolute;
+    right: -22px;
+    top: -2px;
+}
+a.cancel-upload img {
+    cursor: pointer;
+}
+.progress span.ui-label {
+    color: #0C0C0C;
+    display: inline;
+    font-size: 10px;
+    font-family: sans-serif;
+    padding-top: 1px; 
+    line-height: 11px;
+    padding-right: 4px;
+    position: absolute;
+    right: 0;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+}
+
+/*
+
+@@require cssms/pages/grusers/boxes.css
+@@require cssms/pages/misc/gmbutton2.css
+
+@@require cssms/pages/grusers/editmode-modal.css
+
+*/
+
+.gm-controls {
+    position:absolute;
+    top:auto;
+    right:0;
+    z-index:101; /* gotta be above journal css */
+    zoom:1;
+}
+
+/*.gm-controls-config span * {
+    left:-150px;
+    width:198px;
+}*/
+.gm-controls-config span .current {
+    left:-300px;
+    width:348px;
+}
+.gm-controls span :hover {
+    top:-21px;
+}
+/*.gm-controls span :active,*/ /* <- ipad killer. no joke */
+.gm-controls span .active {
+    top:-42px !important;
+}
+
+.gm-controls span {
+    margin:8px 3px 2px 3px;
+    width:48px;
+    height:21px;
+    overflow:hidden;
+    float:right;
+    position:relative;
+    right:5px;
+    white-space:nowrap;
+}
+.gm-controls span * {
+    background:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/coolforcats.gif?1);
+    position:absolute;
+    top:0;
+    left:0;
+    margin:0;
+    height:300%;
+    width:100%;
+    text-indent:200%;
+}
+
+.gm-controls .gmb-submit a       { background-position:0 0 }
+.gm-controls .gmb-edit a         { background-position:-48px 0 }
+.gm-controls .gmb-access a       { background-position:-96px 0 }
+.gm-controls .gmb-menu a         { background-position:-119px 0 }
+.gm-controls .gmb-menu .menua    { background-position:-119px 0 !important }
+
+.gm-controls .gmb-menu,
+.gm-controls .gmb-access {
+    width:23px;
+    position:absolute;
+    right:2px !important;
+    top:-3px !important;
+}
+
+.module-min i.gr1,
+.module-min i.gr2,
+.module-min i.gr3,
+.module-min i.gr1 i,
+.module-min i.gr2 i,
+.module-min i.gr3 i,
+.module-min .gr-top,
+.module-min .gr-body,
+.module-min .gr-midbody,
+.module-min .gr,
+.module-min i.tri {
+    /*display:none;*/
+    margin-left:0;
+    margin-right:0;
+    border-style:none;
+    background:transparent;
+    border-color:transparent;
+}
+
+.module-min i.gr1,
+.module-min i.gr2,
+.module-min i.gr3,
+/*.module-min .gr-top i.icon,*/
+.module-min .catbar-tabbar-containment {
+    display:none !important;
+}
+.module-min .gr-hijack,
+.module-min .gm-controls,
+.module-min .gr-top {
+    display:none;
+}
+.modal div.selected,
+.modal div.selected a,
+.group-roster div.selected,
+.group-roster div.selected a,
+.group-roster .selected .selinherit {
+    background:#498091;
+    color:#E7EFEC !important;
+    font-weight:normal !important;
+}
+.phone-modal input.renamer {
+    width:130px;
+    margin:-2px 0;
+}
+.module-min .flat_form_error .form_error {
+    display:inline;
+}
+
+/* -- config colours ---- */
+/* dark bits */
+.gr-configbox i.gr1 {
+    background:#D4B10A;
+}
+.gr-configbox i.gr2,
+.gr-configbox i.gr3,
+.gr-configbox .gr-top {
+    border-color:#D4B10A;
+    background:#C5D3C3;
+}
+
+.gr-configbox i.gb,
+.gr-configbox .gr-body .gr {
+    border-color:#A6B2A6;
+    background:#C5D3C3;
+    /*color:#FFF;*/
+}
+.gr-configbox .gr-body {
+    background:#C5D3C3;
+}
+.gr-configbox i.gb1 {
+    background:#A6B2A6;
+}
+.gr-configbox .gr-top {
+    border-bottom-color:#D4B10A;
+}
+
+/* shiny bits */
+.gr-configbox i.gr3 i,
+.gr-configbox .gr-top .gr {
+    border-left-color:#F7D948;
+    border-right:0;
+}
+.gr-configbox i.gr3 i,
+.gr-configbox .gr-top,
+.gr-configbox .gr-top .gr {
+    background:#E9C30B url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/stfo.gif?1) bottom left;
+    _background-position-x:-7;
+}
+.gr-configbox .gr-top .gr {
+    height:26px;
+    _height:30;
+    overflow:hidden;
+}
+.gr-configbox i.gr3 i {
+    background-position:0 -20px;
+}
+.gr-configbox .gr-top {
+    height:30px;
+    _height:31;
+}
+.gr-configbox i.gr2 i {
+    background:#F7D948;
+}
+.gr-configbox .gr-body .gr {
+    border-top-color:#B0BCB0;
+}
+
+
+/* fun */
+.gr-loading * {
+    cursor:wait !important;
+}
+.gr-loading .gr-body a.gmbutton2 {
+    opacity:.5;
+    _filter:alpha(opacity=50);
+}
+.gr-loading .gm-controls>span {
+    opacity:.5;
+}
+.gr-loading .gm-controls span a,
+.gr-loading .gm-controls span span {
+    top:0 !important;
+}
+
+
+/* headers */
+.gr-configbox .gr-top h2, 
+.gr-configbox .gr-top h3 {
+    color:#151201;
+}
+
+.gr-configbox .gr-top .gr {
+    color:#89968A;
+    font-size:8.25pt;
+}
+
+.gr-configbox .gr-top i.tri {
+    background-position:0 -20px;
+}
+
+/* specifics */
+.gr-configbox .gr-body label.h,
+.popup2-gruser label.h {
+    display:block;
+    font-size:8.25pt;
+    font-weight:bold;
+    margin-bottom:2px;
+}
+.gr-configbox .gr-body label.hs,
+.popup2-gruser label.hs {
+    padding-top:10px;
+}
+.gr-configbox .gr-body select,
+.gr-configbox .gr-body select option {
+    font-size: 9pt;
+    font-family:Verdana, sans-serif;
+}
+.gr-body input[type=text],
+.gr-body input.text,
+.gr-body textarea {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #515c5a;
+    letter-spacing: -0.25px;
+    font-size: 11px;
+    padding: 5px 8px 4px;
+    border: 1px solid #8c9b8c; 
+    background: #f7f7f7; 
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-box-shadow: 0 1px rgba(255,255,255,0.4), 0 1px 4px #bdbdbd inset;
+    -webkit-box-shadow: 0 1px rgba(255,255,255,0.4), 0 1px 4px #bdbdbd inset;
+}
+
+/* errors */
+.g-errors {
+    background:#B0BCB0;
+}
+.g-errors ul, .g-errors ul li{
+    list-style:none;
+    padding:0;
+    margin:0;
+    line-height:1.6em;
+}
+
+/* tabs */
+.gr-configbox .gr-tabs {
+    background:#B0BCB0;
+    border-bottom-color:#A6B2A6;
+}
+.gr-configbox .gr-tabs span,
+.gr-configbox .gr-tabs a {
+    background:#C5D3C3;
+    border-color:#A6B2A6;
+}
+.gr-configbox .gr-inline .gr-tabs {
+    background:#C5D3C3;
+}
+
+/* config subscriber flourishes */
+
+span.radio_disabled_subscription {
+    padding:0.7ex;
+}
+label.disabled_subscription, option.disabled_subscription,
+.pager-select .disabled_subscription, .select_pager span.disabled_subscription,
+small.disabled_subscription {
+    color:#B73E62;
+}
+option.disabled_subscription, .pager-select .disabled_subscription, .select_pager span.disabled_subscription {
+    zoom:1;
+    padding-left: 20px;
+    background: url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/padlock.gif) no-repeat 3px;
+}
+label.enabled_subscription, option.enabled_subscription,
+.pager-select .enabled_subscription, .select_pager span.enabled_subscription {
+    color:green;
+}
+.subscription_pitch {
+    zoom:1;
+    color:white;
+    text-align: center;
+    padding:1ex;
+    border-bottom:1px solid #9CA998;
+}
+.subscription_pitch a {
+    color:white !important;
+    text-decoration:underline;
+}
+.has_subscription {
+    background-color:rgb(151,192,97);
+}
+.no_subscription {
+    background-color:#B73E62;
+}
+label.disabled {
+    color: grey;
+}
+
+
+.popup2-gruser .gm-controls {
+    float:none;
+    position:relative;
+    top:-3px;
+    right:1px;
+}
+.popup2-gruser .gm-fakeout {
+    top:-4px;
+    right:0;
+    background:#E9C30B url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/stfo.gif?1) bottom left;
+    height:33px;
+    _height:35;
+    border:1px solid #D4B10A;
+}
+.popup2-gruser .gr-hijack {
+    border-top:1px solid #B6BEB4;
+    margin-top:24px;
+    padding-top:12px;
+}
+
+
+/*.popup2-gruser a.gmbutton2,
+.popup2-gruser a.gmbutton2 b {
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/messages/gmbutton2.gif);
+}*/
+
+.popup2-gruserhint,
+.popup2-gruserhint2 {
+    border:1px solid #AA9C72 !important;
+    background:#FFF8D1 !important;
+    color:#322711 !important;
+    padding:10px !important;
+    width:195px !important;
+    _width:217 !important;
+    height:43px !important;
+    _height:51 !important;
+    cursor:default;
+}
+.popup2-gruserhint2 {
+    width:215px;
+    _width:237;
+}
+
+
+.popup2 span.subby, .popup2 span.subby a {
+    color:#B43E64;
+}
+.popup2 span.subby a {
+    text-decoration:underline;
+}
+
+
+
+/* more editmode fun */
+.gm-controlhax .gm-controls {
+    display:none !important;
+}
+.catbar a.ghost-edit {
+    position:absolute;
+    z-index:40;
+    left:11px;
+    margin-top:-4px;
+}
+.catbar a.ghost-edit img {
+    visibility:hidden;
+}
+.catbar a.ghost-edit:hover img,
+.catbar a.ghost-edit:focus img,
+.catbar div.authorative-avatar.active a.ghost-edit img {
+    visibility:visible;
+}
+
+
+.popup2-gruser-stats .gmb-edit {margin-left:-50px !important}
+
+
+
+#gmi-RosterSidebarEntry {
+    position: relative;
+}
+#gmi-RosterSidebarEntry .gm-chaos {
+    position: absolute;
+    top:0; right:0;
+    visibility:hidden;
+}
+#gmi-RosterSidebarEntry.selected .gm-chaos {visibility:visible;}
+#gmi-RosterSidebarEntry.renaming .gm-chaos {visibility:hidden !important;}
+.RosterSidebarEntry .gmbutton2chaos {
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/gmbutton2chaos-blue.gif) !important;
+}
+.gmbutton2chaos {
+    height:20px;
+    text-indent:-400px;
+    width:242px !important;
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/the_individual_eleven.png);
+    margin:0 !important;
+}
+
+/* opera fix for white-space nowrap issue. see ticket #5273 */
+head~body .gtab-selected { padding-right: 33px;}
+head~body .gtab-selected span { display: none;}
+
+.gm-astro .gmbutton2chaos {
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/astro-megazord.png) !important;
+}
+* html .gm-astro .gmbutton2chaos {
+    _background-image:none !important;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/minish/gruzecontrol/astro-megazord.png');
+    _cursor:pointer !important;
+}
+* html .gm-astro .gmbutton2chaos[],
+* html .gm-astro .gmbutton2chaos {
+    _background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/astro-megazord.png) !important;
+    _filter:none !important;
+}
+.ultramenu .gm-app-add {
+left:5px !important;
+overflow:hidden;
+margin:1px 0 2px 0;
+}
+
+.gm-chaos {
+    width:22px;
+    height:21px;
+    overflow:hidden;
+    *position:relative;
+}
+/*.gm-controls */.gm-chaos {
+    margin:8px 8px 0 0;
+    float:right;
+}
+
+.gm-chaos-tab-new  .gmbutton2chaos {
+    position:relative;
+    left:-132px;
+}
+.gm-chaos-new .gmbutton2chaos,
+.ultramenu .gm-chaos-tab-new .gmbutton2chaos {
+    position:relative;
+    left:-66px;
+}
+
+.gm-controls-config .gmbutton2chaos {
+    margin-left:-22px !important;
+}
+.gm-controls-config .gm-chaos-current .gmbutton2chaos {
+    margin-left:-44px !important;
+}
+/*dirty*/
+.blog_module_generic .gm-controls { z-index: 110; }
+
+.catbar .gm-chaos {position:relative;z-index:60;left:-2px}
+.shineblock .gm-chaos {margin-top:0;float:left}
+
+/*.module-backroomconfig .gr-top h2, .module-backroomconfig .gr-top {display:block}
+.module-backroomconfig .gr-body .gr {padding-left:190px}*/
+.module-backroomconfig .gr-wonkwonk {display:none}
+
+.backroomconfig-sidebar {
+    position:absolute;
+    left:26px;
+    top:60px;
+    width:170px;
+    border-right:1px solid #A6B2A6;
+    z-index:100;
+    background:#C5D3C3;
+}
+.backroomconfig-sidebar .guideblock {border:0 !important}
+
+.bpp_voter_roles {overflow:hidden;_overflow:visible;_height:1}
+
+
+*>.tt-a .gmbutton2hidden {display:none}
+.tt-a:hover .gmbutton2hidden,
+.tt-a .active,
+.stream .selected .gmbutton2hidden {display:block}
+.stream .selected .gmbutton2chaos {left:-154px !important}
+
+*>.rs-customicon .gmbutton2hidden {display:none}
+.rs-customicon:hover .gmbutton2hidden,
+.rs-customicon .active  {display:block}
+
+.tv150 input {width:80px}
+.gl-text input {width:100px}
+*>.gl-text .gmbutton2hidden {display:none}
+.gl-text:hover .gmbutton2hidden,
+.gl-text .active {display:block}
+
+
+*>.stacklink .gmbutton2hidden {display:none}
+.stacklink .active,
+.stacklink:hover .gmbutton2hidden {display:block}
+
+.cruise-boxes .gr-box {margin:0}
+.cruise-boxes select {width:100%}
+.cruise-boxes .bpp-vote-details select,
+.cruise-boxes .bpp-limit-details select {width:auto;margin-top:3px;}
+.cruise-boxes .bpp-vote-details,
+.cruise-boxes .bpp-limit-details {
+    padding: 4px;
+}
+
+#gmi-GMFrame_Gruser div .gm-controls {_width:35}
+
+
+#gmi-MembershipGlobalAccessPanel {_position:relative;_width:100%}
+
+
+
+
+/* ok, so I remember why these were here :(   module-min shouldn't be in here either */
+.module-blocks .gr-box {
+    border-top:1px solid #ACBEB2;
+}
+body .module-blocks .gr-top {
+    display:block !important;
+}
+.module-blocks .gr-top i.icon,
+.module-blocks .gr-top img {
+    display:none;
+}
+.module-blocks .gm-controls {
+    display:block;
+    top:4px;
+}
+.module-blocks .gr-top h2 {
+    font-size: 10pt;
+    font-family:Verdana, sans-serif;
+    font-weight:bold;
+    letter-spacing:0;
+    width: 165px;
+}
+.module-blocks .gr-top {
+    border-top:1px solid #E3EAE1;
+}
+.module-blocks .gr-top .gr {
+    padding-top:5px;
+    padding-right:64px;
+    background:transparent;
+}
+.module-blocks .gr-hijack {
+    display:block;
+    padding-bottom:14px;
+}
+.module-blocks .gr-hijack a.gmbutton2 {
+    width:auto;
+}
+.module-blocks .gr-hijack div {
+    position:absolute !important;
+    bottom:0px !important;
+}
+.module-blocks .subscription_pitch .subscription_pitch_hax {
+    display:none;
+}
+.module-blocks .gm-controls span {
+    position:relative;
+    float:right;
+    clear:right;
+    margin:0 0 4px 0;
+    right:8px !important;
+}
+.module-blocks .stream {
+    position:relative;
+    left:-12px;
+}
+.module-blocks .gallery-sidebar .stream {left:-23px}
+.module-blocks .a-stream, .module-blocks .gallery-sidebar .a-stream {left:0}
+.module-blocks .countdown_time td {font-size:12pt}
+.module-blocks .countdown_time tfoot {display:none}
+.module-blocks .grf-indent .text,
+.module-blocks .grf-mirror .text {
+    padding:4px 8px !important;
+}
+.module-blocks .gr-body {clear:right}
+.gr-configbox .widget-toaster {
+    position:absolute;
+    right:8px;
+    bottom:8px;
+    font-size:8.25pt;
+    text-align:left;
+    text-decoration:underline;
+    line-height:1.5em
+}
+.gr-configform label.h{
+    display:block;
+    font-size:8.25pt;
+    font-weight:bold;
+    margin-bottom:2px;
+}
+input.gr-configbox-floaty-checkbox {
+    margin-right: 10px;
+    float: left;
+}
+.gr-configbox label.ih, .gr-configform label.ih {
+    font-size:8.25pt;
+    font-weight:bold;
+    margin-right:8px;
+}
+
+.gr-box .grconfig-hide {
+    display:block;
+}
+.gr-box .grconfig-show {
+    display: none !important;
+}
+.gr-configbox .grconfig-hide {
+    display:none !important;
+}
+.gr-configbox .grconfig-show {
+    display: block !important;
+}
+
+.gmbutton2pencil,
+.gmbutton2plus,
+.gmbutton2discovery {
+    float:left;
+    margin-left:16px;
+}
+.gmbutton2pencil,
+.gmbutton2pencil b {
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/gm-edit.gif);
+}
+.gmbutton2plus,
+.gmbutton2plus b {
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/gm-plus.gif);
+}
+.gmbutton2discovery,
+.gmbutton2discovery b {
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/gm-discovery.gif);
+}
+.gmbutton2discovery {
+    padding-left:20px !important;
+}
+.gmbutton2pencil b,
+.gmbutton2plus b,
+.gmbutton2discovery b {
+    width:14px;
+}
+
+
+.bubbleview .roomlayoutprefix {display:none}
+.bubbleview .roomlayouteditor {
+    background:transparent;
+    width:auto !important;
+    min-height:auto !important;
+    height:auto !important;
+    overflow:visible !important;
+}
+
+.bubbleview .mam-ch i.c {display:none}
+.bubbleview .mam-ch-ctrl i.c {display:block}
+.bubbleview .mam-ch-ctrl {border-width:0 0 1px 0;border-color:#9EB1A2}
+
+.bubbleview .mam-header,
+.bubbleview .roomlayouteditor .recommend-link {
+    display:none
+}
+.bubbleview .roomlayouteditor .gruze-sidebar .pzone,
+.bubbleview .roomlayouteditor .gruze-sidebar .warr-widget-filler {width:152px !important}
+
+.roomlayouteditor .zone-holder,
+.roomlayouteditor #gmi-ModuleArranger {
+    padding:0 !important
+}
+.inline-catalog-holder {_zoom:1}
+.bubbleview .inline-catalog {position:relative;margin-top:-12px;overflow:hidden;height:170px}
+.bubbleview .inline-catalog .clogs {height:108px;}
+.bubbleview .inline-catalog .catalog-more-button {top:143px}
+.bubbleview .gm-clog2 {background:#CCD9C8;padding:10px !important}
+.bubbleview .gm-clog2:hover {background:#D3DED2}
+.bubbleview .gm-clog2 {border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px}
+.bubbleview #gmi-MAMiniModule h2 {white-space:nowrap}
+.inline-catalog i.bigicon {display:none !important}
+.bubbleview .gm-minimized h2 {_zoom:1}
+.bubbleview .gm-clog2 .gr-top {_padding-right:0 !important;_overflow:hidden !important}
+
+.widget-categories .guideblock {
+    white-space:nowrap;
+    border:none;
+    margin:.8em .5em 1em 1em;
+}
+.widget-catalog-expanded,
+.widget-catalog-expanded .clogs {
+    height:auto !important;
+}
+.bubbleview .widget-catalog-expanded .catalog-more-button,
+.bubbleview .widget-catalog-expanded #user-catalog-more-button {
+    display:none !important;
+}
+
+.indizone {
+    background:#272E48 url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/ws.png) repeat-x 0 -320px;
+    _zoom:1;
+}
+.indizone-vr {
+    background:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/ws.png);height:320px;width:30px;
+}
+td.indizone-vr {background:none}
+
+.indizone,
+.indizone .widget-categories a {
+    color:#ECF5F1 !important;
+}
+.indizone,
+.indizone .widget-categories a.selected,
+.indizone .widget-categories a.selected:hover {
+    color:#FBD467 !important;
+}
+
+/*
+@@require cssms/pages/grusers/boxes.css
+*/
+
+/* drawer */
+div.zone-modal div.gruser-drawer,
+div.zone-modal div.gruser-drawer i.bbb {
+    background:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/slide.png) no-repeat;
+}
+div.zone-modal div.gruser-drawer
+{
+    top:14px;
+    /*bottom:19px;*/ /* 27 total w/ i.bbb */
+
+    left:-333px;
+    width:333px;
+
+    position:absolute;
+}
+div.zone-modal div.gruser-drawer i.bbb {
+    position:absolute;
+    bottom:-8px;
+    height:9px;
+    left:0;
+    width:333px;
+    background-position:0 100%;
+}
+
+
+
+
+/* catalog */
+div.clog
+{
+    color:#1F2629;
+    margin:15px 25px;
+}
+div.clog div.clog-label
+{
+    font:12pt Trebuchet MS, sans-serif;
+    /*font:10pt Verdana, sans-serif;*/
+    cursor:default;
+    color:#969F93;
+    /*text-align:center;*/
+
+    margin-bottom:14px;
+}
+div.clog div.clog-label strong {
+    /*font-weight:normal;*/
+    color:#1F2629;
+}
+div.clog div.clog-label a {
+    color:#498091;
+    text-decoration:underline;
+}
+
+div.clogs div.nav2 .l,
+div.clogs div.nav2 .r {
+    padding-left:14px;
+    padding-right:14px;
+}
+
+.clog .gm-minimized
+{
+    margin-bottom:9px !important;
+    /* and more! */
+}
+
+div.gm-clog {
+    position:relative;
+    color:#1F2629;
+}
+div.gm-clog div.gr h2 i.icon {
+    display:none;
+}
+div.gm-clog div.gr {
+    text-indent:0 !important;
+    width:auto !important;
+    padding-left:85px !important;
+    padding-right:6px !important;
+}
+div.gm-clog h2 {
+    text-indent:0 !important;
+    width:auto !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+i.bigicon {
+    display:block !important;
+    position:absolute;
+    left:-56px;
+    top:4px;
+    width:44px;
+    height:44px;
+    background:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/icons-modules.gif?10);
+}
+div.gm-clog div.clog-only {
+    cursor:default;
+    display:block !important;
+    color:#1F2629;
+}
+div.clog a.addbutton,
+div.clog a.viewbutton {
+    margin-top:6px;
+    cursor:pointer;
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/addwij.gif) !important;
+    background-repeat:no-repeat !important;
+    width:123px;
+}
+div.clog a.viewbutton {
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/viewwij.gif) !important;
+    width:160px;
+}
+div.clogs div.nav,
+div.clogs div.nav2 {
+    position:absolute;
+    width:280px !important;
+    z-index:30;
+}
+
+
+
+
+
+
+
+div.gm-minimized div.drag-only {
+    display:none;
+}
+div.gm-mini-drag div.drag-only {
+    display:block;
+    font-weight:bold;
+    text-indent:28px;
+    color:#47A30B;
+}
+
+div.gm-mini-drag div.gr,
+div.modal div.pzone div.gr {
+    padding-right:0 !important;
+    padding-bottom:0 !important;
+    overflow:hidden;
+}
+div.gm-mini-drag div.gr h2,
+div.modal div.pzone div.gr h2 {
+    text-overflow:ellipsis;
+    _width:89% !important;
+    overflow:hidden !important;
+    padding-right:20px !important;
+    _zoom:1;
+    height:16px;
+    _height:21;
+}
+div.gm-mini-drag div.gr h2 b,
+div.modal div.pzone div.gr h2 b {
+    font-weight:inherit;
+    line-height:30px;
+    position:relative;
+    top:-7px;
+}
+div.gm-mini-drag div.gr h2:not(:-moz-any-link),
+div.modal div.pzone div.gr h2:not(:-moz-any-link) {
+    overflow:hidden !important;
+    width:152px;
+}
+div.modal div.chn div.gr-box {
+    _margin-bottom: 0;
+}
+
+
+div.gm-mini-drag {
+    border:0 !important;
+    margin:0 !important;
+    position:absolute !important;
+    background-repeat:no-repeat;
+}
+div.gm-mini-drag {
+    z-index:260 !important;
+}
+
+div.gm-icon-drag {
+    margin:0;
+    z-index:300 !important;
+}
+
+
+
+/* zones */
+div.gzone-label {
+    cursor:default;
+    position:relative;
+    top:12px;
+    font-size:8.25pt;
+    font-weight:bold;
+    margin:0 8px;
+    text-transform:uppercase;
+}
+div.sealed-zone {
+    margin:16px 8px 14px 8px;
+}
+* html div.sealed-zone i.bl,
+* html div.sealed-zone i.br {
+    _bottom:-1px;
+}
+div.modal div.sealed-zone i.c {
+    border-color:#CCD9C8;
+}
+div.modal div.sealed-zone i.c b {
+    background-color:#CCD9C8;
+}
+div.modal div.sealed-zone div.ch-ctrl {
+    background:#BACDB6;
+    border-color:#A6B2A6;
+    min-height:30px;
+    _height:32;
+}
+div.modal div.sealed-zone i.c i,
+div.modal div.sealed-zone div.ch-ctrl {
+    border-color:#A6B2A6;
+    background-color:#BACDB6;
+}
+
+div.modal div.preview-zone div.ch-ctrl {
+    overflow:auto !important;
+    height:300px;
+    width:500px;
+}
+div.modal div.preview-zone a {
+    cursor:default;
+}
+div.modal div.subscription_pitch {
+    display:none;
+}
+
+
+div.zone-holder div.reset {
+    padding:0 8px 16px 0;
+    float:right;
+    _position:relative;
+    color:#235393;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+
+
+div.pzone {
+    color:#869286;
+}
+div.pzone, div.mzone {
+    padding:7px 3px 3px 3px;
+}
+/*div.pzone:empty::before {
+    content:"Empty";
+}*/
+div.sealed-zone div.ll div.pzone {
+    margin-right:8px;
+}
+div.sealed-zone div.rr div.pzone {
+    margin-left:8px;
+}
+
+
+
+div.modal div.zone-modal {
+    background-color:#CCD9C8;
+}
+div.zone-holder {
+    padding:2px 16px;
+    overflow:auto;
+}
+div.bottom-bit {
+    overflow:hidden;
+    text-align:center;
+    height:44px;
+    _height:45;
+    border-bottom:1px solid #9EB1A2;
+}
+div.bottom-bit table.f td.f {
+    padding:0 12px;
+}
+div.bottom-bit table.f {
+    position:relative;
+    top:8px;
+}
+
+
+div.modal div.zone-modal div.bubbleview {
+    padding:0 !important;
+    margin:0 !important;
+}
+
+/* IE filter text render fixes: */
+div.zone-holder div.gzone-label,
+/*div.zone-holder div.arranger-label,*/
+div.zone-holder div.reset {
+    background:#CCD9C8;
+}
+
+
+
+/* sub sub modals modals */
+div.zone-modal div.zone-party-welcome,
+div.zone-modal div.zone-party-talktothehand {
+    position:relative;
+    top:-12px;
+    height:19px;
+    _height:20;
+    border-bottom:1px solid #9CA998;
+    color:#FFF;
+    line-height:19px;
+    text-align:center;
+}
+div.zone-modal div.zone-party-welcome a,
+div.zone-modal div.zone-party-talktothehand a {
+    color:#FFF !important;
+}
+div.zone-modal div.zone-party-welcome {
+    background:#47A30B;
+}
+div.zone-modal div.zone-party-talktothehand {
+    background:#B43E64;
+}
+
+
+
+
+
+/* midget widgets */
+
+div.gm-minimized i.tri {
+    display:none !important;
+}
+div.gm-minimized div.gr-box {
+    margin-bottom:4px !important;
+}
+div.gm-minimized div.gr-top {
+    border-bottom:0;
+}
+
+div.gm-minimized div.gr-top div.gr {
+    padding-left:18px;
+    background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/grippy.gif?2);
+    background-repeat:no-repeat;
+    background-position:3px 6px;
+    _padding-right:0 !important;
+}
+.gm-nomove .gr {
+    background-image:none !important;
+}
+div.gm-minimized div.gr-top div.gr i.move {
+    cursor:move;
+    position:absolute;
+    left:0;
+    top:0;
+    width:25px;
+    height:25px;
+}
+.gm-nomove .move {
+    display:none;
+}
+
+div.gm-minimized div.gr h2 {cursor:default;font:9pt Verdana, sans-serif !important;font-weight:bold !important;text-indent:28px;}
+.gm-nomove h2 {left:-20px !important}
+.gm-nomove .gm-clog h2 {left:0 !important}
+
+div.gm-minimized div.gr h2 {padding:5px 0 2px 0 !important}
+div.gm-minimized div.gr h2 i.icon {position:absolute; top:2px;left:2px}
+div.gm-minimized div.gm-controls span {top:4px}
+div.gm-minimized div.gm-controls {right:-1px}
+
+
+div.gm-minimized div.gr h2 i.bigicon,
+div.gm-minimized div.gr div.clog-only {
+    display:none;
+}
+
+div.gm-minimized i.gb {
+    background:#E6EDE4;
+}
+div.gm-minimized i.gb1 {
+    background:#A6B2A6;
+}
+
+div.zone-holder div.gm-highlight i.gr2 i {
+    background-color:#F7F4C4;
+}
+div.zone-holder div.gm-highlight i.gr3 i,
+div.zone-holder div.gm-highlight div.gr-top div.gr {
+    border-color:#F7F4C4;
+}
+
+div.zone-holder div.gm-highlight div.gr,
+div.zone-holder div.gm-highlight div.gr-top,
+div.zone-holder div.gm-highlight i.gr3,
+div.zone-holder div.gm-highlight i.gr3 i,
+div.zone-holder div.gm-highlight i.gb {
+    background-color:#F6EFA9 !important;
+}
+div.zone-holder div.gm-highlight i.gb1 {
+    background-color:#A6B2A6 !important;
+}
+
+div.gm-placeholder div,
+div.gm-placeholder div i {
+    border-color:#BACDB6 !important;
+    background-color:#BACDB6 !important;
+}
+
+div.gm-minimized {
+    _zoom:1;
+}
+
+
+
+
+
+/* hints */
+div.module-hints ul.f strong {
+    font:12pt Trebuchet MS;
+    font-weight:bold;
+}
+
+div.module-hints ul.f ul.f {
+    line-height:1.5em;
+    margin:5px 0 15px 0;
+}
+div.module-hints ul.f ul.f li {
+    padding-left:40px;
+    background:url(/web/20120413083410im_/http://st.deviantart.net/emoticons/b/bulletpurple.gif) no-repeat 26px 4px;
+}
+
+
+
+
+/* cata log group stahl */
+.inline-catalog {position:relative;margin-top:-64px}
+.catalog-alt-header {display:none}
+.inline-catalog .catalog-alt-header {display:block}
+.scroll-catalog .gm-clog, .inline-catalog .gm-clog {display:inline-block;vertical-align:middle;width:250px;margin-right:10px;float:left;}
+.scroll-catalog .gm-clog {width:272px}
+.scroll-catalog .clog-only, .inline-catalog .clog-only {height:60px}
+.inline-catalog .clogs {height:10px;overflow:hidden;padding-right:0px;margin-bottom:60px}
+.inline-catalog .clog-label {display:none}
+.catalog-more-button {display:none !important}
+/*.inline-catalog .catalog-more-button {position:absolute;left:24px;top:154px;width:180px;display:block !important}*/
+.inline-catalog .catalog-more-button {position:absolute;left:27px;top:36px;width:180px;display:block !important}
+.inline-catalog .catalog-more-button, .inline-catalog .catalog-more-button b {background-image:url(/web/20120413083410im_/http://st.deviantart.net/minish/messages/gmbutton2g.gif?1)}
+.inline-catalog .catalog-more-button, .inline-catalog a:active {font-weight:bold !important;}
+
+.scroll-catalog .clog {margin:0}
+.scroll-catalog .clog-label {padding:13px 16px 0 16px}
+.scroll-catalog .clogs {overflow:auto;height:350px;margin:0;padding:12px 0 12px 16px}
+.modalfunk .gruze-sidebar>* {width:inherit}
+
+
+
+.modalfunk-lastbar .clogs .nav2 {right:-35px}
+
+
+.catalog2 {padding-bottom:16px !important}
+.catalog2 .gm-clog2 {float:left;width:180px;_width:200;_overflow:hidden;margin-right:12px !important;border-left:1px solid #ACBEB2;border-right:1px solid #ACBEB2}
+
+.modsurfer-notice {
+    display:none;
+    position:absolute;
+    top:-30px;
+    font:bold 9pt Verdana, sans-serif;
+    background:white;
+    border:1px solid #CCC;
+    height:20px;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.modsurfer-no {
+    color:#E2553C;
+}
+.modsurfer-yes {
+    color:#4A6;
+}
+.modsurfer-notice div {
+    padding:3px;
+}
+
+.bubbleview .roomlayouteditor .gr,
+.inline-catalog .gm-clog2 .gr {
+    overflow:hidden;
+}
+
+/* first the in-page faux-select box */
+div.select_pager, div.select_pager .button {
+    background-image: url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/dropdown.gif);
+    height: 25px;
+    zoom:1;/*hasLayout*/
+}
+div.select_pager_disabled, div.select_pager_disabled .button {
+    background-image: url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/dropdown-disabled.gif);
+}
+div.select_pager.select_pager_uplifted, div.select_pager.select_pager_uplifted .button {
+    background-image: url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/dropdown_uplift.png?2);
+    height: 33px;
+    zoom:1;/*hasLayout*/
+}
+div.select_pager.select_pager_uplifted.hover {
+    background-position: 0 -35px;
+}
+div.select_pager_disabled.select_pager_uplifted, div.select_pager_disabled.select_pager_uplifted .button {
+    background-image: url(/web/20120413083410im_/http://st.deviantart.net/minish/gruzecontrol/dropdown_uplift_disabled.png);
+}
+div.select_pager_disabled.select_pager_uplifted.hover {
+    background-position: 0 0;
+}
+
+div.select_pager {
+    background-position: top left;
+    display: inline-block;
+    *display: inline; /*IE*/
+    position: relative;
+    top: 4px;
+    margin-right: 28px;
+    margin-bottom: 5px;
+}
+div.select_pager .text {
+    overflow: hidden;
+    display: block;
+    padding: 0.5ex 1ex;
+    _padding-top: 0.8ex;/*ie*/
+    cursor: pointer;
+    max-width: 360px;
+    max-height: 15px;
+}
+div.select_pager * {
+    cursor: pointer;
+}
+div.select_pager.select_pager_uplifted .text {
+    padding: 0 10px;
+    font:12px/32px "Verdana", sans-serif;
+    text-align:left;
+    text-shadow:0px 1px 0 #eff4ee;
+    color:#44564B;
+    height: 32px;
+    max-height: 32px;
+}
+div.select_pager.select_pager_uplifted.hover .text {
+    color:#2c5667;
+    text-shadow:0px 1px 0 #fff;
+}
+div.select_pager_disabled.select_pager_uplifted .text,
+div.select_pager_disabled.select_pager_uplifted.hover .text {
+    color:#6b736e;
+    text-shadow:0px 1px 0 #eff4ee;
+}
+div.select_pager_disabled .text {
+    color:#6b736e;
+}
+
+div.select_pager .button {
+    position: absolute;
+    top: 0;
+    right: -25px;
+    display: block;
+    width: 25px;
+    background-position: top right;
+}
+div.select_pager.select_pager_uplifted .button {
+    right: -30px;
+    width: 30px;
+    height: 33px;
+    background-position: right top;
+}
+div.select_pager.select_pager_uplifted.hover .button {
+    background-position: right -35px;
+}
+div.select_pager_disabled.select_pager_uplifted.hover .button {
+    background-position: right top;
+}
+
+/* now the modal */
+div.popup2-select_pager {
+    background-color: rgb(192,207,191);
+    border: 1px solid rgb(139, 166, 139);
+    overflow:auto;
+}
+div.popup2-select_pager.select_pager_uplifted {
+    border:1px solid #9EB1A2;
+    border-width:0 1px 1px;
+    background-color: #E1E9E0;
+    
+    -moz-box-shadow: 0 0px 1px rgba(158, 177, 162, 1), 0 1px 0px rgba(255, 255, 255, 1) inset;
+    -webkit-box-shadow: 0 0px 1px rgba(158, 177, 162, 1), 0 1px 0px rgba(255, 255, 255, 1) inset;
+    
+    -moz-border-radius: 2px 2px 3px 3px;
+    -webkit-border-radius: 2px 2px 3px 3px;
+}
+div.popup2-select_pager div.page2 {
+    overflow:visible !important;
+}
+div.pager-select .option {
+    color: rgb(44, 54, 53);
+    padding: 0.5ex 0.5ex 0.5ex 20px;
+    cursor: pointer;
+}
+div.pager-select .selected {
+    background-color: rgb(170, 189, 170);
+}
+div.pager-select .disabled {
+    color: grey !important;
+}
+div.pager-select div.hover {
+    background-color: #337287;
+    color: white;
+}
+div.popup2-select_pager.select_pager_uplifted div.pager-select .option {
+    margin: 0;
+    padding: 7px 10px;
+    font-size: 11px;
+}
+div.popup2-select_pager.select_pager_uplifted div.pager-select div.hover {
+    background-color: #F0F4EF;
+    color:#196BA7;
+}
+/* Round bottom corners of last option so highlight doesn't overlap popup corners */
+div.popup2-select_pager.select_pager_uplifted div.pager-select div.option:last-child {
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+
+/*
+     FILE ARCHIVED ON 08:34:10 Apr 13, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:42:15 Dec 04, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.895
+  exclusion.robots: 0.032
+  exclusion.robots.policy: 0.014
+  esindex: 0.016
+  cdx.remote: 10.971
+  LoadShardBlock: 62.966 (3)
+  PetaboxLoader3.datanode: 150.423 (5)
+  load_resource: 225.581 (2)
+  PetaboxLoader3.resolve: 93.84 (2)
+*/

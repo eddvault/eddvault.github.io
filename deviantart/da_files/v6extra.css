@@ -1,0 +1,2201 @@
+/*
+ *  © 2000-2012 deviantART, Inc. All rights reserved.
+ */
+/*
+@@require cssms/lib/survival.css
+*/
+body.gruze .bubbleview {
+    color:#2C3635;
+    background:#CCD9C8;
+}
+body.gruze .bubbleview a.a,
+body.gruze .bubbleview .alink a,
+body.gruze .bubbleview a.super {
+    color:#196BA7;
+}
+body.gruze .bubbleview h1,
+body.gruze .bubbleview h2,
+body.gruze .bubbleview h3,
+body.gruze .bubbleview h4,
+body.gruze .bubbleview h1 a,
+body.gruze .bubbleview h2 a,
+body.gruze .bubbleview h3 a,
+body.gruze .bubbleview h4 a {
+    color:#2C3635;
+}
+
+body.gruze .catbar {
+    background:#C1D1BC url(bubbletop-gruze.gif) repeat-x bottom left;
+    border-top-color:#D8E2D6;
+}
+
+/* move to forum? */
+body.gruze table.fora th strong,
+body.gruze table.forum th strong {
+    color:#6C7F77 !important;
+    border-bottom-color:#92A399 !important;
+}
+body.gruze table.fora td.f,
+body.gruze table.forum td.f {
+    background:#C1D1BC;
+    border-color: #D3DFD2 !important;
+    vertical-align:middle;
+}
+
+/*
+@@require cssms/pages/misc/gmbutton2.css
+@@require cssms/pages/newsheadlines.css
+*/
+
+
+body.gruze div.bubbleview a { /* That's a stupid-ass selector, forcing us to redefine many styles below */
+    color:#2C3635;
+}
+body.gruze div.bubbleview .cc-name a {
+    color: #304030;
+}
+body.gruze div.bubbleview .cc-time a {
+    color: #778584;
+}
+body.gruze div.bubbleview .pagination ul.pages li a {
+    color: #337287;
+}
+body.gruze div.bubbleview .pagination ul.pages li.current a,
+body.gruze div.bubbleview .pagination ul.pages li.current a:hover {
+    color: #2C3635;
+}
+body.gruze div.bubbleview .pagination ul.pages li.dotdotdot a:hover {
+    color: white;
+}
+body.gruze div.bubbleview .pagination ul.pages li.prev a:hover,
+body.gruze div.bubbleview .pagination ul.pages li.next a:hover {
+    color: #337287;
+}
+body.gruze div.bubbleview .pagination ul.pages li.prev a.disabled,
+body.gruze div.bubbleview .pagination ul.pages li.prev a.disabled:hover,
+body.gruze div.bubbleview .pagination ul.pages li.next a.disabled,
+body.gruze div.bubbleview .pagination ul.pages li.next a.disabled:hover {
+    color: #93aa99;
+}
+
+body.gruze div.bubbleview .smbutton.smbutton-blue {
+    color: #FFFFF9;
+}
+body.gruze div.bubbleview a.a,
+body.gruze div.bubbleview div.alink a,
+body.gruze div.bubbleview a.super {
+    color:#196BA7;
+}
+body.gruze #output #deviant,
+body.gruze #output #group {
+    padding:0;
+}
+body.gruze #output #deviant div.catbar,
+body.gruze #output #group div.catbar {
+    _z-index:25;
+    padding:8px 15px 0px 15px;
+    overflow:visible;
+    min-height:51px;
+    _height:60;
+}
+body.gruze .catbar,
+body.gruze .catbar h1 {
+    color:#405147;
+}
+body.gruze .catbar img.avatar {
+    margin-right:6px !important;
+    position:relative;
+    top:-2px;
+    left:-2px;
+}
+#deviant a.gmbutton2 i.icon,
+#group a.gmbutton2 i.icon,
+div.blues-bar i.icon,
+.iconset-gruser i,
+#messages a.iconset-gruser i,
+#deviant a.smbutton i.icon,
+#group a.smbutton i.icon {
+    background-image:url(icons-gruser.gif?37);
+}
+
+#deviant div.hh, #group div.hh {
+    padding-top:0;
+    margin-top:0;
+}
+
+div.gruserbadge {
+    float:left;
+    margin:3px 20px 0 0;
+}
+
+/* oldschool box (back-compat journal) */
+body.gruze div.journalcontrol div.box {
+    border-color:#92A399;
+    background-color:#BAC5BA;
+    color:#393D3C;
+    margin-bottom:0px !important;
+}
+body.gruze div.journalcontrol-v5 {
+    margin-bottom:16px !important;
+}
+body.gruze div.journalcontrol div.box div.boxtop {
+    background:#92A399;
+}
+
+body.gruze a.gmhyper {
+    color:#196BA7 !important;
+}
+body.gruze a.gmbuttonhuge {
+    background-image:url(http://st.deviantart.net/minish/messages/messagebuttonhuge-light.gif?1)
+}
+body.gruze a.gmbuttonmid {
+    background-image:url(http://st.deviantart.net/minish/messages/messagebuttonmid-light.gif)
+}
+body.gruze a.gmbutton {
+    background-image:url(http://st.deviantart.net/minish/messages/messagebutton-light.gif)
+}
+body.gruze a.gmbuttonlil {
+    background-image:url(http://st.deviantart.net/minish/messages/messagebuttonlil-light.gif)
+}
+
+/* to be moved: gallery/fave stuff */
+
+body a.gmbutton2 i.icon {
+    /* Opera, Safari */
+    position:static;
+    width:26px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:-4px;
+
+    /* IE */
+    _margin:3px 0 0 -4px;
+    _float:left;
+}
+body a.gmbutton2:-moz-any-link i.icon {
+    /* Fox */
+    margin:3px 0 0 -4px;
+    float:left;
+}
+
+
+body.gruze ul.headlines span.lovi {
+    background-image:url(loveri.gif);
+}
+
+.catbar .moarbuttons {
+    float:right;
+    margin: 22px -12px 0px -10px;
+}
+.moarbuttons .gmbutton2 {
+    margin-right: 10px !important;
+}
+
+td.gruze-main .ccomment div.text {
+    max-width: 550px;
+}
+
+.catbar table td.f {
+    _position:relative;
+}
+.catbar table .gm-chaos {
+    _position:absolute !important;
+    _left:auto !important;
+    _right:2px !important;
+}
+
+.moarbuttons {padding-top:10px;margin-top:12px !important}
+.gmbuttonfestive {
+    background-image:url(gift-button-sprite.gif) !important;
+    padding:0 !important;
+    width:81px !important;
+    height:38px !important;
+    top:-9px !important;
+    margin-bottom:-20px !important
+}
+.gmbuttonfestivebogo {
+    background-image:url(gift-button-sprite-bogof.gif) !important;
+    width:91px !important;
+}
+
+.gmbuttonholidays {
+    background-image: url(http://st.deviantart.net/icons/misc/gmbutton2gg-gold.png) !important;
+ }
+
+.gmbuttonholidays b {
+    background-image:  url(http://st.deviantart.net/icons/misc/gmbutton2gg-gold.png) !important;
+    background-position: 100% 0;
+ }
+
+#deviant .ad-blocking-makes-fella-confused {
+    position:static !important;
+}
+
+.gtab {
+    display:block;
+    padding:9px 6px 9px 37px;
+    top:1px;
+    position:relative;
+    z-index:30;
+    text-decoration:none !important;
+    color:#2C3534;
+    margin-right:8px;
+    white-space:nowrap;
+}
+.gtab-i {
+    position:absolute;
+    top:0 !important;
+    right:-5px;
+    _right:2;
+    width:6px;
+    height:100%;
+    _height:35 !important;
+    _overflow:hidden !important;
+    background-position:100% 0;
+}
+.gtabi-mc {
+    background-image:url(http://st.deviantart.net/minish/messages/tabs-mc.gif?2) !important;
+    border-bottom:3px solid #E5EAE3;
+    margin-bottom:-2px;
+}
+.gtabi-gm, .gtabi-gm .gtab-i {
+    /*background-image:url(tabs-street3.gif) !important;*/
+    font-weight:bold;
+    color:#B5623E !important;
+    cursor:default;
+}
+body.gruze .gr-box .gtab {
+    padding:6px 0px 3px 20px;
+    color:#337287;
+}
+
+.gtab .icon {
+    left:9px;
+    _left:-27;
+    top:6px;
+}
+
+/*
+@@require cssms/pages/grusers/funsizegraph.css
+*/
+
+/* basic looks */
+.blues-bar {
+    clear:both;
+    border-top:1px solid #EFF3EF;
+    /*border-bottom:1px solid #E6ECE4;
+    background:#D3DFD1 url(cruiser.gif) repeat-x top left;*/
+    padding-bottom:3px;
+    margin-bottom:-3px;
+    background:#D3DFD1 url(blues-groove.gif) repeat-x bottom left;
+}
+.blues-bar .blues-bar-ctrl {
+    border-bottom:1px solid #9EB1A2;
+    position:relative; /* see gpage.js zindex stuff */
+    background:url(cruiser.gif) repeat-x top left;
+}
+
+.blues-bar.detatched {
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index: 40;
+    background:none;
+}
+
+/* layout */
+.blues-bar-ctrl {
+    overflow:hidden;
+    min-height:4px;
+    _overflow:visible;
+    _height:1;
+}
+.blues-bar .gmbutton2town,
+.blues-bar .gmbutton2admin {
+    padding:8px 8px 5px 14px;
+    white-space:nowrap !important;
+}
+.gmbutton2admin {position:relative;padding-right:23px !important;z-index:99}
+.gmbutton2admin .gmbutton2 {position:absolute;right:114px;_right:123;top:-33px}
+.gmbutton2admin #edit-page-btn {right:13px}
+.blues-bar .gmbutton2admin #edit-page-btn {right:0}
+.blues-bar .gmbutton2admin {
+    float:right;
+    position:static;
+}
+.blues-bar .gmbutton2admin .gmbutton2 {float:left;position:relative;right:0;top:0}
+
+.blues-bar .smbutton {
+    margin:0 !important;
+    height:25px;
+}
+.blues-bar .smbutton span {
+    padding:4px 8px 0;
+}
+.blues-bar .smbutton span i.icon {
+    height:20px;
+    margin-top:-4px;
+}
+
+/* sub bits */
+.blues-bar span.bb,
+.blues-bar .bb {
+    display:block;
+    float:left;
+    text-align:left;
+    padding:2px 0 0 2px;
+    _padding-bottom:0;
+    margin-right:5px;
+    cursor:default;
+    font-size:8.25pt;
+}
+.blues-bar span.bb strong.f {
+    display:block;
+}
+.blues-bar span.bb strong.h {
+    margin-top:.1em;
+    font:10pt "Trebuchet MS", sans-serif;
+    font-weight:bold;
+    line-height:1.06em;
+}
+
+/* button rules */
+body .blues-bar span.bb a.gmbutton2,
+.blues-bar span.bb span.gmpanel,
+.blues-bar .bb .gmpanel {
+    display:block;
+    margin:0 3px 0 6px;
+    padding:4px 4px 0 8px;
+    height:38px;
+    _height:42;
+    line-height:1.4em;
+    text-align:left;
+    color:#3D4745;
+    font-size:8.25pt;
+    white-space:nowrap;
+    _width:150; /* force float left to do what it's supposed to in IE (leaving room for bluestips) */
+}
+body .blues-bar span.bb a.gmbutton2 b {
+    height:42px;
+}
+body .blues-bar span.bb a.gmbutton2 {
+    padding-right:15px;
+    outline:none;
+}
+body .blues-bar span.bb a.gmbutton2 img.d {
+    position:absolute;
+    z-index:12;
+    top:17px;
+    right:1px;
+}
+body .blues-bar span.bb a.gmbutton2:active img.d,
+body .blues-bar span.bb a.active img.d {
+    top:18px;
+}
+body .blues-bar span.bb a.gmbutton2,
+body .blues-bar span.bb a.gmbutton2 b,
+body .blues-bar span.bb a.gmbutton2 span.bluestip {
+    background-image:url(gmbuttonmassive3.gif);
+}
+.blues-bar span.gmpanel,
+.blues-bar .gmpanel {
+    overflow:visible;
+}
+.tight {
+    line-height:1.1em;
+    position:relative;
+    top:-.1em;
+    font-size:7pt;
+    letter-spacing:1px;
+    display:block;
+}
+.tighttt {
+    display:block;
+}
+
+
+body .blues-bar span.bb a.gmbutton2:hover {
+    background-position:0 -45px !important;
+}
+body .blues-bar span.bb a.gmbutton2:hover b {
+    background-position:100% -45px !important;
+}
+
+body .bluesbar-locked .blues-bar span.bb a.gmbutton2:hover,
+body .bluesbar-locked .blues-bar span.bb a.gmbutton2:hover b {
+    cursor:default;
+    background-position:0 0 !important;
+}
+
+body .blues-bar span.bb a.gmbutton2:active,
+body.gruze .blues-bar span.bb a.active,
+* html body.gruze .blues-bar span.bb a.active:hover,
+body.gruze .bluesbar-locked .blues-bar span.bb a.active:hover,
+* html body.gruze .bluesbar-locked .blues-bar span.bb a.active:hover
+{
+    font-weight:normal !important;
+    color:#3D4745 !important;
+    background-position:0 -90px !important;
+}
+
+
+body .blues-bar span.bb a.gmbutton2:active b,
+body.gruze .blues-bar span.bb a.active b,
+* html body.gruze .blues-bar span.bb a.active:hover b,
+body.gruze .bluesbar-locked .blues-bar span.bb a.active:hover b,
+* html body.gruze .bluesbar-locked .blues-bar span.bb a.active:hover b
+{
+    background-position:100% -90px !important;
+}
+* html body.gruze .blues-bar span.bb a.gmbutton2,
+* html body.gruze .blues-bar span.bb a.gmbutton2 * {
+    cursor:pointer;
+}
+body.gruze .blues-bar span.bb a.active,
+* html body.gruze .blues-bar span.bb a.active * {
+    cursor:default;
+}
+
+
+
+
+/* blues tip */
+* html body .blues-bar span.bb a.gmbutton2:active,
+* html body .blues-bar span.bb a.gmbutton2:active b {
+    background-position:0 0 !important;
+}
+body .blues-bar span.bb a.gmbutton2 span.bluestip {
+    position:relative;
+    _position:absolute;
+    display:block;
+    z-index:10;
+    top:-4px;
+    left:-8px;
+    _top:0;
+    _left:0;
+    width:108%;
+    _width:auto;
+    padding-top:9px;
+    text-indent:12px;
+    height:28px;
+    _height:37;
+    margin-bottom:-37px;
+    font:13pt "Trebuchet MS", sans-serif;
+    font-weight:bold;
+    opacity:0;
+    filter:alpha(opacity=0);
+    color:#196BA7;
+    background-position:0 -45px;
+    visibility:hidden;
+}
+body .blues-bar span.bb a.gmbutton2:hover span.bluestip {
+    visibility:visible;
+}
+body .blues-bar span.bb a.active span.bluestip {
+    visibility:visible;
+    background-position:0 -90px;
+    color:#135780;
+    padding-top:10px;
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+body .bluesbar-locked span.bb a:hover span.bluestip {
+    visibility:hidden !important;
+}
+body .bluesbar-locked span.bb a.active span.bluestip,
+body .bluesbar-locked span.bb a.active:hover span.bluestip {
+    visibility:visible !important;
+}
+
+
+
+/* sep rules */
+.blues-bar span.bb-with-sep,
+.blues-bar .bb-with-sep {
+    background:url(dipdipdip.gif) no-repeat center right;
+    padding-right:7px;
+}
+
+div.blues-bar div.nav2 {
+    margin-left:15px;
+    float:left;
+    padding-top:7px;
+    padding-bottom:7px;
+    /*margin-left:15px;*/
+}
+
+/* menu fun */
+body div.popup2-gruser {
+    background:#D5E0D3 !important;
+    border-color:#A2B3A4 !important;
+}
+div.popup2-gruser .gr-body,
+div.popup2-gruser .gr {
+    border:0;
+    background:transparent !important;
+}
+body div.popup2-gruser {
+    height:auto;
+}
+body div.popup2-gruser-why {
+    width:260px;
+}
+.popup2-gruser-member {
+    width:220px !important;
+}
+
+body div.popup2-gruser-groups {
+    width:300px;
+    height:auto;
+}
+body div.popup2-gruser-activity {
+    width:400px;
+    height:360px;
+}
+body div.popup2-gruser-give {
+    width:200px;
+    padding-top:3px;
+    height:115px;/*95*/
+    _height:118;/*98*/
+}
+body div.popup2-gruser-stats {
+    width:380px;
+    height:190px;
+    overflow:hidden;
+}
+body div.popup2-gruser-stats2 {
+    width:250px;
+    height:150px;
+    overflow:hidden;
+}
+
+body div.popup2-gruser-nav {
+    height: 140px;
+    width: 180px;
+}
+
+div.popup2-gruser {
+    border:1px solid #89A08E !important;
+    font-size:8.25pt;
+    color:#3D4745 !important;
+}
+body div.popup2-gruser-give,
+body div.popup2-gruser-app {
+    background:#DEE8E5 !important;
+}
+div.popup2-gruser .fixed {
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+
+body div.popup2-gruser-why,
+body div.popup2-gruser-activity,
+body div.popup2-gruser-stats,
+body div.popup2-gruser-stats2,
+body div.popup2 .pbox {
+    background:#D5E0D3 !important;
+}
+
+
+body div.popup2-gruser-why dl.f {
+    margin-top:-12px;
+}
+body div.popup2-gruser-why dt.f {
+    margin:15px 0 1px 0;
+    font:11pt "Trebuchet MS", sans-serif;
+    font-weight:bold;
+}
+
+div.popup2-gruser .pbox a {
+    color:#3D4745;
+}
+div.popup2-gruser .pbox {
+    cursor:default;
+    padding:8px;
+    margin-bottom:4px;
+}
+div.popup2-gruser-stats .pppbox {
+    padding:24px 16px 0 16px;
+    font-size:8.25pt;
+    line-height:1.4em;
+}
+div.popup2-gruser-stats .funsizegraph,
+div.popup2-gruser-stats2 .funsizegraph {
+    font-size:8.25pt;
+    position:absolute;
+    right:46px;
+    top:44px;
+}
+div.popup2-gruser .page2 {
+    overflow:visible !important;
+}
+div.popup2-gruser-stats .page2 a.f,
+div.popup2-gruser-give .page2 a.f {
+    color:#3F5652 !important;
+    text-indent:8px !important;
+}
+div.popup2-gruser-give .page2 a.f {
+    text-align:right;
+    padding-right:8px;
+}
+div.popup2-gruser-give .page2 .hr {
+    margin:3px 0;
+}
+
+div.popup2-gruser .ploading {
+    color:#7D8785;
+}
+
+
+div.popup2-gruser-activity ul.f li.f {
+    position:relative;
+    padding-left:30px !important;
+    margin-bottom:16px;
+    line-height:1.5em;
+}
+div.popup2-gruser-activity ul.f li.f i.icon {
+    position:absolute;
+    top:-2px;
+    left:2px;
+}
+div.popup2-gruser-activity ul.f li.f a {
+    color:#498091;
+}
+.activity-menu-footer, .activity-menu-footer a.u {
+    color:#7D8785 !important;
+    text-align:center;
+}
+
+#deviant span.blues-bar-title i.icon,
+#group span.blues-bar-title i.icon {
+    margin-top:-2px !important;
+    _margin-top:2px;
+    float:none !important;
+}
+#deviant span.blues-bar-title,
+#group span.blues-bar-title {
+    margin-left:4px;
+    margin-top:7px;
+    font-family:"Trebuchet MS",sans-serif;
+    font-size:14pt;
+    font-weight:bold;
+    display:block;
+}
+#deviant span.blues-bar-title i.icon {
+    background-image:url(icons-userpagetoolbar.png?1) !important;
+}
+
+#deviant .bb-mygroups .grp .grpname,
+#super-secret-groups .grp .grpname {
+    font-weight: bold;
+    margin-left: 55px;
+}
+#super-secret-groups .grp .grpname {
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+#deviant .bb-mygroups .grp .grptagline,
+#super-secret-groups .grp .grptagline
+{
+    display:block;
+    margin-left:55px;
+}
+.bb-mygroups .grp .grptagline {
+    letter-spacing:0;
+    font-size:7pt;
+}
+#deviant .bb-mygroups .grp,
+#super-secret-groups .grp {
+    top:5px;
+    display:block;
+    position:relative;
+}
+#deviant .bb-mygroups .grp
+{
+    top:3px;
+}
+#super-secret-groups .grpicon,
+.bb-mygroups .grpicon {
+    position:absolute;
+    left:5px;
+    margin-right: 5px;
+}
+.bb-mygroups .grpicon {
+    top:2px;
+    left:-4px;
+}
+#super-secret-groups .grp {
+    padding: 4px 8px 4px 8px;
+    display:block;
+    background-color: #d5e0d3;
+}
+#super-secret-groups .pbox {
+    padding: 0px;
+}
+#super-secret-groups .grp + .grp {
+    border-top: 1px dotted #adbeb1;
+    
+    padding-top: 10px;
+}
+#super-secret-groups .grp:hover {
+    background-color: #c1d1bf;
+}
+#super-secret-groups .grp a.u {
+    color: #448899;
+    text-decoration: none;
+}
+
+#super-secret-groups .grp a.u:hover {
+    text-decoration: underline;
+}
+.grpname>a::before {position:absolute;content:"";left:0;right:0;top:0;bottom:0}
+
+
+.popup2-gruser .iconh .icon,
+.popup2-cruiser .iconh .icon {margin-left:-30px;margin-top:-3px;}
+
+div.funsizegraph span.bars {
+    display:block;
+    width:163px;
+    height:43px;
+    _width:164;
+    _height:44;
+    border:1px solid #717770;
+    border-style:none none solid solid;
+    overflow:hidden;
+    position:relative;
+    vertical-align:bottom;
+    margin-bottom:3px;
+}
+div.funsizegraph a * {
+    cursor:pointer; /* in case IE can't figure that out itself */
+}
+div.funsizegraph a {
+    display:block;
+    width:164px;
+    font-weight:bold;
+    color:#135780;
+    text-decoration:none;
+}
+div.funsizegraph a:hover,
+div.funsizegraph a:focus {
+    color:#196BA7;
+    text-decoration:underline;
+}
+div.funsizegraph a.subby,
+div.funsizegraph a.subby:hover,
+div.funsizegraph a.subby:focus {
+    color:#B43E64;
+}
+
+div.funsizegraph span.label {
+    position:absolute;
+    /*width:100%;
+    text-align:center;*/
+    white-space:nowrap;
+    left:0;
+    font-size:8.25pt;
+    top:-1.4em;
+    line-height:1em;
+    color:#3D4745;
+}
+
+div.funsizegraph span.bar
+{
+    float:right;
+    /*margin-right:2px;*/
+
+    width:5px;
+    height:44px;
+    border:0 solid #D5E0D3; /* you'll see... */
+    border-right-width:2px;
+    _width:7;
+    overflow:hidden;
+
+    position:relative;
+    top:44px;
+    background:#78C700 url(funsizegraph.gif) repeat-x;
+
+}
+
+div.gruz-badgeholder a,
+div.badge-stack {
+    display:-moz-inline-stack;
+    display:inline-block;
+    /* oh, IE */
+    zoom:1;
+    _display:inline;
+    *display:inline;
+    /* end "oh, IE" */
+}
+
+div.gruz-badgeholder {
+    position:absolute;
+    right:1em;
+    margin-top: -2px;
+    height:20px;
+    z-index:150;
+}
+div.gruz-badgeholder a {
+    text-decoration:none;
+    padding:0 4px;
+    height:20px;
+}
+div.gruz-badgeholder .gruz-morebadges {
+    visibility:hidden;
+    font-size:11px;
+    line-height:10px;
+    vertical-align:text-top;
+    position:relative;
+    bottom:4px;
+}
+div.gruz-badgeholder a:hover {
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    background:#EFF3EF;
+    text-decoration:none;
+}
+div.gruz-badgeholder a:hover .gruz-morebadges {
+    visibility:visible;
+}
+div.badge-stack {
+    position:relative;
+    width:20px;
+    height:22px;
+    bottom:1px;
+}
+div.huge div.badge-stack {
+    width:200px;
+    height:220px;
+    bottom:10px;
+}
+div.badge-stack img {
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+/* birthdAy10 */
+
+div.badge-dAbirthday10 img {
+    left:2px;
+    top:-8px;
+}
+div.huge div.badge-dAbirthday10 img {
+    left:40px;
+    top:-40px;
+}
+body.gruze div.badge-cake {
+    width:25px;
+}
+body.gruze div.badge-cake img.cake-simple {
+    left:2px;
+}
+body.gruze div.huge div.badge-cake img.cake-simple {
+    left:20px;
+}
+body.gruze div.badge-cake img.cake-top {
+    top:-13px;
+    left:2px;
+}
+body.gruze div.badge-cake img.cake-flame {
+    opacity:0.7;
+}
+body.gruze div.badge-cake img.cake-candle-top-orange-edges {
+    opacity:0.3;
+}
+body.gruze div.badge-cake img.cake-flame-1 {
+    left:7px;
+    top:-1px;
+}
+body.gruze div.badge-cake img.cake-flame-2 {
+    left:12px;
+    top:-2px;
+}
+body.gruze div.badge-cake img.cake-flame-3 {
+    left:17px;
+    top:-1px;
+}
+body.gruze div.badge-cake img.cake-flame-4 {
+    left:18px;
+    top:3px;
+}
+body.gruze div.badge-cake img.cake-flame-5 {
+    left:12px;
+    top:5px;
+}
+body.gruze div.badge-cake img.cake-flame-6 {
+    left:6px;
+    top:3px;
+}
+body.gruze div.badge-cake img.cake-candle-1 {
+    left:7px;
+    top:2px;
+}
+body.gruze div.badge-cake img.cake-candle-2 {
+    left:12px;
+    top:1px;
+}
+body.gruze div.badge-cake img.cake-candle-3 {
+    left:17px;
+    top:2px;
+}
+body.gruze div.badge-cake img.cake-candle-4 {
+    left:18px;
+    top:6px;
+}
+body.gruze div.badge-cake img.cake-candle-5 {
+    left:12px;
+    top:8px;
+}
+body.gruze div.badge-cake img.cake-candle-6 {
+    left:6px;
+    top:6px;
+}
+body.gruze div.badge-cake img.cake-candle-top-1 {
+    left:8px;
+    top:-5px;
+}
+body.gruze div.badge-cake img.cake-flame-top-1 {
+    left:8px;
+    top:-8px;
+}
+body.gruze div.badge-cake img.cake-flame-top-1b {
+    left:7px;
+    top:-7px;
+}
+body.gruze div.badge-cake img.cake-flame-top-1c {
+    left:9px;
+    top:-7px;
+}
+body.gruze div.badge-cake img.cake-candle-top-2 {
+    left:12px;
+    top:-6px;
+}
+body.gruze div.badge-cake img.cake-flame-top-2 {
+    left:12px;
+    top:-9px;
+}
+body.gruze div.badge-cake img.cake-flame-top-2b {
+    left:11px;
+    top:-8px;
+}
+body.gruze div.badge-cake img.cake-flame-top-2c {
+    left:13px;
+    top:-8px;
+}
+body.gruze div.badge-cake img.cake-candle-top-3 {
+    left:16px;
+    top:-5px;
+}
+body.gruze div.badge-cake img.cake-flame-top-3 {
+    left:16px;
+    top:-8px;
+}
+body.gruze div.badge-cake img.cake-flame-top-3b {
+    left:15px;
+    top:-7px;
+}
+body.gruze div.badge-cake img.cake-flame-top-3c {
+    left:17px;
+    top:-7px;
+}
+body.gruze div.badge-cake img.cake-candle-top-4 {
+    left:16px;
+    top:-2px;
+}
+body.gruze div.badge-cake img.cake-flame-top-4 {
+    left:16px;
+    top:-5px;
+}
+body.gruze div.badge-cake img.cake-flame-top-4b {
+    left:15px;
+    top:-4px;
+}
+body.gruze div.badge-cake img.cake-flame-top-4c {
+    left:17px;
+    top:-4px;
+}
+body.gruze div.badge-cake img.cake-candle-top-5 {
+    left:12px;
+    top:0px;
+}
+body.gruze div.badge-cake img.cake-flame-top-5 {
+    left:12px;
+    top:-4px;
+}
+body.gruze div.badge-cake img.cake-flame-top-5b {
+    left:11px;
+    top:-3px;
+}
+body.gruze div.badge-cake img.cake-flame-top-5c {
+    left:13px;
+    top:-3px;
+}
+body.gruze div.badge-cake img.cake-candle-top-6 {
+    left:8px;
+    top:-2px;
+}
+body.gruze div.badge-cake img.cake-flame-top-6 {
+    left:8px;
+    top:-5px;
+}
+body.gruze div.badge-cake img.cake-flame-top-6b {
+    left:7px;
+    top:-4px;
+}
+body.gruze div.badge-cake img.cake-flame-top-6c {
+    left:9px;
+    top:-4px;
+}
+body.gruze div.badge-cake img.cake-bow-top {
+    left:2px;
+    top:-13px;
+}
+body.gruze div.badge-cake img.cake-candle-top-orange, body.gruze div.badge-cake img.cake-candle-top-orange-edges {
+    left:2px;
+    top:-12px;
+}
+body.gruze div.badge-cake img.cake-sparkler-left, body.gruze div.badge-cake img.cake-sparkler-right {
+    left:-3px;
+}
+body.gruze div.badge-cake img.cake-plate {
+    left:-1px;
+    bottom:-1px;
+}
+
+/* huge version */
+body.gruze div.huge div.badge-cake {
+    width:250px;
+}
+body.gruze div.huge div.badge-cake img.cake-top {
+    top:-130px;
+    left:20px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-1 {
+    left:70px;
+    top:-10px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-2 {
+    left:120px;
+    top:-20px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-3 {
+    left:170px;
+    top:-10px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-4 {
+    left:180px;
+    top:30px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-5 {
+    left:120px;
+    top:50px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-6 {
+    left:60px;
+    top:30px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-1 {
+    left:70px;
+    top:20px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-2 {
+    left:120px;
+    top:10px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-3 {
+    left:170px;
+    top:20px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-4 {
+    left:180px;
+    top:60px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-5 {
+    left:120px;
+    top:80px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-6 {
+    left:60px;
+    top:60px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-top-1 {
+    left:80px;
+    top:-50px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-1 {
+    left:80px;
+    top:-80px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-1b {
+    left:70px;
+    top:-70px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-1c {
+    left:90px;
+    top:-70px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-top-2 {
+    left:120px;
+    top:-60px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-2 {
+    left:120px;
+    top:-90px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-2b {
+    left:110px;
+    top:-80px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-2c {
+    left:130px;
+    top:-80px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-top-3 {
+    left:160px;
+    top:-50px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-3 {
+    left:160px;
+    top:-80px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-3b {
+    left:150px;
+    top:-70px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-3c {
+    left:170px;
+    top:-70px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-top-4 {
+    left:160px;
+    top:-20px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-4 {
+    left:160px;
+    top:-50px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-4b {
+    left:150px;
+    top:-40px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-4c {
+    left:170px;
+    top:-40px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-top-5 {
+    left:120px;
+    top:0px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-5 {
+    left:120px;
+    top:-40px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-5b {
+    left:110px;
+    top:-30px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-5c {
+    left:130px;
+    top:-30px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-top-6 {
+    left:80px;
+    top:-20px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-6 {
+    left:80px;
+    top:-50px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-6b {
+    left:70px;
+    top:-40px;
+}
+body.gruze div.huge div.badge-cake img.cake-flame-top-6c {
+    left:90px;
+    top:-40px;
+}
+body.gruze div.huge div.badge-cake img.cake-bow-top {
+    left:20px;
+    top:-130px;
+}
+body.gruze div.huge div.badge-cake img.cake-candle-top-orange, body.gruze div.huge div.badge-cake img.cake-candle-top-orange-edges {
+    left:20px;
+    top:-120px;
+}
+body.gruze div.huge div.badge-cake img.cake-sparkler-left, body.gruze div.huge div.badge-cake img.cake-sparkler-right {
+    left:-30px;
+}
+body.gruze div.huge div.badge-cake img.cake-plate {
+    left:-10px;
+    bottom:-10px;
+}
+div.popup2-givemenu {
+    font-size:8.25pt;
+    color:#3D4745 !important;
+    background:#FFF !important;
+    border:1px solid #52695C !important;
+    padding:2px !important;
+    
+    width:206px !important;
+    _width:210 !important;
+    height:138px;
+    _height:142;
+    
+    -webkit-box-shadow:0px 3px 4px rgba(0, 0, 0, 0.2), 0px 0px 2px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:0px 3px 4px rgba(0, 0, 0, 0.2), 0px 0px 2px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+/*div.give-tall {
+    height:145px !important;
+    _height:149 !important;
+}*/
+div.popup2-givemenu div.loading {
+    background:url(http://st.deviantart.net/minish/widgets/eager.gif) center 50px no-repeat;
+    height:65px;
+    padding-top:73px;
+    _height:142;
+    font-size:1.1em;
+    color:#829586;
+    text-align:center;
+}
+div.popup2-givemenu div.blockmenu {
+    background:#E8ECE6;
+    background:-webkit-gradient(linear, left top, left bottom, from(#E8ECE6), to(#DCE5DB));
+    background:-moz-gradient(linear, left top, left bottom, from(#E8ECE6), to(#DCE5DB));
+    overflow:hidden;
+    _overflow:visible;
+    _filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#E8ECE6', EndColorStr='#DCE5DB');
+    float:left;
+    white-space:nowrap;
+    font-size:8.25pt;
+    width: 100%;
+}
+div.popup2-givemenu div.blockmenu a.f {
+    color:#778676;
+}
+div.popup2-givemenu div.blockmenu a.f:hover {
+    background:#B5C3B2;
+}
+div.popup2-givemenu div.blockmenu a.f:active {
+    background:#A0AE9C;
+}
+div.popup2-givemenu div.blockmenu a.f span {
+    color:#2c3635;
+}
+
+div.popup2-givemenu div.blockmenu .f {
+    padding:3px 8px;
+    text-align:left;
+}
+div.popup2-givemenu div.blockmenu div.hr {
+    margin:3px 8px;
+    /* height:0px;*/
+    border-bottom:1px dotted #aaa;
+    background:transparent;
+}
+div.popup2-givemenu div.blockmenu span.unavailable {
+    cursor:default;
+    color:#888E8A;
+    font-size:8.25pt;
+}
+div.popup2-givemenu div.blockmenu i.icon {
+    background-image:url(http://st.deviantart.net/minish/widgets/givemenu-icons.png?1);
+    height:20px;
+    width:20px;
+    display: inline-block;
+    _display: inline;
+    margin-left: 0px;
+}
+div.popup2-givemenu div.blockmenu span.unavailable i.icon {
+    opacity:0.5;
+}
+div.popup2-givemenu div.blockmenu i.i2 {
+    background-position:-40px 0;
+}
+div.popup2-givemenu div.blockmenu i.i3 {
+    background-position:-80px 0;
+}
+div.popup2-givemenu div.blockmenu i.i4 {
+    background-position:-120px 0;
+}
+div.popup2-givemenu div.blockmenu i.i5 {
+    background-position:-160px 0;
+}
+div.popup2-givemenu div.blockmenu i.i5.holidize {
+    background-image:url(http://st.deviantart.net/minish/widgets/icon-browsewishlist.png) !important;
+    background-position: 0;
+    background-repeat:none;
+}
+div.popup2-givemenu div.blockmenu i.i6 {
+    background-position:-200px 0;
+}
+
+div.popup2-givemenu div.pager2 a.f,
+div.popup2-givemenu div.pager2 span.f {
+    text-indent: 0 !important;
+}
+
+div.popup2-givemenu div.icons i, div.popup2-givemenu i.icon {
+    position: relative;
+}
+/*
+small headlines
+like on the userpage
+*/
+ul.headlines {
+    padding:12px;
+}
+ul.headlines li.f {
+    padding:5px;
+}
+
+ul.headlines span.lovi {
+    width:50px;
+    height:17px;
+    line-height:17px;
+    float:left;
+    text-align:center;
+    background:#4E5D5B url('http://st.deviantart.net/styles/minimal/minish/loveri.gif');
+    margin-right:12px;
+    color:white;
+    font-weight:bold;
+    font-size:8.25pt;
+}
+ul.headlines span.lovied {
+    background-color:#3E8EB7;
+}
+
+ul.headlines small {
+    display:inline;
+}
+
+div.ctube {
+    margin-top:8px;
+    position:relative;
+    height:24px;
+    overflow:hidden;
+}
+div.ctube, div.ctube i.l {
+    background:url(bun.gif) no-repeat top left;
+}
+div.ctube i.l {
+    background-position:top left;
+    width:10px;
+    position:absolute;
+    left:0;
+    top:0;
+    height:24px;
+}
+div.ctube div.cfill {
+    position:absolute;
+    background:url(hotdog.gif);
+    width:800px;
+    height:24px;    
+    position:absolute;
+}
+div.ctube div.cfill.cround {
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-position: right top;
+}
+div.ctube div.cfill span {
+    color:white;
+    position:absolute;
+    right:4px;
+    font:8.25pt Verdana, sans-serif;
+    line-height:24px;
+    vertical-align:middle;
+    height:24px;
+    top:0;
+}
+div.ctube div.cfill span.sub20 {
+    color:black;
+    position:absolute;
+    right:auto;
+    left:100%;
+    padding-left: 3px;
+}
+
+
+dl.shouts dt.f {
+    position:relative;
+    padding-left:1.3em;
+}
+dl.shouts dt.f img.avatar {
+    position:absolute;
+    left:0;
+    width:1.2em;
+    height:1.2em;
+}
+dl.shouts dd.f {
+    margin-bottom:1em;
+}
+div.altview dl.shouts dd.f {
+    margin-bottom:0;
+}
+.chatshout {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #515c5a;
+    font-size: 12px;
+    letter-spacing: -0.25px;
+    padding: 7px 8px;
+    border: 1px solid #8c9b8c;
+    background: #f7f7f7;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-box-shadow: 0 1px rgba(255,255,255,0.4), 0 1px 4px #bdbdbd inset;
+    -webkit-box-shadow: 0 1px rgba(255,255,255,0.4), 0 1px 4px #bdbdbd inset;
+    font-size: 11px;
+    padding: 5px 8px 4px;
+}
+/*
+@@require cssms/pages/misc/gmbutton2.css
+@@require cssms/pages/misc/tabselect.css
+*/
+
+/* overall setup */
+.deepee-box {
+    font:12px Verdana, sans-serif;
+    zoom:1;
+}
+
+/* titlebar */
+.deepee-box .deepee-title {
+    height:20px;
+    padding:15px 0 14px 19px;
+    color: #768e81;
+    overflow:hidden;
+    cursor:default;
+    font:bold 16px "Trebuchet MS", Verdana, sans-serif;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+}
+.deepee-box .deepee-title strong {
+    color: #2c3635;
+    font:bold 20px "Trebuchet MS", Verdana, sans-serif;
+}
+/* navbar */
+.deepee-box .deepee-navbar {
+    height:40px;
+    padding:0 24px 0pt;
+    position:relative;
+    _height:46px;
+}
+.deepee-box .deepee-navinfo {
+    position:absolute;
+    right:24px;
+    top:3px;
+    text-align:right;
+    overflow:hidden;
+    white-space:nowrap;
+    max-width:400px;
+    font: 11px Verdana, sans-serif;
+    color: #2c3635;
+}
+.deepee-box-tabbed .deepee-navinfo {
+    top:16px;
+    right:44px;
+}
+.deepee-box .deepee-navinfo .deepee-navstaus {
+    font-size:11px;
+}
+
+.deepee-box .deepee-navtabs {
+    position: absolute;
+    left:16px;
+    margin: 0;
+    clear: none;
+    float: none;
+}
+.deepee-box-hidetabs .deepee-navtabs {
+    display:none;
+}
+.deepee-box .deepee-navtabs .tabselect-wrapper {
+    clear: none;
+    float: none;
+}
+
+.deepee-box .deepee-navtabs strong {
+    float: left;
+    font: 16px "Trebuchet MS", Verdana, sans-serif;
+    letter-spacing: -1px;
+    color: #597465;
+    margin: 6px 16px 0 0;
+}
+
+.deepee-box .deepee-navtabs .sections_select {
+    margin-top: 0;
+    margin-left: 20px;
+    float: left;
+}
+.deepee-box .deepee-navtabs .sections_select .select_pager {
+    min-width: 120px;
+    top: 0;
+    margin-left: 6px;
+}
+
+div.deepee-box-tabbed .deepee-navstatus {
+    display:none;
+}
+
+/* main body */
+.deepee-box .deepee-searchbody,
+.deepee-box .deepee-custom,
+.deepee-box .search-results {
+    position:relative;
+}
+.deepee-box .deepee-searchbody {
+    border-bottom: 1px solid #aab5aa;
+}
+.deepee-box .search-results {
+    /*padding-top: 18px;*/
+}
+.deepee-box .deepee-searchcontainer {
+    position:relative;
+    background: #d4dfd0;
+    border-top: 1px solid #aab5ab;
+    border-bottom: 1px solid #eef3ed;
+    padding-bottom: 1px; /* show the 3d border */
+}
+.deepee-box .deepee-searchresultscontainer {
+    overflow-y: auto;
+    position: relative; /* for IE7, otherwise position: relative works like position: fixed inside of container with overflow-y: auto */
+}
+.deepee-box .deepee-searchresultscontainer .deepee-nofriend {
+    color: #93AA99;
+    font: bold 20px 'Trebuchet MS',Verdana,sans-serif;
+    padding: 12% 0;
+    text-align: center;
+    width: 100%;
+}
+.deepee-box .deepee-sidebar {
+    display:none;
+    float:left;
+    border-right: 1px solid #c4d0be;
+    overflow-y: auto;
+    background: #D4DFD0;
+}
+.deepee-box .deepee-sidebar div.pager-browse {
+    margin: 20px 15px 0 20px;
+}
+.deepee-box .deepee-sidebar div.pager-browse div.page2 div.top {
+    border: none;
+}
+/* prevent y-scrollbar apperance in FF when link is active
+(dotted borders extend pager height) */
+.deepee-box .deepee-sidebar div.pager2 a.f {
+    outline-style: none;
+}
+.deepee-box .deepee-sidebar div.pager-browse,
+.deepee-box .deepee-sidebar div.pager-browse div.pager2,
+.deepee-box .deepee-sidebar div.pager-browse div.page2,
+.deepee-box .deepee-sidebar div.pager-browse div.page2 a.f {
+    background: #D4DFD0;
+}
+.deepee-box .deepee-sidebar div.pager-browse div.pager2 div.pagescroll div.hr {
+    display: none;
+}
+.deepee-box .deepee-sidebar div.pager-browse div.page2 a.f {
+    font: 12px Verdana, sans-serif;
+    color: #337287 !important;
+    width: 100%;
+}
+
+.deepee-box .deepee-sidebar div.pager-browse div.page2 a:hover {
+    background-color: #eaf2ee;
+    border-radius: 2px;
+}
+.deepee-box .deepee-sidebar div.pager-browse div.page2 a.selected {
+    background-color: #337287;
+    color: white !important;
+    border-radius: 2px;
+    text-indent: 10px;
+    background-image: url(http://st.deviantart.net/minish/widgets/3px_arrow_white.gif);
+    background-position: 95% center !important;
+    background-repeat: no-repeat;
+}
+.deepee-box .deepee-sidebar div.pager-browse div.page2 a[menuri=""] {
+    background: transparent !important;
+    color: black !important;
+    border: none;
+    text-indent: 10px !important;
+    cursor: default;
+}
+.deepee-box .search-pager {
+    visibility:hidden;
+    height:35px;
+    overflow:hidden;
+}
+.deepee-box .search-pager-fixed {
+    position:absolute;
+    bottom:0;
+}
+
+.deepee-box .browse-bar {
+    padding-top: 20px;
+    height:25px;
+}
+.deepee-box .browse-bar .bt-selector {
+    margin: 0 0 0 20px;
+}
+.deepee-box .browse-bar .bt-selector + .bt-selector{
+    margin-left: 6px;
+}
+.deepee-box .browse-bar .browse-bar-right {
+    width: 100px;
+}
+.deepee-box .browse-bar .bt-selector:hover span.bta {
+    color: #B1623E !important;
+    font-weight: bold !important;
+}
+.deepee-box .browse-bar .bt-selector a.bta.selected {display:block}
+
+.deepee-box .browse-bar .deepee-search {
+    float:right;
+    position: relative;
+    margin-right:25px;
+    margin-bottom: -2px;
+}
+.deepee-box .browse-bar .deepee-search input {
+    width:250px;
+    padding-left: 20px;
+}
+.deepee-box .browse-bar .deepee-search input,
+.deepee-box .browse-bar .deepee-search a {
+    float: left;
+    margin-left: -7px;
+}
+.deepee-box .browse-bar .deepee-search input.gmbutton2f:not(:-moz-any-link) {
+    height: 25px;
+    padding-top: 0;
+}
+.deepee-box .browse-bar .deepee-search .gmbutton2searchcancel {
+    margin: 0;
+    padding: 0;
+    width: 17px;
+    position: absolute;
+    right: 57px;
+}
+
+
+.deepee-box div.stream p.stream-message {
+  margin: 0;
+  padding: 100px 0 0 0;
+  font-size: 1.33em;
+}
+.deepee-box div.stream p.loading {
+  background:url(http://st.deviantart.net/minish/widgets/eager.gif) center 200px no-repeat;
+  height: 200px;
+  padding-top: 170px;
+  font-size: 1.1em;
+  color: #829586;
+}
+
+.deepee-box div.stream a {
+    color:#337287;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:8pt;
+}
+.deepee-box div.stream a:hover {
+    text-decoration:underline;
+}
+.deepee-box div.stream a.lit {
+    font-weight: normal;
+}
+.deepee-box div.stream a.u {
+    font-weight:normal;
+}
+
+.deepee-box div.stream div.tt-a span.tt-w,
+.deepee-box div.stream div.tt-a div.tt-w {
+    width:198px;
+    overflow:hidden;
+    *display: block; /* IE7 */
+}
+
+.deepee-box div.stream div.tt-a {
+    width:202px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    position: relative;
+}
+.deepee-box div.stream div.tt-a span.tt-w {
+    padding: 3px 0;
+    margin: 2px;
+}
+.deepee-box div.stream div.tt-a span.tt-w a.t {
+    max-width:195px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:block;
+    padding:4px 0;
+    margin:-4px 0;
+}
+.deepee-box div.stream span.selected,
+.deepee-box div.stream span.selected span.tt-w,
+.deepee-box div.stream div.selected span,
+.deepee-box div.stream div.tt-a span.selected,
+.deepee-box div.stream div.selected div.tt-w {
+    background:#A3B8BC !important;
+    border:1px solid #737ba2;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    margin:1px;
+    _width:200;
+}
+.deepee-box div.stream span.shadow {
+    width: 200px !important;
+    *background-image:none !important; /* IE7 */
+}
+
+/* error messages and icons */
+.deepee-box div.stream div.tt-a div.deepee-message {
+    position:absolute;
+    top:20px;
+    left:22px;
+    width:160px;/*tt-a - 40*/
+    z-index:50;
+}
+.deepee-box div.stream div.tt-a div.deepee-message-text {
+    border:1px solid #949f91;
+    background-color:#fff;
+    padding:1ex 16px 0.75ex 6px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    text-align:center;
+}
+.deepee-box div.stream div.tt-a div.deepee-message-error div.deepee-message-text {
+    color:#581412;
+    background:#ede5e4;
+}
+.deepee-box div.stream div.tt-a div.deepee-message-retry div.deepee-message-text {
+    color:#202626;
+    background:#e6eee9;
+}
+.deepee-box div.stream div.tt-a div.deepee-message-ok div.deepee-message-text {
+    color:#222827;
+    background:#bcd848;
+}
+.deepee-box div.stream div.tt-a div.deepee-icon {
+    background:url(http://st.deviantart.net/minish/widgets/error-retry-ok.png);
+    height:35px;
+    width:35px;
+    position:absolute;
+    top:5px;
+    right:5px;
+    z-index:51;
+}
+.deepee-box div.stream div.tt-a div.deepee-icon-error {
+}
+.deepee-box div.stream div.tt-a div.deepee-icon-retry {
+    background-position:-35px;
+}
+.deepee-box div.stream div.tt-a div.deepee-icon-ok {
+    background-position:-70px;
+}
+
+/* footer */
+.deepee-box div.bottom-bit {
+    overflow:hidden;
+    text-align:center;
+    height:70px;
+    _height:41;
+    border-bottom:none;
+}
+.deepee-box div.bottom-bit table.f td.f {
+    padding:0 12px;
+    vertical-align: middle;
+}
+.deepee-box div.bottom-bit table.f {
+    position:relative;
+    top:0;
+    height:100%;
+}
+
+
+.deepee-box .action-buttons {
+    text-align:right;
+}
+.deepee-box .action-buttons a {
+    color:#2C3635;
+}
+.deepee-box .action-buttons a.dialog-ok,
+.deepee-box .action-buttons a.dialog-cancel,
+ {
+    padding:0 2.5em 0 3em;
+    width: 85px; /* IE7 doesn't like min-width */
+}
+.deepee-box div.nav2 {
+    padding:0;
+}
+
+.deepee-box .deepee-custom {
+    display:none;
+}
+
+.deepee-box .deepee-limits {
+    position:absolute;bottom:10px;right:10px;
+}
+.deepee-box .deepee-limits a {
+    display:inline-block;
+    padding:0.5em;
+    font-weight:bold;
+    color:#337287;
+    text-decoration:none;
+}
+.deepee-box .deepee-limits a.selected {
+    color:#B0623E;
+}
+
+.deepee-box .thumb-selector {
+    bottom:0;
+    margin: 0 25px 13px 0;
+}
+.deepee-box .thumb-selector i {
+    display:inline-block;
+    height:20px;
+    background-image:url(http://st.deviantart.net/minish/widgets/thumb_picker.gif?5);
+    margin-right:0.5ex;
+}
+.deepee-box .thumb-selector .thumb-select-1 { width:8px; }
+.deepee-box .thumb-selector .thumb-select-2 { width:12px; background-position:-8px 0; }
+.deepee-box .thumb-selector .thumb-select-3 { width:15px; background-position:-20px 0; }
+.deepee-box .thumb-selector .selected .thumb-select-1 { background-position:0 -20px; }
+.deepee-box .thumb-selector .selected .thumb-select-2 { background-position:-8px -20px; }
+.deepee-box .thumb-selector .selected .thumb-select-3 { background-position:-20px -20px; }
+
+
+/* this should perhaps be split out later: */
+.deepee-ho div.stream span.tt-w,
+.deepee-ho div.stream div.tt-w {
+    background:url(http://st.deviantart.net/minish/gallery/thumb-select-taller.gif) no-repeat 50% 6px !important;
+    height: 210px;
+    _height: 220px;
+}
+.deepee-ho div.stream span.placeholder {
+    display:block;
+    width:205px;
+    height:194px;
+}
+* html .deepee-ho div.stream span.shadow {
+    background-image:none !important;
+}
+
+/* skin picker styles */
+
+.skinPickerButton em {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #5B9107;
+    position: relative;
+    top: 4px;
+}
+
+
+.gmbutton2RevealOne {
+    display: block;
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+    cursor:pointer;
+}
+.gmbutton2Reveal:hover .gmbutton2RevealOne, .gmbutton2Reveal:active .gmbutton2RevealOne {
+    display: none;
+}
+
+.gmbutton2RevealTwo {
+    display:none;
+    width: 200px;
+    color: #3F7B8D;
+    font-weight: bold;
+    text-align: center;
+    cursor:pointer;
+}
+
+.gmbutton2Reveal:hover .gmbutton2RevealTwo, .gmbutton2Reveal:active .gmbutton2RevealTwo {
+    display: block;
+}
+
+#SkinEditorTab .gm-controls { display:none;}
+
+
+.fakedeepee-box {
+    font:12px Verdana, sans-serif;
+    zoom:1;
+    width:auto;
+    border: none;
+}
+.fakedeepee-box .deepee-title {
+    height:34px;
+    padding:10px 24px 0;
+    overflow:hidden;
+    cursor:default;
+    font:14px Verdana, sans-serif;
+    background:#C1D1BC url(http://st.deviantart.net/minish/widgets/deepee-topbar-gradient.gif) repeat-x;
+    _height:44;
+}
+.fakedeepee-box .deepee-title strong {
+    color: #2c3635;
+    font:bold 20px "Trebuchet MS", Verdana, sans-serif;
+    letter-spacing: -1px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+.fakedeepee-search,
+.fakedeepee-search .search-field,
+.fakedeepee-search .search-button,
+.fakedeepee-search .search-cancel {
+    background:transparent url(widgets/notes-search.gif) repeat-x scroll left top;
+    border:0 none;
+}
+.fakedeepee-box .fakedeepee-search {
+    background-repeat:repeat;
+    text-align:center;
+    height:25px;
+    line-height:25px;
+    margin:0;
+    position: absolute;
+    right: 14px;
+    top: 11px;
+    width:200px;
+}
+.fakedeepee-box .search-field {
+    background-position: -4px 0px;
+    height:16px;
+    _height:24;
+    padding:4px 2px;
+    font-size:110%;
+    position:absolute;
+    top:0px;
+    left:8px;
+    width:190px;
+}
+.fakedeepee-box .search-field:focus {
+    outline:0;
+}
+.fakedeepee-box .search-field-cancellable {
+    width:170px;
+}
+.fakedeepee-box .search-button {
+    background-position:-373px 0px;
+    cursor:pointer;
+    height:25px;
+    width:68px;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    right:-5px;
+}
+.fakedeepee-box .search-button:hover {
+    background-position:-373px -25px;
+}
+.fakedeepee-box .search-button:active {
+    background-position:-373px -50px;
+}
+.fakedeepee-box .search-cancel {
+    display:none;
+    background-position:100% -3px;
+    cursor:pointer;
+    width:17px;
+    height:17px;
+    top:3px;
+    position:absolute;
+    z-index:100;
+    right:55px;
+    outline: none;
+}
+.fakedeepee-box .search-cancel:hover {
+    background-position:100% -28px;
+}
+.fakedeepee-box .search-cancel:active {
+    background-position:100% -53px;
+}
+
+div.modal-devwatch {
+    width:600px;
+}
+
+div.modal-devwatch .modal-devwatch-remove {
+    text-align:center;
+    margin:1ex auto;
+    color:#597465;
+    font-size:12pt;
+    font-family:Trebuchet MS;
+    font-weight:bold;
+    text-shadow: 0px 1px 1px #ccc;
+}
+div.modal-devwatch .modal-devwatch-remove img {
+    vertical-align:bottom;
+}
+
+div.modal-devwatch div.ch {
+    margin: 12px 0;
+}
+
+div.modal-devwatch td.modal-devwatch-username {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+div.modal-devwatch td.modal-devwatch-username b {
+    color: #196BA7;
+}
+
+div.modal-devwatch-group .modal-devwatch-relationships,
+div.modal-devwatch-group .scraps,
+div.modal-devwatch-group .critiques {
+    display:none;
+}
+
+div.modal-devwatch div.modal-devwatch-options {
+    padding: 10px;
+    background-color: #E2EEE1;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border:  1px solid #C1CBC3;
+    position: relative;
+}
+
+div.modal.modal-rounded div.modal-devwatch div.modal-separated {
+    padding-top: 7px;
+}
+
+div.modal-devwatch h3 {
+    font-size: 12px;
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #373b36;
+    margin:  10px 0;
+    letter-spacing: 0;
+}
+
+span.modal-devwatch-loading {
+    color: #666;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* Inline Note Window - Userpage only
+ 
+@@require cssms/lib/popup.css 
+*/
+
+img.popup2-shadow-note-modal {
+    z-index: 110;
+}
+
+div.popup2-note-modal {
+    border: none;
+    width:375px;
+    height:390px;
+    z-index: 198;
+    background: none repeat scroll 0 0 #DAE4D9;
+    border: 1px solid #a0b19f;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 5px 4px 16px -6px #000;
+    -webkit-box-shadow: 5px 4px 16px -6px #000;
+    box-shadow: 0px 3px 10px #000;
+}
+
+div.popup2-note-modal-new {
+    height:500px;
+}
+
+div.NoteWindow .noteTitle {
+    color: #52615D;
+    font: bold 20px Trebuchet MS,sans-serif;
+    letter-spacing:0px !important;
+}
+
+div.NoteWindow .header {
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:5px;
+}
+
+div.popup2-note-modal-new div.NoteWindow .header {
+    padding: 0;
+}
+
+div.NoteWindow img.clear-note {
+    cursor: pointer;
+    position: absolute;
+    top:15px;
+    right:15px;
+    text-indent:-999px;
+    width:17px;
+    height:17px;
+    z-index:113;
+}
+
+div.NoteWindow  .content {
+    height: 425px;
+    background: transparent repeat scroll 0 0;
+}
+
+div.popup2-note-modal div.loading {
+    background:url(http://st.deviantart.net/minish/widgets/eager.gif) center 50px no-repeat;
+    height:65px;
+    padding-top:73px;
+    _height:142;
+    font-size:1.1em;
+    color:#829586;
+    text-align:center;
+}
+div.popup2-note-modal div.blockmenu {
+    overflow:hidden;
+    float:left;
+    white-space:nowrap;
+    font-size:8.25pt;
+    width: 100%;
+}
+
+div.NoteWindow #note_iframe {
+    height:343px;
+}
+
+div.popup2-note-modal-new div.NoteWindow #note_iframe {
+    height:440px;
+}
+
+div.popup2-note-modal.long {
+    height:430px !important;
+}
+div.popup2-note-modal.long div.NoteWindow  .content {
+    height:465px !important;
+}
+div.popup2-note-modal.long div.NoteWindow #note_iframe {
+    height:386px !important;
+}
+
+
+/*
+     FILE ARCHIVED ON 08:34:13 Apr 13, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:42:15 Dec 04, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.508
+  exclusion.robots: 0.014
+  exclusion.robots.policy: 0.006
+  esindex: 0.01
+  cdx.remote: 5.819
+  LoadShardBlock: 156.283 (6)
+  PetaboxLoader3.datanode: 107.057 (7)
+  PetaboxLoader3.resolve: 90.809 (2)
+  load_resource: 62.866
+*/
