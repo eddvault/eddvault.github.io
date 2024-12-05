@@ -1,0 +1,212 @@
+/* Oh yeah, baby. */
+#headerwrap {
+	background-color: #fff;
+	width: 100%;
+	height: 36px;
+	margin-bottom: 18px;
+}
+
+#header {
+	height: 36px;
+}
+
+#header ul {
+	margin: 0;
+	display: block;
+	text-transform: uppercase;
+}
+
+#header ul li {
+	float: left;
+	margin-right: 20px;
+}
+
+#header li a {
+	display: block;
+	height: 36px;
+	padding: 0 10px;
+	line-height: 36px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #333;
+}
+
+#header li a:hover {
+	color: #000;
+}
+
+#header li a.active:hover {
+	background-image: none;
+}
+
+#header a.name span, #header a.name.active:hover span {
+	font-weight: normal;
+}
+
+#header a.name.active, #header a.name.active span {
+	color: #000;
+}
+
+#header a.name:hover, #header a.name:hover span {
+	color: #000;
+}
+
+#searcher {
+	margin-top: 9px;
+}
+
+.meta {
+	text-align: right;
+	text-transform: uppercase;
+	z-index: 1337;
+}
+
+div#content.span-24 div.maincontent div.meta h2 {
+	margin-bottom: 0px;
+	font-size: 3em;
+	line-height: 36px;
+	font-family: "GothamHTF-Light", "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+}
+
+#maincontent, .maincontent {
+	padding-top: 18px;
+	padding-right: 18px;
+	margin-bottom: 18px;
+	text-align: left;
+}
+
+#content h1#title, #content h1.title {
+	margin-bottom: 18px;
+	font-weight: bold;
+}
+
+#content h1#title span, #content h1.title span {
+	padding: 0px 6px;
+}
+
+#content h1.title span.link {
+	background: none;
+}
+
+#content h1.title span.link a {
+	margin: 0;
+	padding: 0;
+}
+
+#content h1.quote {
+	margin-bottom: 18px;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#content h1.quote span {
+	position: relative;
+	height: 38px;
+	width: 62px;
+	right: 70px;
+	z-index: 100;
+	display: block;
+	margin-bottom: -38px;
+}
+
+#content h1.quote div.q {
+	font-family: "GothamHTF-Light", "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+	display: inline;
+}
+
+#content p, #content {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#content h1, #content h2, #content h3, #content h4, #content h5 {
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+#content p.chat {
+	padding-left: 0;
+	margin-bottom: 16px;
+	border-bottom: 1px solid #999;
+}
+
+p.chat + p.chat {
+	text-indent: 0;
+	margin-top: 16px;
+}
+
+#content p.chat.odd {
+	background: transparent url(../img/bg_stripe.png) repeat;
+}
+
+#content p.chat span {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+#content code, #content pre, #content tt {
+	background-color: #fff;
+}
+
+#content ul {
+	margin-left: 0;
+	list-style-position: outside;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#content ul li {
+	list-style-type: circle;
+}
+
+#content ol {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 0;
+	list-style-position: outside;
+}
+
+#content ol li {
+	list-style-type: decimal;
+}
+
+* a, a, a:link {
+	padding: 1px 2px;
+}
+
+* a:visited, a:visited {
+	padding: 1px 2px;
+	text-decoration: line-through;
+}
+
+#right_c {
+	margin-left: -18px;
+}
+
+#nav {
+	margin-bottom: 12px;
+	text-transform: lowercase;
+	text-align: right;
+}
+
+#nav a {
+	opacity: 1;
+}
+
+#nav a:hover {
+	opacity: 1;
+}
+
+#nav img {
+	padding: 0;
+}
+
+#tags {
+	text-align: left;
+}
+
+#tags a {
+	opacity: 1;
+	padding: 1px 2px;
+}
+
+#footer p {
+	padding-left: 5px;
+}
