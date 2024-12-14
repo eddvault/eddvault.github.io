@@ -1,1 +1,0 @@
-webpackJsonp([9],{0:function(t,n,i){i(1258),t.exports=i(1260)},1258:function(t,n,i){"use strict";var s=i(1259);s.start()},1259:function(t,n,i){"use strict";var s=i(182),e=i(5),o=e.extend({routes:{},initialize:function(){this.user=s()}});t.exports=o},1260:function(t,n){}});
