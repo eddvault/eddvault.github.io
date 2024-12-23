@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Days Since Eddsworld Archive Project</title>
+    <style>
+	@font-face {
+	font-family: "Eastwood";
+	src: url("Eastwood.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "EddsFont";
+	src: url("EddsFont.ttf") format('truetype');
+}
+	
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+            text-align: center;
+
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .headline {
+            font-size: 30px;
+            margin-bottom: 20px;
+            font-weight: bold;
+			font-family: "EddsFont";
+        }
+
+        .days-counter {
+		margin-top:-50px;
+		font-family: "Eastwood";
+            font-size: 300px;
+            
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="headline">DAYS SINCE EDDSWORLD HAS RELEASED<br>CONTENT FROM THE ARCHIVE PROJECT</div>
+    <div class="days-counter" id="daysCounter"></div>
+</div>
+
+<script>
+    
+    const startDate = new Date('2022-03-23');
+
+   
+    function calculateDays() {
+        const today = new Date();
+        const timeDifference = today - startDate; 
+        const daysDifference = Math.floor(timeDifference / (1000 * 3600 * 24)); 
+        return daysDifference;
+    }
+
+    
+    function updateCounter() {
+        const counterElement = document.getElementById('daysCounter');
+        counterElement.textContent = calculateDays();
+    }
+
+    
+    window.onload = updateCounter;
+</script>
+
+</body>
+</html>
