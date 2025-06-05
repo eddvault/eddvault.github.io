@@ -306,7 +306,7 @@ body
 #header
 {
  position: relative;
- background: rgb(225, 237, 223) url('https://web.archive.org/web/20070504231550im_/http://amadeo.blog.com/repository/44295/1349219.png') no-repeat scroll top left;
+ background: rgb(225, 237, 223) url('1349219.png') no-repeat scroll top left;
  width: 745px;
  height: 195px;
  margin-left: auto;
@@ -314,7 +314,7 @@ body
 }
 #content
 {
- background: rgb(225, 237, 223) url('https://web.archive.org/web/20070504231550im_/http://amadeo.blog.com/repository/44295/1349221.png') repeat-y scroll top left;
+ background: rgb(225, 237, 223) url('1349221.png') repeat-y scroll top left;
  position: relative;
  width: 745px;
  padding-left: 0px;
@@ -375,7 +375,7 @@ body
 /* csswizard.blog.com,section=header */
 #headerimg
 {
- background: transparent url('https://web.archive.org/web/20070504231550im_/http://amadeo.blog.com/repository/44295/1349222.jpg') repeat scroll top left;
+ background: transparent url('1349222.jpg') repeat scroll top left;
 }
 /* csswizard.blog.com,endsection */
 /* csswizard.blog.com,section=fonts */
@@ -536,13 +536,13 @@ input.text
 /* csswizard.blog.com,section=background */
 body 
 {
- background: rgb(1, 153, 52) url('https://web.archive.org/web/20070504231550im_/http://amadeo.blog.com/repository/760801/1900667.jpg') repeat scroll top left;
+ background: rgb(1, 153, 52) url('1900667.jpg') repeat scroll top left;
 }
 /* csswizard.blog.com,endsection */
 /* csswizard.blog.com,section=header */
 #headerimg
 {
- background: transparent url('https://web.archive.org/web/20070504231550im_/http://amadeo.blog.com/repository/760801/1900461.jpg') repeat scroll top left;
+ background: transparent url('1900461.jpg') repeat scroll top left;
 }
 /* csswizard.blog.com,endsection */
 /* csswizard.blog.com,section=fonts */
