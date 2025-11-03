@@ -1,0 +1,410 @@
+.thumb{
+
+}
+
+
+font,th,td,p { font-family: Verdana, Arial, Helvetica, sans-serif }
+a		{ color: #44495c; text-decoration:none; } /*364D57*/
+a:visited	{ color: #44495c; } /*364D57*/
+a:hover		{ color: #000000; } /*b2b9d7*/
+a:active	{ color: #000000; } /*000000*/
+
+.table_1	{ background-color: #edeef4; }
+.table_2	{ background-color: #e1e3eb; }
+
+.gen { font-size : 12px; }
+.genbig { font-size : 13px; }
+.genmed { font-size : 11px; }
+.gensmall, .gensmall2 { font-size : 10px; }
+
+form {
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Standard body and img stuff
+---------------------------------------------------------- */
+html,body {
+	height: 100%;
+	}
+body{
+	margin: 0;
+	background-color: #a5a9ba;
+	font-size: small;
+	font-family: "Trebuchet MS","Arial","Verdana";
+	}
+img{
+	border: 0;
+	padding-bottom: 0 !important;
+	}
+
+/* Header
+---------------------------------------------------------- */
+#header{
+	height: 114px;
+	background-repeat: repeat-x;
+	}
+#header div#logo{
+	width: 390px;
+	height: 114px;
+	position:absolute;
+	left: 0;
+	top: 0;
+	z-index: 777;
+	}
+#header #logo img.logo{
+	width: 390px;
+	height: 114px;
+	}
+
+#header-left{
+	width: 390px;
+	}
+#header-right{
+	background-image: url('bar.png');
+	}
+
+.behindLogo1{
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: 776;
+	width: 338px;
+	height: 100px;
+	}
+.behindLogo2{
+	position:absolute;
+	top: 0;
+	z-index: 775;
+	width: 11px;
+	height: 85px;
+	left: 338px;
+	background-position: -338px 0;
+	}
+
+.behindLogo3{
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: 774;
+	width: 338px;
+	height: 100px;
+	}
+.behindLogo4{
+	position:absolute;
+	top: 0;
+	z-index: 773;
+	width: 11px;
+	height: 85px;
+	left: 338px;
+	background-position: -338px 0;
+	}
+
+/* Subheader
+---------------------------------------------------------- */
+#subheader{
+	height: 20px;
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	}
+#subheader .subheader-left{
+	position: relative;
+	left: 24px;
+	}
+#subheader .subheader-right{
+	position: relative;
+	width: 300px;
+	top: -1px;
+	left: -2px;
+	z-index: 1003;
+	}
+
+/* User Panel
+---------------------------------------------------------- */
+#user-panel{
+	width: 300px;
+	height: 141px;
+	overflow: hidden;
+	position: absolute;
+	right: 0px;
+	top: 2px;
+	z-index: 1001;
+	}
+#user-panel h2{
+	color: #ffffff;
+	font-size: 15px;
+	position: relative;
+	top: 30px;
+	left: 100px;
+	}
+
+/* Content
+---------------------------------------------------------- */
+.mainColor{
+	background: #edeef4;
+	}
+#content-holder td#content{
+	margin: 0;
+	padding: 0px 10px 10px 10px;
+	}
+#content-holder i.corner-left{
+	width: 12px;
+	height: 12px;
+	background: url('https://web.archive.org/web/20091224124041im_/http://img.sheezyart.com/templates/deep/images/content/content_tl.gif');
+	float: left;
+	overflow: hidden;
+	display: block;
+	}
+#content-holder i.corner-right{
+	width: 12px;
+	height: 12px;
+	background: url('https://web.archive.org/web/20091224124041im_/http://img.sheezyart.com/templates/deep/images/content/content_tr.gif');
+	float: right;
+	overflow: hidden;
+	display: block;
+	}
+
+/* Footer
+---------------------------------------------------------- */
+#footer{
+	padding: 0 15px;
+	}
+#footer div{
+	padding: 4px;
+	background-color: #e1e3eb;
+	-moz-border-radius: 15px 15px 0 0;
+	color: #595d60;
+	text-align: center;
+	}
+	
+/* Table
+---------------------------------------------------------- */
+div.table table.content{
+	width: 100%;
+	}
+div.table h2{
+	margin: 0 0 6px 0;
+	font-size: 20px;
+	font-weight: normal !important;
+	font-family: "Trebuchet MS";
+	color: #232737;
+
+	}
+table.content{
+	border-collapse: collapse;
+	}
+table.table{
+	border-collapse: collapse;
+	}
+table.table td.td{
+	padding: 0px;
+	vertical-align: top;
+	}
+
+.table h2 img{
+	position: relative;
+	top: 4px;
+	}
+.userPageBox{
+	padding: 5px;
+	-moz-border-radius: 10px;
+	background-color: #e1e3eb;
+	}
+
+/* Rounded Corners
+---------------------------------------------------------- */
+.roundedCornerLarge1{ margin: 0 12px; }
+.roundedCornerLarge2{ margin: 0 10px; }
+.roundedCornerLarge3{ margin: 0 8px; }
+.roundedCornerLarge4{ margin: 0 7px; }
+.roundedCornerLarge5{ margin: 0 6px; }
+.roundedCornerLarge6{ margin: 0 5px; }
+.roundedCornerLarge7{ margin: 0 4px; }
+.roundedCornerLarge8{ margin: 0 3px; }
+.roundedCornerLarge9{ margin: 0 2px; }
+.roundedCornerLarge10{ margin: 0 2px; }
+.roundedCornerLarge11{ margin: 0 1px; }
+.roundedCornerLarge12{ margin: 0 1px; }
+
+.roundedCornerLarge1,
+.roundedCornerLarge2,
+.roundedCornerLarge3,
+.roundedCornerLarge4,
+.roundedCornerLarge5,
+.roundedCornerLarge6,
+.roundedCornerLarge7,
+.roundedCornerLarge8,
+.roundedCornerLarge9,
+.roundedCornerLarge10,
+.roundedCornerLarge11,
+.roundedCornerLarge12{
+	display:block;
+	height:1px;
+	overflow: hidden;
+}
+
+
+
+.roundedCornerMedium1{ margin: 0 7px; }
+.roundedCornerMedium2{ margin: 0 4px; }
+.roundedCornerMedium3{ margin: 0 3px; }
+.roundedCornerMedium4{ margin: 0 2px; }
+.roundedCornerMedium5{ margin: 0 1px; }
+.roundedCornerMedium6{ margin: 0 1px; }
+.roundedCornerMedium7{ margin: 0 1px; }
+
+.roundedCornerMedium1,
+.roundedCornerMedium2,
+.roundedCornerMedium3,
+.roundedCornerMedium4,
+.roundedCornerMedium5,
+.roundedCornerMedium6,
+.roundedCornerMedium7{
+	display:block;
+	height:1px;
+	overflow: hidden;
+}
+
+#atop {
+	padding: 13px 20px 0 20px;
+}
+#ainside {
+}
+
+
+
+
+/* Table
+  ------------------------------------------------- */
+table.light-box {
+	margin: 0 0 5px 0;
+}
+.sh-t-tl {
+	background: url('https://web.archive.org/web/20091224124041im_/http://sheezyart.com/images/shinier/table/table_tl.png');
+}
+.sh-t-t {
+	background: url('https://web.archive.org/web/20091224124041im_/http://sheezyart.com/images/shinier/table/table_t.png');
+}
+.sh-t-tr {
+	background: url('https://web.archive.org/web/20091224124041im_/http://sheezyart.com/images/shinier/table/table_tr.png');
+}
+.sh-t-l {
+	background: url('https://web.archive.org/web/20091224124041im_/http://sheezyart.com/images/shinier/table/table_l.png');
+}
+.sh-t-r {
+	background: url('https://web.archive.org/web/20091224124041im_/http://sheezyart.com/images/shinier/table/table_r.png');
+}
+.sh-t-bl {
+	background: url('https://web.archive.org/web/20091224124041im_/http://sheezyart.com/images/shinier/table/table_bl.png');
+}
+.sh-t-b {
+	background: url('https://web.archive.org/web/20091224124041im_/http://sheezyart.com/images/shinier/table/table_b.png');
+}
+.sh-t-br {
+	background: url('https://web.archive.org/web/20091224124041im_/http://sheezyart.com/images/shinier/table/table_br.png');
+}
+.sh-t-c {
+	background: url('https://web.archive.org/web/20091224124041im_/http://sheezyart.com/images/shinier/table/table_bg.png');
+	padding: 3px;
+}
+.sh-t-tl, .sh-t-tr, .sh-t-bl, .sh-t-br, .sh-t-r, .sh-t-l {
+	width: 4px !important;
+	overflow: hidden;
+	font-size: 1px;
+}
+.sh-t-tl, .sh-t-tr, .sh-t-bl, .sh-t-br, .sh-t-b, .sh-t-t {
+	height: 4px;
+	overflow: hidden;
+	font-size: 1px;
+}
+
+
+
+
+/* Radio
+  ------------------------------------------------- */
+#subheader .radio{
+		position: absolute;
+		left: 390px;
+		top: -67px;
+		z-index: 1000;
+		height: 73px;
+		float: none;
+		width: 300px;
+	}
+	#subheader .radio #headerMessage {
+		height: 45px;
+		position: relative;
+		top: 3px;
+		left: 97px;
+	}
+	#subheader .radio #headerMessage a,
+	#subheader .radio #headerMessage .subTitle {
+		color: #798096 !important;
+	}
+	#subheader .radio span.radioTitle {
+		color: #f59c3d;
+	}
+	#subheader .radio span.radioName{
+		display: block;
+	}
+	#subheader .radio span.radioSong{
+		position: relative;
+		left: -7px;
+	}
+	#subheader .radio span.radioName,
+	#subheader .radio span.radioSong {
+		color: #fff;
+	}
+	
+	#subheader .radio #headerMessageShadow {	
+		width: 152px;
+		height: 72px;
+	}
+	#subheader .radio #headerMessageShadow a {	
+		display: block;
+		background: url('https://web.archive.org/web/20091224124041im_/http://sheezyart.com/images/shinier/header/radio.png') no-repeat;
+		width: 152px;
+		height: 73px;
+		font-size: 1px;
+		line-height: 1000px;
+	}
+	#subheader .radio #headerMessageShadow {
+	
+	}
+/*
+     FILE ARCHIVED ON 12:40:41 Dec 24, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:58:53 Nov 02, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.119
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.017
+  esindex: 0.01
+  cdx.remote: 6.219
+  LoadShardBlock: 357.394 (3)
+  PetaboxLoader3.datanode: 219.052 (4)
+  PetaboxLoader3.resolve: 225.249 (2)
+  load_resource: 90.77
+*/

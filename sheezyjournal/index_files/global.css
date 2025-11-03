@@ -1,0 +1,559 @@
+.pan{
+	cursor:pointer;
+	text-decoration:none;
+}
+.pan2{
+	font-size: 10px;
+}
+.pan3{
+	text-decoration:none;
+	font-weight: bold;
+	color: #000000;
+	font-family: Arial;
+	font-size: 11px;
+}
+img { border:none; }
+a.pan3:visited { text-decoration:none; }
+a.pan3:hover { text-decoration:none; }
+a.pan3:active { text-decoration:none; }
+a.pan2:visited { text-decoration:none; }
+a.pan2:hover { text-decoration:none; }
+a.pan2:active { text-decoration:none; }
+a.pan:visited { text-decoration:none; }
+a.pan:hover { text-decoration:none; }
+a.pan:active { text-decoration:none; }
+.pani{
+	border: 0px;
+	width: 15px;
+	height: 15px;
+}
+.fold{
+	DISPLAY:none;
+}
+input.login{
+	height:20px;
+	font-size:12px;
+}
+.wrap{
+	white-space: normal;
+}
+.nowrap{
+	white-space: nowrap;
+}
+.form{
+	margin:0px;
+	padding:0px;
+}
+textarea.post{
+	width: 100%;
+	height: 150px;
+	overflow:auto;
+}
+select.post{
+	width: 100%;
+	height: 150px;
+	overflow:auto;
+}
+input.post,input.text.post{
+	width: 100%;
+	height: 25px;
+	overflow:hidden;
+}
+
+.overflow1{
+	overflow:hidden;
+	width: 100%;
+}
+
+.overflow2{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.padded{
+	padding:2px;
+}
+.pxbord{
+	border-bottom: #000000 1px solid;
+	border-left: #000000 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+}
+.preview_icon{  
+	margin: 2px; 
+	position: absolute;
+	z-index: 1337;
+}
+.mature_icon{  
+	width: 100%;
+	margin: 0px; 
+	position: absolute;
+	text-align: right;
+	z-index: 1337357;
+}
+.mature_preview{
+}
+
+ /* PREVIEWS */
+.preview{
+}
+.ta-left{
+	text-align: left;
+}
+.ta-right{
+	text-align: right;
+}
+.ta-center{
+	text-align: center;
+}
+
+.padsmall{
+	padding: 3px;
+}
+.padmed{
+	padding: 5px;
+}
+.padbig{
+	padding: 7px;
+}
+.padlarge{
+	padding: 10px;
+}
+
+.iconText{
+	font-weight: bold;
+	position: relative;
+	top: -2px;
+}
+.iconTextThin{
+	position: relative;
+	top: -2px;
+}
+.hand{
+	cursor:pointer;
+	cursor: hand;
+}
+.hidden{
+	display:none;
+}
+.selected{
+	color: #000099;
+}
+.underText{
+	font-size: 9px;
+	position:relative;
+	top:-2px;
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+	-moz-opacity:0.5;
+}
+.roundedBig{
+	-moz-border-radius:20px;
+	border: 0px solid white;
+	/*behavior:url(/web/20091224121423im_/http://img.sheezyart.com/borderRadius.htc);*/
+}
+.roundedMed{
+	-moz-border-radius:10px;
+	border: 0px solid white;
+	/*behavior:url(/web/20091224121423im_/http://img.sheezyart.com/borderRadius.htc);*/
+}
+.roundedSmall{
+	-moz-border-radius:5px;
+	border: 0px solid white;
+	/*behavior:url(/web/20091224121423im_/http://img.sheezyart.com/borderRadius.htc);*/
+}
+.parchment{
+	background-image: url('https://web.archive.org/web/20091224121423im_/http://img.sheezyart.com/images/art/parchment.gif');
+	border: 3px solid #cbb892;
+	color: #504b40 !important;
+	font-family: Trebuchet;
+	font-size: 12pt;
+	padding: 10px;
+}
+
+
+
+table .previewTable{
+	border-collapse: collapse;
+	cell-spacing: 0px;
+	margin: 0px;
+}
+.previewTable td{
+	padding: 0px;
+	margin: 0px;
+}
+.previewBG{
+	background-color: #9da3b9;
+}
+
+span.iconOverlay {
+	width: 75px;
+	height: 75px;
+	height/**/:auto;
+	
+	display:-moz-inline-block;
+	display:-moz-inline-box;
+	display:inline-block;
+}
+span.iconOverlay span.wrapper {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  display: block;
+}
+span.iconOverlay span.wrapper i {
+  width: 75px;
+  height: 11px;
+  display: block;
+  position: absolute;
+  top: 64px;
+  left: 0;
+  overflow:hidden;
+}
+
+.subheader-right{
+	float: right;
+	position: relative;
+	}
+.subheader-left{
+	float: left;
+	position: relative;
+	}
+#headerMessage,#headerMessageShadow{
+	height: 15px;
+	width: 300px;
+	font-size; 10px;
+	font-weight: bold;
+	position:absolute;
+	top:3px;
+	left:0px;
+	overflow: hidden;
+	text-align: left;
+	z-index: 1337;
+	}
+#headerMessage .subTitle, #headerMessage A.subTitle{
+	color: #fff;
+	}
+#headerMessageShadow{
+	top:4px;
+	left:1px;
+	color: #000;
+	z-index: 1336;
+	}
+#headerMessageShadow A{
+	color: #000;
+	}
+#headerMessage A{
+	color: #F60;
+	}
+
+#user-panel a {
+  text-decoration: none;
+}
+
+
+div.userInfoBar {
+	  font-family: Trebuchet MS;
+	}
+div.userInfoBar .text {
+	  float: left;
+	  width: 150px;
+	  height: 75px;
+	}
+.userInfoBar div.icon {
+	  float: left;
+	  width: 80px;
+	  height: 75px;
+	  margin: 0;
+	}
+.userInfoBar div.links {
+	  float: right;
+	  width: 230px;
+	  height: 75px;
+	  margin: 0;
+	}
+.userInfoBar div.links div {
+
+	}
+.userInfoBar strong {
+	  font-size: 22px;
+	  font-weight: normal;
+	  margin: 0 0 5px 0;
+	  display: block;
+	}
+.userInfoBar small {
+	  font-size: 11px;
+	  margin: 0;
+	  display: block;
+	  margin: 0 0 0 3px;
+	}
+.userInfoBar div.text span {
+	  font-size: 12px;
+	  margin: 0 0 1px 4px;
+	  display: block;
+	  position: relative;
+	  top: -3px;
+	  height: 17px;
+	  overflow: hidden;
+	}
+.userInfoBar h1 {
+	  text-align: center;
+	  font-size: 26px;
+	  font-weight: normal;
+	  margin: 0;
+	  padding: 40px 0 0 0;
+	}
+.userInfoBar div.gallery img {
+	  position: relative;
+	  top: 3px;
+	}
+.userInfoBar div.gallery {
+	  position: relative;
+	  left: 2px;
+	  top: 2px;
+	  font-size: 11px;
+	}
+.userInfoBar strong a {
+	text-decoration: none;
+	}
+
+
+
+
+
+span.thumb {
+  display: block;
+  width: 150px;
+  height: 115px;
+  padding: 3px 5px 5px 3px;
+  background: url('https://web.archive.org/web/20091224121423im_/http://img.sheezyart.com/images/thumbsThin/shadow.png') 0 0 no-repeat;
+}
+span.thumb a {
+  display: block;
+  width: 150px;
+  height: 115px;
+  position: relative;
+  text-decoration: none;
+}
+span.thumb i.overlay-mp3, span.thumb i.overlay-text, span.thumb i.overlay-wrt {
+  cursor: pointer;
+  width: 150px;
+  height: 115px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+span.thumb-mp3 a {
+  background: url('https://web.archive.org/web/20091224121423im_/http://sheezyart.com/images/content/art/thumbnails/mp3_underlay.png');
+}
+span.thumb-wrt a {
+  background: url('https://web.archive.org/web/20091224121423im_/http://sheezyart.com/images/content/art/thumbnails/wrt_underlay.png');
+}
+span.thumb i.overlay-mp3 {
+  background: url('https://web.archive.org/web/20091224121423im_/http://sheezyart.com/images/content/art/thumbnails/mp3_overlay.png');
+}
+span.thumb i.overlay-wrt {
+  background: url('https://web.archive.org/web/20091224121423im_/http://sheezyart.com/images/content/art/thumbnails/wrt_overlay.png');
+}
+span.thumb i.overlay-text {
+  width: 125px;
+  height: 15px;
+  top: 100px;
+  left: 0;
+  text-align: center;
+  color: #292935;
+  font-style: normal;
+  font-size: 12px;
+  font-family: Verdana;
+  overflow: hidden;
+  text-shadow: black 0px 0px 5px;
+}
+span.thumb img {
+  width: 150px;
+  height: 115px;
+}
+
+
+ul.one-row {
+  overflow: hidden;
+  height: 123px;
+}
+ul.two-rows {
+  overflow: hidden;
+  height: 286px;
+}
+
+ul.thumbs, div.thumbs {
+  padding: 0;
+  margin: 0;
+  text-align:center;
+}
+ul.thumbs li, div.thumbs div.thumb {
+  display:inline;
+}
+ul.thumbs li span {
+  display:table-cell;
+  display:inline-block;
+  width: 158px;
+  padding: 0px 5px 20px 5px;
+}
+ul.thumbs li span span.thumb, div.thumbs div.thumb span {
+  _line-height:115px;
+  display:table-cell;
+  width: 150px;
+  padding: 3px 5px 5px 3px;
+}
+
+ul.thumbs li span span.thumb::after, div.thumbs div.thumb span span.thumb::after {
+    display:none;
+    display:-moz-inline-block;
+    content:" ";
+    width:150px;
+    height:1px;
+    overflow:hidden;
+}
+
+
+
+
+/* Drop Menus
+ ---------------------------------------------- */
+
+
+.dropdown {
+  width: 150px;
+  height: 200px;
+  overflow: auto;
+  overflow-x: hidden;
+
+  position: absolute;
+  z-index: 1338;
+  
+  background: #e1e3ea;
+  border: 2px solid #797f96;
+}
+
+.dropdown ul {
+  margin: 0;
+  padding: 5px;
+  list-style: none;
+}
+
+.dropdown ul li.title {
+  font-weight: bold;
+  margin: 0 0 3px 0;
+}
+
+.dropdown ul a {
+  font-size: 13px;
+  display: block;
+  height: 25px;
+  padding: 0 0 0 5px;
+  line-height: 1.8em;
+  white-space: nowrap;
+}
+
+.dropdown ul a img {
+  position: relative;
+  top: 2px;
+  margin: 0 4px 0 0;
+  width: 15px;
+  height: 15px;
+}
+
+.dropdown ul a:hover {
+  color: #b26b10;
+  background: #ffab40;
+}
+
+#account {
+  margin: 0 0 0 -8px;
+  height: auto;
+}
+
+#watchList {
+  margin: 0 0 0 -18px;
+  width: 140px;
+}
+
+
+
+
+
+/* User Box
+  ------------------------------------------------- */
+#user-panel .icon img {
+	width: 58px;
+	height: 58px;
+	position: relative;
+	left: 2px;
+	top: -1px;
+	font-family: "Trebuchet MS", Arial;
+}
+#user-panel a {
+	color: #53586a;
+	text-decoration: underline;
+	font-family: "Trebuchet MS", Arial;
+}
+.subheader-right {
+	font-size: 6pt;
+	top: -3px !important;
+	left: 3px !important;
+	position: relative;
+}
+.user-panel-link {
+	position: relative;
+	top: -1px;
+	font-size: 18px;
+}
+.user-panel-link a {
+	position: relative;
+	top: 1px;
+	font-family: "Trebuchet MS", Arial;
+}
+.user-panel-link img {
+	margin: 0 3px 0 3px;
+}
+#watchList {
+	padding: 2px 6px;
+}
+#watchList li {
+	list-style: none;
+	margin: 5px 0;
+	}
+	#watchList li a {
+		width: 150px;
+		height: 16px;
+		overflow: hidden;
+		white-space: nowrap;
+		}
+		#watchList li a img {
+			width: 16px !important;
+			height: 16px !important;
+		}
+	#watchList li span {
+		position: relative;
+		top: -4px;
+	}
+/*
+     FILE ARCHIVED ON 12:14:23 Dec 24, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:41:35 Nov 01, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.526
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.009
+  esindex: 0.011
+  cdx.remote: 16.618
+  LoadShardBlock: 564.539 (3)
+  PetaboxLoader3.datanode: 610.616 (4)
+  PetaboxLoader3.resolve: 78.614 (2)
+  load_resource: 187.377
+*/
