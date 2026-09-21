@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled-2_Scene 1</title>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        #player {
+            width: 1100px;
+            height: 800px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="player"></div>
+
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.RufflePlayer.config = {
+            autoplay: "on",
+            unmuteOverlay: "hidden"
+        };
+
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+
+        player.style.width = "1100px";
+        player.style.height = "800px";
+
+        document.getElementById("player").appendChild(player);
+
+        player.load("https://cors.archive.org/cors/untitled-2_scene-1/Untitled-2_Scene%201.swf");
+    </script>
+
+</body>
+</html>
