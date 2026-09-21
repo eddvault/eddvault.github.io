@@ -2,8 +2,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Flash Game</title>
+    <title>Quest for Bacon</title>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <style>
+        background-color: black;
+    </style>
 </head>
 <body>
 
@@ -19,7 +22,7 @@
         const ruffle = window.RufflePlayer.newest();
         const player = ruffle.createPlayer();
 
-        player.style.width = "800px";
+        player.style.width = "550px";
         player.style.height = "600px";
 
         document.getElementById("player").appendChild(player);
